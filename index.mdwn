@@ -1,0 +1,20 @@
+haxwiki a wiki for pokémon gen1/gen2 hacking.
+
+<a name="editing" />
+# Editing this wiki
+
+[Register to edit here](http://diyhpl.us/piny-commands/newuser/) and [see other commands](http://diyhpl.us/piny-commands/). You can also clone this wiki with git and push changes back:
+
+    git clone git://wiki.iimarck.us/haxwiki.git
+
+Note to push changes you must push with your registered account:
+
+    git push username@wiki.iimarck.us:/srv/git/haxwiki.git master
+
+You can make this easier by updating the remotes:
+
+    git remote set-url origin username@wiki.iimarck.us:/srv/git/haxwiki.git
+
+Now "git push" should work without debilitating complaint.
+
+[browse wiki history on cgit](http://wiki.iimarck.us/cgit/haxwiki)
