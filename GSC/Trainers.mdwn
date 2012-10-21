@@ -74,7 +74,7 @@ To find where each group is stored, follow its two‐byte pointer from the array
 
 Next, load the table file in your hex editor and search for the trainer’s name. You should be taken immediately to the trainer data, which is stored like this:
 
-  <Trainer Name> <0x50> <Data type> <Pokémon Data>+ <0xFF>
+    <Trainer Name> <0x50> <Data type> <Pokémon Data>+ <0xFF>
 
 The Pokémon data format varies based on the Data Type.
 
