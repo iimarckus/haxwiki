@@ -592,7 +592,7 @@
 * 07b0 ??? saw suicune on route 36
 * 07b7 ??? set when fought ho-oh
 
-# Table 2
+## Table 2
 * 0000 pokégear radio card
 * 0001 pokégear map card
 * 0002 pokégear phone card
