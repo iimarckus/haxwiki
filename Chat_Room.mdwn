@@ -1,4 +1,4 @@
 To access the Skeetendo IRC chat:
 
-1. Download an IRC client (like [XChat](http://xchat.org/).
+1. Download an IRC client (like [XChat](http://xchat.org/)).
 2. Connect to the *nucleus.kafuka.org* server, channel *#skeetendo*.
