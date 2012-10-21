@@ -24,3 +24,5 @@ Now "git push" should work without debilitating complaint.
 * A replacement for [TCRF](http://tcrf.net/) (beta stuff is neat but TCRF is probably better at it)
 
 * A place to talk about your hacks (this place is for info on game internals)
+
+[[GameFreak Dev]]
