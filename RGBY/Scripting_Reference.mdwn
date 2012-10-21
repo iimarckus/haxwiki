@@ -1,0 +1,725 @@
+# Scripting Reference
+
+## PLAY_CRY $13d0
+
+1. select Mon ID:
+ * ld a,xx
+2. call $13d0
+
+## PRINT_BCD_NUMBER $15cd
+
+1. select flags (bit 765) and length of number (low nybble):
+ * ld c,xx
+2. select location of number:
+ * ld de,ddee
+3. select location on the screen ($C3A0-c507):
+ * ld hl,hhll
+4. call $15cd
+
+| 7 | 6 | 5 | zero interpr. | print ¥ |
+|:-:|:-:|:-:|:--------------|:-------:|
+| 0 | 0 | 0 | 0 = zero      |         |
+| 0 | 0 | 1 | 0 = zero      | YES     |
+| 0 | 1 | 0 | 0 = zero      |         |
+| 0 | 1 | 1 | 0 = zero      | YES     |
+| 1 | 0 | 0 | 0 = space     |         |
+| 1 | 0 | 1 | 0 = space     | YES     |
+| 1 | 1 | 0 | 0 = nothing   |         |
+| 1 | 1 | 1 | 0 = nothing   | YES     |
+
+## COPY_GFX_1BPP $1886
+
+1. set source:
+ * ld a,aa	;bank
+ * ld de,ddee	;pointer
+2. set destination:
+ * ld hl,hhll
+3. set tile number:
+ * ld c,cc
+4. call $1886
+
+## CLEAN_SCREEN_PART $18c4 (or DRAW_BOX?)
+
+1. set height(b) and width(c) of area (unit is tile):
+ * ld bc,hhww
+2. set starting tile on screen (screen begins at c3a0):
+ * ld hl,$c???
+3. call $18c4
+
+## MUSIC_RELATED $23b1/$23a1
+
+==== STOP music ====
+
+1. select stop_marker:
+ * ld a,$ff
+2. call $23b1
+
+(read also APPENDIX $23b1)
+
+==== LOAD music ====
+
+1. select music_bank
+ * ld c,xx
+2. select music_specifics(???)
+ * ld a,yy
+3. call $23a1
+
+## SCRIPT_TEXT $2920
+
+Check Text Pointer Structure for in‐depth examination
+
+1. select text_ID
+ * ld a,xx
+ * ld [ff00+8c],a
+2. call $2920
+
+|val|text|
+|:-:|:---|
+|$00|menu|
+|$d3|“PA: your safari game is over!”|
+|$d0|“\n fainted”|
+|$d1|black‐out sentence|
+|$d2|“REPEL’s effect wore off”|
+|$f5|vending machine|
+|$f6|Cable Club|
+|$f7|slot machines|
+|$fc|turn on PC|
+|$fd|“switch on!” (Mon Storage Sys)|
+|$fe|mart buy/sell menu|
+|$ff|pokécenter heal speech|
+
+## COPY_DATA_[cf7b]_FF $2a5a
+
+Writes data from hl into [cf7b]. FF-terminated.
+
+1. select source:
+ * ld hl,hhll
+2. call $2a5a
+
+## COUNT_SET_BITS $2b7f
+
+Value is stored always in $d11e.
+
+1. select starting byte:
+ * ld hl,hhll
+2. select number of bytes (i.e number of bits/8)
+ * ld b,bb
+3. call $2a5a
+
+## ADD_ITEM_LIST $2bcf
+
+This is probably a sub-routine of GIVE_ITEM.
+
+1. select list’s starting byte:
+ * ld hl,hhll
+2. select type and quantity of items:
+ * ld a,xx		;type
+ * ld [$cf91],a
+ * ld a,yy
+ * ld [$cf96],a	;quantity
+3. call $2bcf
+
+## GET_MON_NAME_[cd6d] $2f9e
+
+Write the Pokémon name (real name, not nickname), at cd6d.
+Used mainly for texts (that use command[01] to write text
+from RAM).
+
+1. select monID:
+ * ld a,xx
+ * ld [$d11e],a
+2. call $2f9e
+
+## LOAD_LEVEL $3071
+
+Loads map specified in $d35e and all related to it?
+
+1. call $3071
+
+[load mapID in [$D35E]; maybe event displacement could be necessary too.]
+
+## TOSS_ITEM $30c4
+
+1. load starting address:
+ * ld hl,$d31d
+2. call $30c4
+
+[add more info]
+
+## CC57_SCRIPTS $310e
+
+    IF (bit 0,[$d736])
+      {
+        ld b,6
+        ld hl,$63e0
+        jp Bankswitch
+      }
+
+$CC57 must be ≠ 0 for
+this function to be activated.
+
+1. set subScript ptr:
+ * ld a,xx	;subScriptID
+2. call $310e	???
+
+## TRAINER_IN_MAP $3160
+
+Handles both level script and trainer events:
+
+1. Select data:
+ * ld hl,ScriptPtrTable
+ * ld de,TrainerHeaders
+2. call correctly:
+ * ld a,[ScriptFlag]
+ * call $3160
+ * ld [ScriptFlag],a
+ * ret
+
+;ScriptFlag ex: Viridian Gym = [$D5FB]
+
+## STORE_2_STRINGS $317f
+
+Stores 2 strings in RAM:
+* [$CF5F] $11 bytes max
+* [$CF70] $0B bytes max
+
+1. load ptrs:
+ * ld hl,string1
+ * ld de,string2
+2. call $317f
+
+* string1: [char][char]…[$50]
+* string2: [char][char]…[$50]
+
+## SET_BATTLE $31cc
+
+This is a map-script (not text-script)
+
+1. set Battle Specs ptr:
+ * ld hl,TrainerHeaders
+2. set ptr to battle ptrs:
+ * ld de,ddee
+3. call $31cc
+
+TrainerHeaders:
+*[flagbit (and textscriptID)]
+*[trainer’s view range x 0x10]
+*[flag-byte ptr]
+*[ptr to text before battle]
+*[ptr to text later on]
+*[ptr to text ending battle]
+*[ptr to text (same as previous)]
+*[0xFF]
+
+[check Appendix:Trainer scripts]
+
+## HEX_DEC_CONVERT $323d
+
+1. select mode:
+ * ld b,xyz000vw\\
+; x = write zeros\\
+; y = don’t\\
+; z = P?\\
+; v = 2B\\
+; w = 1B\\
+;vw = 3B
+2. select RAM location:
+ * ld de,ddee
+3. call $323d
+
+## SAVE_OAM_POS? $32ef
+
+1. select Object_ID:
+ * ld a,xx
+ * ld [$cf13],a
+2. call $32ef
+
+[not sure]
+
+## STORE_WINLOSE_TEXT $3354
+
+1. select win_text and lose_text:
+ * ld hl,hhll
+ * ld de,ddee
+2. call $3354
+
+## HANDLE_SPINNERS $3442
+
+1. Set spinners’ table:
+ * ld hl,.Spinners
+2. call $3442
+
+Spinners:
+*[Y][X][Mov1.Ptr]
+*[Y][X][Mov2.Ptr]
+*…
+*[Y][X][MovN.Ptr]
+*[$FF]
+
+Mov.Ptr:
+*[Direction][n. of steps]
+*…
+*[$FF]
+
+{sound_A7, outside, is spin sound}
+
+## FORCE_PLAYER_MOVE $3486
+
+1. load path in $ccd3 (check $350c)
+2. set length_of_path:
+ * ld a,xx
+ * ld [$cd38]
+3. call $3486
+
+[$cd38] > 0 until path_move is over.
+
+## CHECK_ITEM $3493
+
+1. select Item_ID:
+ * ld b,xx
+2. call $3493
+
+## FACE_OBJECT $34a6
+
+1. select person’s ID:
+ * ld a,xx
+ * ld [$ff8c],a
+2. select direction:
+ * ld a,yy
+ * ld [$ff8d],a
+3. call $34a6
+
+## CHECK_COORDS $34bf
+
+Sets carry if finds a match.
+
+CoordsTable = [Y][X]…[FF]
+
+1. select CoordsTable pointer:
+ * ld hl,hhll
+2. call $34bf
+
+(example: Seafoam holes)
+
+## COPY_RLE_DATA $350c
+
+Note: ‘de’ is source, ‘hl’ is dest
+
+1. select source (run-length encoded)
+ * ld de,ddee
+ * ld [$ff00+8c],a
+2. select destination (in RAM area): preferably $CCD3
+ * ld hl,hhll
+3. call $350c
+
+* [OUT: ccd2 = data decompressed length]
+* [OUT:    a = [ccd2] + 1]
+
+## CALL_ANOTHER_BANK $35d6
+
+1. select Bank:
+ * ld b,xx
+2. select Address
+ * ld hl,aabb
+3. call $35d6
+
+## YES_NO_CHOICE $35ec
+
+1. call $35ec
+2. check choice (0 = Yes, 1 = No)
+ * ld a,[$cc26]
+ * and a
+3. Highly customizable (ret nz; jr z,xx; etc..)
+
+## APPLY_PATH $363a
+
+1. select people_ID
+ * ld a,xx
+ * ld [$ff00+8c],a
+2. path_structure pointer
+ * ld de,yyzz
+3. call $363a
+
+[bit 0,[$d730] ≠ 0 until path_move is over.]
+
+## LOAD_FONT_GFX $3680
+
+Simple as that:
+
+1. call $3680
+
+## LOAD_TEXTBOX_GFX $36a0
+
+Simple as that (loads fullCaps chars,apices,jpn chars and textboxes’ borders):
+
+1. call $36a0
+
+## LOAD_HEALTHBAR_GFX $36c0
+
+Simple as that (loads healthbar, textbox borders, monMenu gfx):
+
+1. call $36c0
+
+## BACKUP_SCREEN_BUFF $36f4
+
+Saves area $C3A0-$C507 to $CD81-$CEE8
+
+1. call $36f4
+
+## RESTORE_SCREEN_BUFF $3701
+
+Loads area $CD81-$CEE8 to $C3A0-$C507 and print it to screen.
+
+1. call $3701
+
+## REFRESH_SCREEN $3739
+
+1. select how many times to refresh:
+ * ld c,xx
+2. call $3739
+
+## WAIT_END_CRY $3748
+
+Usually used right after “$13d0”
+
+1. call $3748
+
+## GET_KEY_PRESS $3831
+
+1. call $3831
+2. Read what key is pressed:
+ * ld a,[$ffb5]\\
+[ffb7 = keyDown]	;XXX\\
+[ffb5 = keyPress]	;XXX
+
+## MULTIPLY $38ac
+
+RESULT is stored in [$ff96]-[$ff98], obviously in little-endian.
+
+1. clean result’s MSB [$ff96]:
+ * xor a
+ * ld [$ff96],a
+2. load factors:
+ * ;1st factor [16 bit]
+ * ld a,hh
+ * ld [$ff97],a
+ * ld a,ll
+ * ld [$ff98],a
+ * ;2nd factor [8 bit]
+ * ld a,ii
+ * ld [$ff99],a
+3. call $38ac
+
+*[1st factor is 16 bit]
+*[2nd factor is 8 bit]
+
+
+## DIVIDE $38b9
+
+Formats are Big-Endian (!).
+Result is 16 bit.
+
+1. load dividend in area [$ff93 + {reg.b}] through [$ff95 + {reg.b}].
+2. load divisor:
+ * ld a,dd
+ * ld [$ff99],a
+3. Load HRAM-used shift:
+ * ld b,bb ;2 ≤ bb ≤ 4
+4. call $38b9
+
+[result is rounded down (int)]}
+
+## ADD_MON_ASK_NICK $3927 ;??? needs fix
+
+Actually adds monster to the party and asks for nickname:
+
+1. Don’t know why:
+ * or a
+ * d [$cc49],a
+2. select level and specie:
+ * ld a,lv
+ * ld [$d127],a
+ * ld a,xx
+ * ld a,[$cf91]
+ * ld a,[$d11e]
+3. call $3927
+
+## MULTIPLY_$3a87
+
+hl = (a x bc) + hl
+
+1. Load values (a, bc, hl)
+2. call $3a87
+
+## PRINT_TEXT $3c49
+
+1. select {Pointer_offset - 1} (must point to a byte=$17):
+ * ld hl,xxyy
+2. call $3c49
+
+pointed structure:
+*$17
+*pointer
+*bank
+*$50
+
+## SELECT_CODE_POINTER $3d97
+
+1. select pointer_ID:
+ * ld a,xx
+ * ld a,(vvww)
+2. select pointertable’s pointer:
+ * ld hl,yyzz
+3. call $3d97
+
+[for more info check APPENDIX($3d97)]
+
+## GIVE_ITEM 0x3e2e
+
+1. select item ID(b) and quantity(c):
+ * ld bc,xxyy
+
+Double choice:
+
+1. call $3e2e
+
+1. ld a,$1e
+ * call $3e6d
+
+## GIVE_PKMN $3e48
+
+1. select pkmn(b) & level(c):
+ * ld bc,xxyy
+2. call $3e48
+3. check carry
+
+## GET_RND_NUM $3e5c
+
+1. call $3e5c
+
+       a    = 1st random value
+    [$FFD3] = 1st random value
+    [$FFD4] = 2nd random value
+
+## GENERAL SCRIPT $3e6d
+
+==== How to use ====
+
+1. [OPTIONAL] value needed in the subroutine
+ * ld a,xx
+ * ld [$cc4d],a
+2. subroutine ID
+ * ld a,yy
+3. call subroutine selection
+ * call $3e6d
+
+[for more info check APPENDIX($3e6d)]
+
+## RESTORE_REGS_PREDEF $3e94
+
+This routine is used by routines called by Predef (routine at $3e6d) and
+restores registers that were saved in the following RAM locations:
+
+* cc4f: h
+* cc50: l
+* cc51: d
+* cc52: e
+* cc53: b
+* cc54: c
+
+1. call $3e94
+
+[skip this]
+## APPLY_DOUBLE_PATH 06:64
+
+1. select pkmn(b) & level(c):
+ * ld bc,xxyy
+2. call $3e48
+3. check carry
+
+[/end skip]
+
+## TEXT ZONE (pointer table pointed by TextPointer [MapHeader])
+
+## APPENDIX ($23b1)
+
+97 = poisoned pokemon sound (while walking in overworld)
+
+## APPENDIX TRAINER SCRIPTS
+
+    Text-script part:
+    {
+    	db $08
+    	ld hl,MyTrainerHeader1
+    	call $31cc
+    	jp $24d7
+    MyTrainerHeaders:
+    MyTrainerHeader1:
+    	;(…)
+    	;(…)
+    MyTrainerHeaderN:
+    	;(…)
+    	db $FF
+    }
+
+    Map-script part:
+    {
+    	ld hl,MyTrainerHeaders
+    	ld de,TrainerScriptPtrs
+    	ld a,[MapFlag]
+    	call $3160
+    	ld [MapFlag],a
+    	ret
+    TrainerScriptPtrs:
+    	dw $3219
+    	dw $324c
+    	dw $3275
+    }
+
+    3219:
+    {
+    Reads trainerHeader (first of all checks flag, if set skip to next trainerHeader, until FF-endByte)
+    }
+    324c:
+    {
+    }
+    3275:
+    {
+    }
+
+## APPENDIX ($3d97)
+
+example Pallet town:
+
+    …
+    ROM6:4E6A 21 73 4E         ld hl,4e73	;pointer to pointers’table
+    ROM6:4E6D FA F1 D5         ld a,(d5f1)	;PalletRAM for code_ID
+    
+    ;jp xxyy with yy = (hl + ax2), xx = (hl + 1 + ax2)
+    
+    ROM6:4E70 C3 97 3D         jp 3d97
+    …
+
+## APPENDIX ($3e6d)
+
+RAM used:
+* cc4e: subroutine_ID
+* cf12: old bank number
+* d0b7: new bank number
+* cc4f: h
+* cc50: l
+* cc51: d
+* cc52: e
+* cc53: b
+* cc54: c
+* + lot of other RAMs, depending on which subr is called.
+
+To recover registers’ values ‘call $3e94’
+
+note1: various “clone” pointers[$09=$0a=$0d=$0e], why?
+
+note2: pointers that point to bank0 (ID=$1d,$1e)load bank3, is it just padding?
+
+note3: following pointers are little-endian (actually middle-endian: |bank|little-endian ptr|).
+
+|ID|Pointer|Purpose|
+|:-:|-----:|:------|
+|00|	0F 604D||
+|01|	0F C670||
+|02|	0F 7370||
+|03|	0B 407E||
+|04|	0F 0371	|magnify backpics|
+|05|	1E BA5A||
+|06|	03 3271||
+|07|	03 A576	|restore mon’s health (es.: 1st rival battle)|
+|08|	1E 5E4D	|animations maybe??|
+|09|	03 1E77||
+|0a|	03 1E77||
+|0b|	03 1D78||
+|0c|	03 3678|subtract coins (BCD operation (decimal adjust))|
+|0d|	03 1E77||
+|0e|	03 1E77||
+|0f|	03 5078||
+|10|	03 6676	|RAMtbls:D737/9A/ED..setBit,resByte(\{bit}),b={0,1,2}c=[aaaaabbb]|
+|11|	03 D771	|make an object visible (flags: d5a6-d5c6) [opposite of ID=15]|
+|12|	03 A671 |check shown/hidden objects (flags starting at $d5a6)|
+|13|	03 9C46||
+|14|	0F 834A||
+|15|	03 C871	|make an object invisible (flags: d5a6-) [opposite of ID=11]|
+|16|	03 C871||
+|17|	03 9E6E||
+|18|	03 5078	|initialize flags (and things like itemsack, etc.)|
+|19|	03 5447	|load tileset header|
+|1a|	0E 5B6F	|GetLevUpAtks_|
+|1b|	01 436E||
+|1c|	03 A578	|check item in bag|
+|1d|	03 B53E||
+|1e|	03 2E3E	|give item (b = item_ID, c = item_num)|
+|1f|	12 EB40	|blink screen for 4 frames [example: poisoned pokemon]|
+|20|	03 BA78	|somehow related to apply_movement|
+|21|	12 FF40||
+|22|	03 2979	|somehow related to apply_movement|
+|23|	03 A079||
+|24|	12 2541||
+|25|	03 1D7A||
+|26|	03 DC79||
+|27|	01 B05A||
+|28|	0F 026D||
+|29|	10 0040||
+|2a|	0E 1C6D	|GetEvos’ subset (label: Predef_2a_)|
+|2b|	1C 8C77||
+|2c|	0F 186F||
+|2d|	01 5F5A||
+|2e|	03 036A	|Bio screen, gym-leaders/badges arrangement|
+|2f|	10 F350||
+|30|	1C 6D49||
+|31|	1E DA5D||
+|32|	10 8256	|load intro(copyrights,Gamefreak,NidoVSJigg)|
+|33|	1E 6958||
+|34|	1C 5D4B||
+|35|	03 8645||
+|36|	04 5369||
+|37|	04 576B||
+|38|	10 E250||
+|39|	15 0F69||
+|3a|	10 1050	|convert Mon_ID Chaotic-to-Dex|
+|3b|	01 A162	|decompr sprite(hl=ptr,b=bank)& arrange[used in BioMenu & not only]|
+|3c|	03 546F||
+|3d|	10 D142	|load DexPage (INPUT:[$d11e]=DexMonID)|
+|3e|	0E B86F	|GetWildMonAtks_|
+|3f|	1C 0A77	|SAVE GAME|
+|40|	1C 2B60	|send SGB-packs at beginning (MLT_REQ,DATA_SND,PCT_TRN,…)|
+|41|	03 1371||
+|42|	17 5E5B||
+|43|	04 3E77||
+|44|	04 6377||
+|45|	1C DF5D	|load SGB packages (PAL_SET)|
+|46|	17 DC40	|load dex screen (es:lab when choosing starter)|
+|47|	03 E572||
+|48|	03 1D7A||
+|49|	0F EC4D||
+|4a|	1C 604F	|TownMap (in Dex only?)|
+|4b|	09 6B7D||
+|4c|	05 477C	|balloon over head (cd4f:personID, cd50:([!][?][^_^])|
+|4d|	01 AF5A||
+|4e|	01 EB64||
+|4f|	0D A17C||
+|50|	1C 0F78	|save dex & party infos to SRAM1|
+|51|	1C BD76	|load dex & party infos from SRAM1|
+|52|	1C E875	|load SAV from SRAM1|
+|53|	1C E277	|save current bank’s stored mons to SRAM1|
+|54|	1C D95A||
+|55|	1D 5C40||
+|56|	11 6941||
+|57|	1E BA45||
+|58|	1E 1045||
+|59|	03 BE45||
+|5a|	03 0B46||
+|5b|	03 994D||
+|5c|	01 E14D	|check H/S obj (RAM_Table D5CE, FF-term.) ???|
+|5d|	09 987D||
+|5e|	03 7374	|related to AttacksData|
+|5f|	04 EF68||
+|60|	04 F668||
+|61|	07 C649||
+|62|	16 3550||

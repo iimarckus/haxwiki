@@ -29,6 +29,10 @@ Now "git push" should work without debilitating complaint.
 
 * [[GameFreak Dev]]
 
+## RGBY
+
+* [[RGBY/Scripting Reference]]
+
 ## GSC
 
 * [[GSC/Level-up Moves and Evolutions]]
