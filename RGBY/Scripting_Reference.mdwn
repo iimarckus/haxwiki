@@ -17,15 +17,15 @@
 4. call $15cd
 
 <table>
-<thead><tr><th> 7 </th><th> 6 </th><th> 5 </th><th> zero interpr. </th><th> print ¥</th></tr></thead>
-<tr><td> 0 </td><td> 0 </td><td> 0 </td><td> 0 = zero      </td><td>         </td></tr>
-<tr><td> 0 </td><td> 0 </td><td> 1 </td><td> 0 = zero      </td><td> YES     </td></tr>
-<tr><td> 0 </td><td> 1 </td><td> 0 </td><td> 0 = zero      </td><td>         </td></tr>
-<tr><td> 0 </td><td> 1 </td><td> 1 </td><td> 0 = zero      </td><td> YES     </td></tr>
-<tr><td> 1 </td><td> 0 </td><td> 0 </td><td> 0 = space     </td><td>         </td></tr>
-<tr><td> 1 </td><td> 0 </td><td> 1 </td><td> 0 = space     </td><td> YES     </td></tr>
-<tr><td> 1 </td><td> 1 </td><td> 0 </td><td> 0 = nothing   </td><td>         </td></tr>
-<tr><td> 1 </td><td> 1 </td><td> 1 </td><td> 0 = nothing   </td><td> YES     </td></tr>
+<thead><tr><th> Upper three bits </th><th> Leading zeros </th><th> Print ¥</th></tr></thead>
+<tr><td> 000 </td><td> 0 = zero      </td><td>         </td></tr>
+<tr><td> 001 </td><td> 0 = zero      </td><td> YES     </td></tr>
+<tr><td> 010 </td><td> 0 = zero      </td><td>         </td></tr>
+<tr><td> 011 </td><td> 0 = zero      </td><td> YES     </td></tr>
+<tr><td> 100 </td><td> 0 = space     </td><td>         </td></tr>
+<tr><td> 101 </td><td> 0 = space     </td><td> YES     </td></tr>
+<tr><td> 110 </td><td> 0 = nothing   </td><td>         </td></tr>
+<tr><td> 111 </td><td> 0 = nothing   </td><td> YES     </td></tr>
 </table>
 
 ## COPY\_GFX\_1BPP $1886
