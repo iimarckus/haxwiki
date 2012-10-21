@@ -18,3 +18,9 @@ You can make this easier by updating the remotes:
 Now "git push" should work without debilitating complaint.
 
 [browse wiki history on cgit](http://wiki.iimarck.us/cgit/haxwiki)
+
+# What this wiki is not
+
+* A replacement for [TCRF](http://tcrf.net/) (beta stuff is neat but TCRF is probably better at it)
+
+* A place to talk about your hacks (this place is for info on game internals)
