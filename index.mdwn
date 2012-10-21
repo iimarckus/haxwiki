@@ -25,4 +25,6 @@ Now "git push" should work without debilitating complaint.
 
 * A place to talk about your hacks (this place is for info on game internals)
 
+# List of pages
+
 [[GameFreak Dev]]

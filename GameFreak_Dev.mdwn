@@ -1,1 +1,5 @@
-Test
+This page documents various interesting facts about the Game Freak dev process.
+
+Most of Gold and Silver’s music was created on an Amiga, converted to MIDI, and reconverted to the GSC music format. Some songs, though, like the Unown radio music, were created by hand directly in the GSC music format. (source: [masuda’s blog](http://www.gamefreak.co.jp/blog/dir_english/?p=185))
+
+During Red and Green’s development, Satoru Iwata wrote the tools for graphics compression. Later, he converted the battle engine to Pokémon Stadium. (source: [Iwata Asks interview](http://iwataasks.nintendo.com/interviews/#/ds/pokemon/0/0))
