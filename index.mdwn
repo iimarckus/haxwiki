@@ -39,6 +39,8 @@ Now "git push" should work without debilitating complaint.
 
 * [[GSC/Flags]]
 
+* [[GSC/Trainers]]
+
 # Community
 
 * [Message board](http://hax.iimarck.us/)
