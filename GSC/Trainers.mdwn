@@ -78,10 +78,10 @@ Next, load the table file in your hex editor and search for the trainer’s name
 
 The Pokémon data format varies based on the Data Type.
 
- * Data type <0x00>: Pokémon Data is <Level> <Species>. Used by most trainers.
- * Data type <0x01>: Pokémon Data is <Level> <Pokémon> <Move1> <Move2> <Move3> <Move4>. Used often for Gym Leaders.
- * Data type <0x02>: Pokémon Data is <Level> <Pokémon> <Held Item>. Used mainly by Pokéfans.
- * Data type <0x03>: Pokémon Data is <Level> <Pokémon> <Held Item> <Move1> <Move2> <Move3> <Move4>. Used by a few Cooltrainers.
+ * Data type <0x00>: Pokémon Data is &lt;Level> &lt;Species>. Used by most trainers.
+ * Data type <0x01>: Pokémon Data is &lt;Level> &lt;Pokémon> &lt;Move1> &lt;Move2> &lt;Move3> &lt;Move4>. Used often for Gym Leaders.
+ * Data type <0x02>: Pokémon Data is &lt;Level> &lt;Pokémon> &lt;Held Item>. Used mainly by Pokéfans.
+ * Data type <0x03>: Pokémon Data is &lt;Level> &lt;Pokémon> &lt;Held Item> &lt;Move1> &lt;Move2> &lt;Move3> &lt;Move4>. Used by a few Cooltrainers.
 
 # Example 1
 
