@@ -1,0 +1,185 @@
+
+
+Starting at offset 0x427BD (Gold/Silver) or 0x425B1 (Crystal) is an array of 251 two‐byte pointers. Following a pointer will lead you to the evolutions and level‐up moves of each Pokémon. The pointers are in Pokédex order.
+
+Once you find the data, you’ll see that the format is as follows:
+
+    <Evolution>+ <0x00> <Attack>+ <0x00>
+
+An evolution is defined like this:
+
+    <Evolution Type> <Trigger> <Evolves To>
+
+The trigger depends on the evolution type.
+
+* Evolution Type 0x01: Trigger is the level at which the Pokémon evolves.
+
+* Evolution Type 0x02: Trigger is the item number of the evolution stone.
+
+* Evolution Type 0x03: Trigger is a held item used while trading, or 0xFF for non‐item trade.
+
+* Evolution Type 0x04: The Pokémon evolves when happy. Trigger is:
+
+ * 0x01: Any time of day.
+
+ * 0x02: Morning or Day.
+
+ * 0x03: Night.
+
+* Evolution Type 0x05: The Pokémon evolves at a certain level, but only if it has certain stats. Trigger is two bytes, the first being the level and the second being:
+
+ * 0x01: Attack > Defense
+
+ * 0x02: Attack < Defense
+
+ * 0x03: Attack = Defense
+
+Attacks are easier. They are just:
+
+    <Level> <Attack>
+
+# Examples
+
+## Offset 0x429B3: Bulbasaur
+
+    01 10 02: evolves to Pokémon #2 (Ivysaur) at level 16
+
+    00: no more evolutions
+
+    01 21: Tackle at level 1
+
+    04 2D: Growl at level 4
+
+    07 49: Leech Seed at level 7
+
+    0A 16: Vine Whip at level 10
+
+    0F 4D: Poisonpowder at level 15
+
+    0F 4F: Sleep Powder at level 15
+
+    14 4B: Razor Leaf at level 20
+
+    19 E6: Sweet Scent at level 25
+
+    20 4A: Growth at level 32
+
+    27 EB: Synthesis at level 39
+
+    2E 4C: Solar Beam at level 46
+
+    00: no more level‐up moves
+
+## Offset 0x429CE: Ivysaur
+
+    01 20 03: evolves to Pokémon #3 (Venusaur) at level 32
+
+    00: no more evolutions
+
+    01 21: Tackle at level 1
+
+    01 2D: Growl at level 1
+
+    01 49: Leech Seed at level 1
+
+    04 2D: Growl at level 4
+
+    07 49: Leech Seed at level 7
+
+    0A 16: Vine Whip at level 10
+
+    0F 4D: Poisonpowder at level 15
+
+    0F 4F: Sleep Powder at level 15
+
+    16 4B: Razor Leaf at level 22
+
+    1D E6: Sweet Scent at level 29
+
+    26 4A: Growth at level 38
+
+    2F EB: Synthesis at level 47
+
+    38 4C: Solar Beam at level 56
+
+    00: no more level‐up moves
+
+## Offset 0x429ED: Venusaur
+
+    00: no more evolutions
+
+    01 21: Tackle at level 1
+
+    01 2D: Growl at level 1
+
+    01 49: Leech Seed at level 1
+
+    01 16: Vine Whip at level 1
+
+    04 2D: Growl at level 4
+
+    07 49: Leech Seed at level 7
+
+    0A 16: Vine Whip at level 10
+
+    0F 4D: Poisonpowder at level 15
+
+    0F 4F: Sleep Powder at level 15
+
+    16 4B: Razor Leaf at level 22
+
+    1D E6: Sweet Scent at level 29
+
+    29 4A: Growth at level 41
+
+    35 EB: Synthesis at level 53
+
+    41 4C: Solar Beam at level 65
+
+    00: no more level‐up moves
+
+## Offset 0x434C0: Eevee
+
+    02 17 87: Evolves to Jolteon via Thunderstone
+
+    02 18 86: Evolves to Vaporeon via Water Stone
+
+    02 16 88: Evolves to Flareon via Fire Stone
+
+    04 02 C4: Evolves to Espeon when happy in Morning or Day
+
+    04 03 C5: Evolves to Umbreon when happy at Night
+
+    00: no more evolutions
+
+    01 21: Tackle at level 1
+
+    01 27: Tail Whip at level 1
+
+    08 1C: Sand Attack at level 8
+
+    10 2D: Growl at level 16
+
+    17 62: Quick Attack at level 17
+
+    1E 2C: Bite at level 30
+
+    24 74: Focus Energy at level 36
+
+    2A 24: Take Down at level 42
+
+    00: no more level‐up moves
+
+## Offset 0x43CF7: Tyrogue
+
+    05 14 02 6B: Evolves to Hitmonchan at level 20 if Defense > Attack
+
+    05 14 01 6A: Evolves to Hitmonlee at level 20 if Defense < Attack
+
+    05 14 03 ED: Evolves to Hitmontop at level 20 if Defense = Attack
+
+    00: no more evolutions
+
+    01 21: Tackle at level 1
+
+    00: no more level‐up moves
