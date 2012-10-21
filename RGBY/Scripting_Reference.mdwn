@@ -49,7 +49,7 @@
 
 ## MUSIC\_RELATED $23b1/$23a1
 
-==== STOP music ====
+### STOP music
 
 1. select stop\_marker:
  * ld a,$ff
@@ -57,7 +57,7 @@
 
 (read also APPENDIX $23b1)
 
-==== LOAD music ====
+### LOAD music
 
 1. select music\_bank
  * ld c,xx
@@ -74,20 +74,21 @@ Check Text Pointer Structure for in‐depth examination
  * ld [ff00+8c],a
 2. call $2920
 
-|val|text|
-|:-:|:---|
-|$00|menu|
-|$d3|“PA: your safari game is over!”|
-|$d0|“\n fainted”|
-|$d1|black‐out sentence|
-|$d2|“REPEL’s effect wore off”|
-|$f5|vending machine|
-|$f6|Cable Club|
-|$f7|slot machines|
-|$fc|turn on PC|
-|$fd|“switch on!” (Mon Storage Sys)|
-|$fe|mart buy/sell menu|
-|$ff|pokécenter heal speech|
+<table>
+<thead><tr><th>val</th><th>text</th></tr></thead>
+<tr><td> $00</td><td>menu </td></tr>
+<tr><td> $d3</td><td>“PA: your safari game is over!” </td></tr>
+<tr><td> $d0</td><td>“\n fainted” </td></tr>
+<tr><td> $d1</td><td>black‐out sentence </td></tr>
+<tr><td> $d2</td><td>“REPEL’s effect wore off” </td></tr>
+<tr><td> $f5</td><td>vending machine </td></tr>
+<tr><td> $f6</td><td>Cable Club </td></tr>
+<tr><td> $f7</td><td>slot machines </td></tr>
+<tr><td> $fc</td><td>turn on PC </td></tr>
+<tr><td> $fd</td><td>“switch on!” (Mon Storage Sys) </td></tr>
+<tr><td> $fe</td><td>mart buy/sell menu </td></tr>
+<tr><td> $ff</td><td>pokécenter heal speech </td></tr>
+</table>
 
 ## COPY\_DATA\_[cf7b]\_FF $2a5a
 
@@ -504,7 +505,7 @@ Double choice:
 
 ## GENERAL SCRIPT $3e6d
 
-==== How to use ====
+### How to use
 
 1. [OPTIONAL] value needed in the subroutine
  * ld a,xx
@@ -623,104 +624,105 @@ note2: pointers that point to bank0 (ID=$1d,$1e)load bank3, is it just padding?
 
 note3: following pointers are little-endian (actually middle-endian: |bank|little-endian ptr|).
 
-|ID|Pointer|Purpose|
-|:-:|-----:|:------|
-|00|	0F 604D||
-|01|	0F C670||
-|02|	0F 7370||
-|03|	0B 407E||
-|04|	0F 0371	|magnify backpics|
-|05|	1E BA5A||
-|06|	03 3271||
-|07|	03 A576	|restore mon’s health (es.: 1st rival battle)|
-|08|	1E 5E4D	|animations maybe??|
-|09|	03 1E77||
-|0a|	03 1E77||
-|0b|	03 1D78||
-|0c|	03 3678|subtract coins (BCD operation (decimal adjust))|
-|0d|	03 1E77||
-|0e|	03 1E77||
-|0f|	03 5078||
-|10|	03 6676	|RAMtbls:D737/9A/ED..setBit,resByte(\{bit}),b={0,1,2}c=[aaaaabbb]|
-|11|	03 D771	|make an object visible (flags: d5a6-d5c6) [opposite of ID=15]|
-|12|	03 A671 |check shown/hidden objects (flags starting at $d5a6)|
-|13|	03 9C46||
-|14|	0F 834A||
-|15|	03 C871	|make an object invisible (flags: d5a6-) [opposite of ID=11]|
-|16|	03 C871||
-|17|	03 9E6E||
-|18|	03 5078	|initialize flags (and things like itemsack, etc.)|
-|19|	03 5447	|load tileset header|
-|1a|	0E 5B6F	|GetLevUpAtks\_|
-|1b|	01 436E||
-|1c|	03 A578	|check item in bag|
-|1d|	03 B53E||
-|1e|	03 2E3E	|give item (b = item\_ID, c = item\_num)|
-|1f|	12 EB40	|blink screen for 4 frames [example: poisoned pokemon]|
-|20|	03 BA78	|somehow related to apply\_movement|
-|21|	12 FF40||
-|22|	03 2979	|somehow related to apply\_movement|
-|23|	03 A079||
-|24|	12 2541||
-|25|	03 1D7A||
-|26|	03 DC79||
-|27|	01 B05A||
-|28|	0F 026D||
-|29|	10 0040||
-|2a|	0E 1C6D	|GetEvos’ subset (label: Predef\_2a\_)|
-|2b|	1C 8C77||
-|2c|	0F 186F||
-|2d|	01 5F5A||
-|2e|	03 036A	|Bio screen, gym-leaders/badges arrangement|
-|2f|	10 F350||
-|30|	1C 6D49||
-|31|	1E DA5D||
-|32|	10 8256	|load intro(copyrights,Gamefreak,NidoVSJigg)|
-|33|	1E 6958||
-|34|	1C 5D4B||
-|35|	03 8645||
-|36|	04 5369||
-|37|	04 576B||
-|38|	10 E250||
-|39|	15 0F69||
-|3a|	10 1050	|convert Mon\_ID Chaotic-to-Dex|
-|3b|	01 A162	|decompr sprite(hl=ptr,b=bank)& arrange[used in BioMenu & not only]|
-|3c|	03 546F||
-|3d|	10 D142	|load DexPage (INPUT:[$d11e]=DexMonID)|
-|3e|	0E B86F	|GetWildMonAtks\_|
-|3f|	1C 0A77	|SAVE GAME|
-|40|	1C 2B60	|send SGB-packs at beginning (MLT\_REQ,DATA\_SND,PCT\_TRN,…)|
-|41|	03 1371||
-|42|	17 5E5B||
-|43|	04 3E77||
-|44|	04 6377||
-|45|	1C DF5D	|load SGB packages (PAL\_SET)|
-|46|	17 DC40	|load dex screen (es:lab when choosing starter)|
-|47|	03 E572||
-|48|	03 1D7A||
-|49|	0F EC4D||
-|4a|	1C 604F	|TownMap (in Dex only?)|
-|4b|	09 6B7D||
-|4c|	05 477C	|balloon over head (cd4f:personID, cd50:([!][?][^\_^])|
-|4d|	01 AF5A||
-|4e|	01 EB64||
-|4f|	0D A17C||
-|50|	1C 0F78	|save dex & party infos to SRAM1|
-|51|	1C BD76	|load dex & party infos from SRAM1|
-|52|	1C E875	|load SAV from SRAM1|
-|53|	1C E277	|save current bank’s stored mons to SRAM1|
-|54|	1C D95A||
-|55|	1D 5C40||
-|56|	11 6941||
-|57|	1E BA45||
-|58|	1E 1045||
-|59|	03 BE45||
-|5a|	03 0B46||
-|5b|	03 994D||
-|5c|	01 E14D	|check H/S obj (RAM\_Table D5CE, FF-term.) ???|
-|5d|	09 987D||
-|5e|	03 7374	|related to AttacksData|
-|5f|	04 EF68||
-|60|	04 F668||
-|61|	07 C649||
-|62|	16 3550||
+<table>
+<thead><tr><th>ID</th><th>Pointer</th><th>Purpose</th></tr></thead>
+<tr><td> 00</td><td>	0F 604D| </td></tr>
+<tr><td> 01</td><td>	0F C670| </td></tr>
+<tr><td> 02</td><td>	0F 7370| </td></tr>
+<tr><td> 03</td><td>	0B 407E| </td></tr>
+<tr><td> 04</td><td>	0F 0371	|magnify backpics </td></tr>
+<tr><td> 05</td><td>	1E BA5A| </td></tr>
+<tr><td> 06</td><td>	03 3271| </td></tr>
+<tr><td> 07</td><td>	03 A576	|restore mon’s health (es.: 1st rival battle) </td></tr>
+<tr><td> 08</td><td>	1E 5E4D	|animations maybe?? </td></tr>
+<tr><td> 09</td><td>	03 1E77| </td></tr>
+<tr><td> 0a</td><td>	03 1E77| </td></tr>
+<tr><td> 0b</td><td>	03 1D78| </td></tr>
+<tr><td> 0c</td><td>	03 3678|subtract coins (BCD operation (decimal adjust)) </td></tr>
+<tr><td> 0d</td><td>	03 1E77| </td></tr>
+<tr><td> 0e</td><td>	03 1E77| </td></tr>
+<tr><td> 0f</td><td>	03 5078| </td></tr>
+<tr><td> 10</td><td>	03 6676	|RAMtbls:D737/9A/ED..setBit,resByte(\{bit}),b={0,1,2}c=[aaaaabbb] </td></tr>
+<tr><td> 11</td><td>	03 D771	|make an object visible (flags: d5a6-d5c6) [opposite of ID=15] </td></tr>
+<tr><td> 12</td><td>	03 A671 |check shown/hidden objects (flags starting at $d5a6) </td></tr>
+<tr><td> 13</td><td>	03 9C46| </td></tr>
+<tr><td> 14</td><td>	0F 834A| </td></tr>
+<tr><td> 15</td><td>	03 C871	|make an object invisible (flags: d5a6-) [opposite of ID=11] </td></tr>
+<tr><td> 16</td><td>	03 C871| </td></tr>
+<tr><td> 17</td><td>	03 9E6E| </td></tr>
+<tr><td> 18</td><td>	03 5078	|initialize flags (and things like itemsack, etc.) </td></tr>
+<tr><td> 19</td><td>	03 5447	|load tileset header </td></tr>
+<tr><td> 1a</td><td>	0E 5B6F	|GetLevUpAtks\_ </td></tr>
+<tr><td> 1b</td><td>	01 436E| </td></tr>
+<tr><td> 1c</td><td>	03 A578	|check item in bag </td></tr>
+<tr><td> 1d</td><td>	03 B53E| </td></tr>
+<tr><td> 1e</td><td>	03 2E3E	|give item (b = item\_ID, c = item\_num) </td></tr>
+<tr><td> 1f</td><td>	12 EB40	|blink screen for 4 frames [example: poisoned pokemon] </td></tr>
+<tr><td> 20</td><td>	03 BA78	|somehow related to apply\_movement </td></tr>
+<tr><td> 21</td><td>	12 FF40| </td></tr>
+<tr><td> 22</td><td>	03 2979	|somehow related to apply\_movement </td></tr>
+<tr><td> 23</td><td>	03 A079| </td></tr>
+<tr><td> 24</td><td>	12 2541| </td></tr>
+<tr><td> 25</td><td>	03 1D7A| </td></tr>
+<tr><td> 26</td><td>	03 DC79| </td></tr>
+<tr><td> 27</td><td>	01 B05A| </td></tr>
+<tr><td> 28</td><td>	0F 026D| </td></tr>
+<tr><td> 29</td><td>	10 0040| </td></tr>
+<tr><td> 2a</td><td>	0E 1C6D	|GetEvos’ subset (label: Predef\_2a\_) </td></tr>
+<tr><td> 2b</td><td>	1C 8C77| </td></tr>
+<tr><td> 2c</td><td>	0F 186F| </td></tr>
+<tr><td> 2d</td><td>	01 5F5A| </td></tr>
+<tr><td> 2e</td><td>	03 036A	|Bio screen, gym-leaders/badges arrangement </td></tr>
+<tr><td> 2f</td><td>	10 F350| </td></tr>
+<tr><td> 30</td><td>	1C 6D49| </td></tr>
+<tr><td> 31</td><td>	1E DA5D| </td></tr>
+<tr><td> 32</td><td>	10 8256	|load intro(copyrights,Gamefreak,NidoVSJigg) </td></tr>
+<tr><td> 33</td><td>	1E 6958| </td></tr>
+<tr><td> 34</td><td>	1C 5D4B| </td></tr>
+<tr><td> 35</td><td>	03 8645| </td></tr>
+<tr><td> 36</td><td>	04 5369| </td></tr>
+<tr><td> 37</td><td>	04 576B| </td></tr>
+<tr><td> 38</td><td>	10 E250| </td></tr>
+<tr><td> 39</td><td>	15 0F69| </td></tr>
+<tr><td> 3a</td><td>	10 1050	|convert Mon\_ID Chaotic-to-Dex </td></tr>
+<tr><td> 3b</td><td>	01 A162	|decompr sprite(hl=ptr,b=bank)& arrange[used in BioMenu & not only] </td></tr>
+<tr><td> 3c</td><td>	03 546F| </td></tr>
+<tr><td> 3d</td><td>	10 D142	|load DexPage (INPUT:[$d11e]=DexMonID) </td></tr>
+<tr><td> 3e</td><td>	0E B86F	|GetWildMonAtks\_ </td></tr>
+<tr><td> 3f</td><td>	1C 0A77	|SAVE GAME </td></tr>
+<tr><td> 40</td><td>	1C 2B60	|send SGB-packs at beginning (MLT\_REQ,DATA\_SND,PCT\_TRN,…) </td></tr>
+<tr><td> 41</td><td>	03 1371| </td></tr>
+<tr><td> 42</td><td>	17 5E5B| </td></tr>
+<tr><td> 43</td><td>	04 3E77| </td></tr>
+<tr><td> 44</td><td>	04 6377| </td></tr>
+<tr><td> 45</td><td>	1C DF5D	|load SGB packages (PAL\_SET) </td></tr>
+<tr><td> 46</td><td>	17 DC40	|load dex screen (es:lab when choosing starter) </td></tr>
+<tr><td> 47</td><td>	03 E572| </td></tr>
+<tr><td> 48</td><td>	03 1D7A| </td></tr>
+<tr><td> 49</td><td>	0F EC4D| </td></tr>
+<tr><td> 4a</td><td>	1C 604F	|TownMap (in Dex only?) </td></tr>
+<tr><td> 4b</td><td>	09 6B7D| </td></tr>
+<tr><td> 4c</td><td>	05 477C	|balloon over head (cd4f:personID, cd50:([!][?][^\_^]) </td></tr>
+<tr><td> 4d</td><td>	01 AF5A| </td></tr>
+<tr><td> 4e</td><td>	01 EB64| </td></tr>
+<tr><td> 4f</td><td>	0D A17C| </td></tr>
+<tr><td> 50</td><td>	1C 0F78	|save dex & party infos to SRAM1 </td></tr>
+<tr><td> 51</td><td>	1C BD76	|load dex & party infos from SRAM1 </td></tr>
+<tr><td> 52</td><td>	1C E875	|load SAV from SRAM1 </td></tr>
+<tr><td> 53</td><td>	1C E277	|save current bank’s stored mons to SRAM1 </td></tr>
+<tr><td> 54</td><td>	1C D95A| </td></tr>
+<tr><td> 55</td><td>	1D 5C40| </td></tr>
+<tr><td> 56</td><td>	11 6941| </td></tr>
+<tr><td> 57</td><td>	1E BA45| </td></tr>
+<tr><td> 58</td><td>	1E 1045| </td></tr>
+<tr><td> 59</td><td>	03 BE45| </td></tr>
+<tr><td> 5a</td><td>	03 0B46| </td></tr>
+<tr><td> 5b</td><td>	03 994D| </td></tr>
+<tr><td> 5c</td><td>	01 E14D	|check H/S obj (RAM\_Table D5CE, FF-term.) ??? </td></tr>
+<tr><td> 5d</td><td>	09 987D| </td></tr>
+<tr><td> 5e</td><td>	03 7374	|related to AttacksData </td></tr>
+<tr><td> 5f</td><td>	04 EF68| </td></tr>
+<tr><td> 60</td><td>	04 F668| </td></tr>
+<tr><td> 61</td><td>	07 C649| </td></tr>
+<tr><td> 62</td><td>	16 3550| </td></tr>
+</table>
