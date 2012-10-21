@@ -1,0 +1,663 @@
+# Crystal
+
+
+## Table 1
+* 0008 got tm31 mud-slap
+* 0009 got tm49 fury cutter
+* 000a got tm01 dynamicpunch
+* 000b got tm45 attract
+* 000c got tm30 shadow ball
+* 000d got tm23 iron tail
+* 000e got tm16 icy wind
+* 000f got tm24 dragonbreath
+* 0010 got hm01 cut
+* 0011 got hm02 fly
+* 0012 got hm03 surf
+* 0013 got hm04 strength
+* 0014 got hm05 flash
+* 0015 got hm06 whirlpool
+* 0017 got old rod
+* 0018 got good rod
+* 0019 got super rod
+* 001a ??? got pokémon from elm
+* 001b got cyndaquil from elm
+* 001c got totodile from elm
+* 001d got chikorita from elm
+* 001e got mystery egg from mr. pokémon
+* 001f ??? fulfilled elm's quest? can use communication center, use mart1 instead of mart0, can learn how to catch pokémon
+* 0020 jasmine returned to gym
+* 0021 cleared radio tower
+* 0022 cleared rocket hideout
+* 0023 got secretpotion from pharmacy
+* 0024 got ss ticket from elm
+* 0025 used the card key in the radio tower
+* 0026 refused to help lance at lake of rage
+* 0027 got berry from route 30 house
+* 0028 made whitney cry
+* 002a fought sudowoodo
+* 002b cleared slowpoke’s well
+* 002c refused to take egg from elm’s aide
+* 002d got togepi egg from elm’s aide
+* 002e made unown appear in ruins
+* 003d healed moomoo
+* 003e got tm13 snore from moomoo farm
+* 003f talked to farmer about moomoo
+* 0040 talked to mom after showing elm the mystery egg
+* 0041 dude talked to you
+* 0042 learned to catch pokémon
+* 0045 got shuckie
+* 0046 mania took shuckie or let you keep him
+* 0047 got sunny day from radio tower
+* 0048 got pink bow from mary
+* 0049 used basement key
+* 004b got tm08 rock smash
+* 004d got mystic water in cherrygrove
+* 004e got tm05 roar
+* 004f got eevee
+* 0050 got kenya
+* 0051 gave kenya
+* 0052 got hp up from randy
+* 0053 got tm50 nightmare
+* 0055 showed togepi to elm
+* 0056 got everstone from elm
+* 0057 got quick claw
+* 0058 got tm10 hidden power
+* 0059 got tm36 sludge bomb
+* 005a got itemfinder
+* 005b got bicycle
+* 005c got squirtbottle
+* 005d got miracle seed in route 32
+* 005e got charcoal in charcoal kiln
+* 005f got tm02 headbutt
+* 0060 decided to help lance
+* 0061 got tyrogue from kiyo
+* 0062 met frieda of friday
+* 0063 got poison barb from frieda
+* 0064 met tuscany of tuesday
+* 0065 got pink bow from tuscany
+* 0066 met arthur of thursday
+* 0067 got hard stone from arthur
+* 0068 met sunny of sunday
+* 0069 got magnet from sunny
+* 006a met wesley of wednesday
+* 006b got blackbelt from wesley
+* 006c met santos of saturday
+* 006d got spell tag from santos
+* 006e met monica of monday
+* 006f got sharp beak from monica
+* 0070 got soft sand from kate
+* 0071 got metal coat from grandfather on ss aqua
+* 0072 got blackglasses in dark cave
+* 0073 got king's rock in slowpoke well
+* 0074 got tm47 steel wing
+* 0075 got tm37 sandstorm
+* 0078 got clear bell
+* 0079 got silver wing
+* 007a got tm12 sweet scent
+* 007b released the beasts
+* 007c got master ball from elm
+* 0086 found revive in rocket base b1f
+* 00be got gs ball (cf 0340)
+* 00c9 returned machine part
+* 00ca met manager at power plant
+* 00cb met rocket grunt at cerulean gym
+* 00cc met red's mom
+* 00cd restored power to kanto
+* 00ce got coins from gambler at celadon
+* 00cf met copycat, found out about lost item
+* 00d0 returned lost item to copycat
+* 00d1 got pass from copycat
+* 00d2 got lost item from fan club
+* 00d3 ??? listened to fan club president but bag was full? (seems to be a bug here)
+* 00d4 listened to fan club president
+* 00d5 talked to seafoam gym guy once
+* 00d6 enable diploma printing
+* 00d8 cleared nugget bridge
+* 00d9 talked to warden’s granddaughter
+* 00da got tm03 curse
+* 00db got cleanse tag
+* 00dc got tm19 giga drain
+* 00dd got tm06 toxic
+* 00de got up-grade
+* 00df got tm07 zap cannon
+* 00e0 got tm42 dream eater
+* 00e3 got tm29 psychic
+* 00f9 found leftovers in celadon cafe
+* 00fb found machine part in cerulean gym
+* 0261 showed beverly marill
+* 028d showed derek pikachu
+* 0293 showed tiffany clefairy
+* 029e ??? buena offered her phone number? (cf. 033c)
+* 02d3 switch 1
+* 02d4 switch 2
+* 02d5 switch 3
+* 02d6 emergency switch
+* 02d7 switch
+* 02d8 switch
+* 02d9 switch
+* 02da switch
+* 02db switch
+* 02dc switch
+* 02dd switch
+* 02de switch
+* 02df switch
+* 02e0 switch
+* 02e1 switch
+* 02e2 uncovered staircase in mahogany mart
+* 02e3 turned off security cameras
+* 02e4 security camera
+* 02e5 security camera
+* 02e6 security camera
+* 02e7 security camera
+* 02e8 security camera
+* 02e9 exploding trap
+* 02ea exploding trap
+* 02eb exploding trap
+* 02ec exploding trap
+* 02ed exploding trap
+* 02ee exploding trap
+* 02ef exploding trap
+* 02f0 exploding trap
+* 02f1 exploding trap
+* 02f2 exploding trap
+* 02f3 exploding trap
+* 02f4 exploding trap
+* 02f5 exploding trap
+* 02f6 exploding trap
+* 02f7 exploding trap
+* 02f8 exploding trap
+* 02f9 exploding trap
+* 02fa exploding trap
+* 02fb exploding trap
+* 02fc exploding trap
+* 02fd exploding trap
+* 02fe exploding trap
+* 02ff learned hail giovanni
+* 0300 opened door to rocket hideout transmitter
+* 030a will’s room exit open
+* 030b koga’s room entrance closed
+* 030c koga’s room exit open
+* 030d koga’s room entrance closed
+* 030e bruno’s room exit open
+* 030f karen’s room entrance closed
+* 0310 karen’s room exit open
+* 0311 lance’s room entrance closed
+* 0317 fought ho-oh
+* 0318 fought lugia
+* 0319 beat rival in mt. moon
+* 031a met bill’s grandpa
+* 031b showed lickitung to bill’s grandpa
+* 031c showed oddish to bill’s grandpa
+* 031d showed staryu to bill’s grandpa
+* 031e showed growlithe/vulpix to bill’s grandpa
+* 031f showed pichu to bill’s grandpa
+* 0320 got everstone from bill’s grandpa
+* 0321 got leaf stone from bill’s grandpa
+* 0322 got water stone from bill’s grandpa
+* 0323 got fire stone from bill’s grandpa
+* 0324 got thunderstone from bill’s grandpa
+* 0325 listened to radio in neighbor’s house
+* 0326 wall opened in ho-oh chamber
+* 0327 wall opened in kabuto chamber
+* 0328 wall opened in omanyte chamber
+* 0329 wall opened in aerodactyl chamber
+* 032b ??? wade has berry
+* 032c ??? wade has psncureberry
+* 032d ??? wade has przcureberry
+* 032e ??? wade has bitter berry
+* 032f ??? wilton has ultra ball
+* 0330 ??? wilton has great ball
+* 0331 ??? wilton has poké ball
+* 0334 koji allows you passage to tin tower
+* 0335 fought suicune
+* 0336 ??? got rainbow wing
+* 0337 ??? huey protein
+* 0338 ??? joey hp up
+* 0339 ??? vance carbos
+* 033a ??? parry iron
+* 033b ??? erin calcium
+* 033c buena offered her phone number
+* 033d met buena
+* 033e got odd egg
+* 0340 got gs ball (c.f. 00be)
+* 03e8 beat swimmer♀ elaine
+* 03e9 beat swimmer♀ paula
+* 03ea beat swimmer♀ kaylee
+* 03eb beat swimmer♀ susie
+* 03ec beat swimmer♀ denise
+* 03ed beat swimmer♀ kara
+* 03ee beat swimmer♀ wendy
+* 03f3 beat swimmer♀ dawn
+* 03f5 beat swimmer♀ nicole
+* 03f6 beat swimmer♀ lori
+* 03f8 beat swimmer♀ nikki
+* 03f9 beat swimmer♀ diana
+* 03fa beat swimmer♀ briana
+* 03fb beat bird keeper rod
+* 03fc beat bird keeper abe
+* 03fd beat bird keeper bryan
+* 03fe beat bird keeper theo
+* 03ff beat bird keeper toby
+* 0400 beat bird keeper denis
+* 0401 beat bird keeper vance (1)
+* 0402 beat bird keeper hank
+* 0403 beat bird keeper roy
+* 0404 beat bird keeper boris
+* 0405 beat bird keeper bob
+* 0407 beat bird keeper peter
+* 0408 beat bird keeper jose
+* 0409 beat bird keeper perry
+* 040a beat bird keeper bret
+* 040e beat boarder ronald
+* 040f beat boarder brad
+* 0410 beat boarder douglas
+* 0411 beat sage chow
+* 0412 beat sage nico
+* 0413 beat sage jin
+* 0414 beat sage troy
+* 0415 beat sage jeffrey
+* 0416 beat sage ping
+* 0417 beat sage edmond
+* 0418 beat sage neal
+* 0419 beat sage li
+* 041a beat camper roland
+* 041b beat camper todd (1)
+* 041c beat camper ivan
+* 041d beat camper elliot
+* 041f beat camper lloyd
+* 0420 beat camper dean
+* 0421 beat camper sid
+* 0424 beat camper ted
+* 042b beat camper jerry
+* 042c beat camper spencer
+* 042d beat burglar duncan
+* 042e beat burglar eddie
+* 042f beat burglar corey
+* 0433 beat biker dwayne
+* 0434 beat biker harris
+* 0435 beat biker zeke
+* 0436 beat biker charles
+* 0437 beat biker riley
+* 0438 beat biker joel
+* 0439 beat biker glenn
+* 043a beat psychic nathan
+* 043b beat psychic franklin
+* 043c beat psychic herman
+* 043d beat psychic fidel
+* 043e beat psychic greg
+* 043f beat psychic norman
+* 0440 beat psychic mark
+* 0441 beat psychic phil
+* 0442 beat psychic richard
+* 0443 beat psychic gilbert
+* 0444 beat psychic jared
+* 0445 beat psychic rodney
+* 0446 beat firebreather otis
+* 0449 beat firebreather burt
+* 044a beat firebreather bill
+* 044b beat firebreather walt
+* 044c beat firebreather ray
+* 044d beat firebreather lyle
+* 044e beat fisher justin
+* 044f beat fisher ralph (1)
+* 0450 beat fisher arnold
+* 0451 beat fisher kyle
+* 0452 beat fisher henry
+* 0453 beat fisher marvin
+* 0454 beat fisher tully (1)
+* 0455 beat fisher andre
+* 0456 beat fisher raymond
+* 0457 beat fisher wilton (1)
+* 0458 beat fisher edgar
+* 0459 beat fisher jonah
+* 045a beat fisher martin
+* 045b beat fisher stephen
+* 045c beat fisher barney
+* 0462 beat fisher scott
+* 0464 beat twins amy & may
+* 0465 beat twins ann & anne
+* 0468 beat twins jo & zoe
+* 046a beat twins meg & peg
+* 046c beat schoolboy jack (1)
+* 046d beat schoolboy kip
+* 046e beat schoolboy alan
+* 046f beat schoolboy johnny
+* 0470 beat schoolboy danny
+* 0471 beat schoolboy tommy
+* 0472 beat schoolboy dudley
+* 0473 beat schoolboy joe
+* 0474 beat schoolboy billy
+* 0475 beat schoolboy chad (1)
+* 0476 beat schoolboy nate
+* 0477 beat schoolboy ricky
+* 047e beat picnicker liz (1)
+* 047f beat picnicker gina (1)
+* 0480 beat picnicker brooke
+* 0481 beat picnicker kim
+* 0483 beat picnicker hope
+* 0484 beat picnicker sharon
+* 0485 beat picnicker debra
+* 0487 beat picnicker erin (1)
+* 048a beat picnicker heidi
+* 048b beat picnicker edna
+* 0490 beat picnicker tanya
+* 0491 beat picnicker tiffany (3)
+* 0493 beat guitarist clyde
+* 0494 beat guitarist vincent
+* 0495 beat juggler irwin (1)
+* 0496 beat juggler fritz
+* 0497 beat juggler horton
+* 049a beat gentleman preston
+* 049b beat gentleman edward
+* 049c beat gentleman gregory
+* 049e beat gentleman alfred
+* 049f beat scientist ross
+* 04a0 beat scientist mitch
+* 04a1 beat scientist jed
+* 04a2 beat scientist marc
+* 04a3 beat scientist rich
+* 04a5 beat blackbelt yoshi
+* 04a7 beat blackbelt lao
+* 04a8 beat blackbelt nob
+* 04aa beat blackbelt lung
+* 04ab beat blackbelt kenji (3)
+* 04ac beat blackbelt wai
+* 04ad beat beauty victoria
+* 04ae beat beauty samantha
+* 04b2 beat beauty cassie
+* 04ba beat beauty julia
+* 04bc beat beauty valerie
+* 04bd beat falkner
+* 04be beat bugsy
+* 04bf beat whitney
+* 04c0 beat morty
+* 04c1 beat jasmine
+* 04c2 beat chuck
+* 04c3 beat pryce
+* 04c4 beat clair
+* 04c5 beat brock
+* 04c6 beat misty
+* 04c7 beat lt.surge
+* 04c9 beat janine
+* 04ca beat sabrina
+* 04cc beat blue
+* 04cd beat pokéfan♂ william
+* 04ce beat pokéfan♂ derek
+* 04cf beat pokéfan♂ robert
+* 04d0 beat pokéfan♂ joshua
+* 04d1 beat pokéfan♂ carter
+* 04d2 beat pokéfan♂ trevor
+* 04d3 beat pokéfan♂ brandon
+* 04d4 beat pokéfan♂ jeremy
+* 04d5 beat pokéfan♂ colin
+* 04d8 beat pokéfan♂ alex
+* 04d9 beat pokéfan♀ beverly
+* 04da beat pokéfan♀ ruth
+* 04dd beat pokéfan♀ georgia
+* 04df beat kimono girl naoko
+* 04e0 beat kimono girl sayo
+* 04e1 beat kimono girl zuki
+* 04e2 beat kimono girl kuni
+* 04e3 beat kimono girl miki
+* 04e4 beat pokémaniac larry
+* 04e5 beat pokémaniac andrew
+* 04e6 beat pokémaniac calvin
+* 04e7 beat pokémaniac shane
+* 04e8 beat pokémaniac ben
+* 04e9 beat pokémaniac brent
+* 04ea beat pokémaniac ron
+* 04eb beat pokémaniac ethan
+* 04ee beat pokémaniac issac
+* 04ef beat pokémaniac donald
+* 04f0 beat pokémaniac zach
+* 04f1 beat rocket grunt♂
+* 04f2 beat rocket grunt♂
+* 04f3 beat rocket grunt♂
+* 04f4 beat rocket grunt♂
+* 04f5 beat rocket grunt♂
+* 04f6 beat rocket grunt♂
+* 04f7 beat rocket grunt♂
+* 04f8 beat rocket grunt♂
+* 04f9 beat rocket grunt♂
+* 04fa beat rocket grunt♂
+* 04fb beat rocket grunt♂
+* 04fd beat rocket grunt♂
+* 04fe beat rocket grunt♂
+* 04ff beat rocket grunt♂
+* 0500 beat rocket grunt♂
+* 0501 beat rocket grunt♂
+* 0502 beat rocket grunt♂
+* 0503 beat rocket grunt♂
+* 0508 beat rocket grunt♂
+* 0509 beat rocket grunt♂
+* 050c beat rocket grunt♂
+* 050d beat rocket grunt♂
+* 0510 beat rocket grunt♀
+* 0511 beat rocket grunt♀
+* 0512 beat rocket grunt♀
+* 0513 beat rocket grunt♀
+* 0514 beat rocket grunt♀
+* 0515 beat lass carrie
+* 0516 beat lass bridget
+* 0518 beat lass krise
+* 0519 beat lass connie (1)
+* 051b beat lass laura
+* 051c beat lass shannon
+* 051d beat lass michelle
+* 051e beat lass dana
+* 051f beat lass ellen
+* 0525 beat hiker russell
+* 0526 beat hiker phillip
+* 0527 beat hiker leonard
+* 0528 beat hiker anthony (2)
+* 0529 beat hiker benjamin
+* 052a beat hiker erik
+* 052b beat hiker michael
+* 052c beat hiker parry (3)
+* 052d beat hiker timothy
+* 052e beat hiker bailey
+* 0530 beat hiker tim
+* 0531 beat hiker noland
+* 0532 beat hiker sidney
+* 0533 beat hiker kenny
+* 0534 beat hiker jim
+* 0535 beat hiker daniel
+* 0538 beat bug catcher don
+* 0539 beat bug catcher rob
+* 053a beat bug catcher ed
+* 053b beat bug catcher wade (1)
+* 053c beat bug catcher benny
+* 053d beat bug catcher al
+* 053e beat bug catcher josh
+* 053f beat bug catcher arnie (1)
+* 0540 beat bug catcher ken
+* 0543 beat bug catcher doug
+* 0548 beat cooltrainer♂ nick
+* 0549 beat cooltrainer♂ aaron
+* 054a beat cooltrainer♂ paul
+* 054b beat cooltrainer♂ cody
+* 054c beat cooltrainer♂ mike
+* 054f beat cooltrainer♂ ryan
+* 0550 beat cooltrainer♂ jake
+* 0551 beat cooltrainer♂ gaven (3)
+* 0552 beat cooltrainer♂ blake
+* 0553 beat cooltrainer♂ brian
+* 0557 beat cooltrainer♂ sean
+* 055a beat cooltrainer♂ allen
+* 055b beat cooltrainer♀ gwen
+* 055c beat cooltrainer♀ lois
+* 055d beat cooltrainer♀ fran
+* 055e beat cooltrainer♀ lola
+* 055f beat cooltrainer♀ kate
+* 0560 beat cooltrainer♀ irene
+* 0561 beat cooltrainer♀ kelly
+* 0562 beat cooltrainer♀ joyce
+* 0563 beat cooltrainer♀ beth (1)
+* 0564 beat cooltrainer♀ reena (1)
+* 0565 beat cooltrainer♀ megan
+* 0567 beat cooltrainer♀ carol
+* 0568 beat cooltrainer♀ quinn
+* 0569 beat cooltrainer♀ emma
+* 056a beat cooltrainer♀ cybil
+* 056b beat cooltrainer♀ jenn
+* 056f beat rocket executive♀
+* 0572 beat rocket executive♂
+* 0575 beat sailor eugene
+* 0576 beat sailor huey (1)
+* 0577 beat sailor terrell
+* 0578 beat sailor kent
+* 0579 beat sailor ernest
+* 057a beat sailor jeff
+* 057b beat sailor garrett
+* 057c beat sailor kenneth
+* 057e beat sailor harry
+* 0582 beat super nerd eric
+* 0586 beat super nerd sam
+* 0587 beat super nerd tom
+* 0588 beat super nerd pat
+* 0589 beat super nerd shawn
+* 058a beat super nerd teru
+* 058b beat medium martha
+* 058c beat medium grace
+* 0590 beat medium rebecca
+* 0591 beat medium doris
+* 0592 beat skier roxanne
+* 0593 beat skier clarissa
+* 0594 beat swimmer♂ harold
+* 0595 beat swimmer♂ simon
+* 0596 beat swimmer♂ randall
+* 0597 beat swimmer♂ charlie
+* 0598 beat swimmer♂ george
+* 0599 beat swimmer♂ berke
+* 059a beat swimmer♂ kirk
+* 059b beat swimmer♂ mathew
+* 05a1 beat swimmer♂ jerome
+* 05a2 beat swimmer♂ tucker
+* 05a4 beat swimmer♂ cameron
+* 05a5 beat swimmer♂ seth
+* 05a8 beat swimmer♂ parker
+* 05a9 beat youngster joey (1)
+* 05aa beat youngster mikey
+* 05ab beat youngster albert
+* 05ac beat youngster gordon
+* 05ad beat youngster samuel
+* 05ae beat youngster ian
+* 05b1 beat youngster warren
+* 05b2 beat youngster jimmy
+* 05b3 beat youngster owen
+* 05b4 beat youngster jason
+* 05b5 beat teacher colette
+* 05b6 beat teacher hillary
+* 05b7 beat teacher shirley
+* 05bb beat elite 4 karen
+* 05bc beat champion lance
+* 05bd beat cooltrainer♂ darin
+* 05be beat cooltrainer♀ cara
+* 05bf beat twins lea & pia
+* 05c0 beat bug catcher wayne
+* 05c1 beat beauty olivia
+* 05c4 beat pokémaniac miler
+* 05c5 beat super nerd hugh
+* 05c6 beat super nerd markus
+* 05c7 beat pokéfan♂ rex
+* 05c8 beat pokéfan♂ allan
+* 05c9 beat sage gaku
+* 05ca beat sage masa
+* 05cb beat sage koji
+* 06ff guide gent visible in cherrygrove
+* 070d boulder in ice path
+* 070e boulder in ice path
+* 070f boulder in ice path
+* 0710 boulder in ice path
+* 0750 fought snorlax
+* 077d picked up focus band
+* 0794 picked up gold berry from ho-oh item room
+* 0795 picked up mysteryberry from ho-oh item room
+* 0796 picked up revival herb from ho-oh item room
+* 0797 picked up charcoal from ho-oh item room
+* 0798 picked up berry from kabuto item room
+* 0799 picked up psncureberry from kabuto item room
+* 079a picked up heal powder from kabuto item room
+* 079b picked up energypowder from kabuto item room
+* 079c picked up mysteryberry from omanyte item room
+* 079d picked up mystic water from omanyte item room
+* 079e picked up stardust from omanyte item room
+* 079f picked up star piece from omanyte item room
+* 07a0 picked up gold berry from aerodactyl item room
+* 07a1 picked up moon stone from aerodactyl item room
+* 07a2 picked up heal powder from aerodactyl item room
+* 07a3 picked up energy root from aerodactyl item room
+* 07ae ??? saw suicune at cianwood city
+* 07af ??? saw suicune on route 42
+* 07b0 ??? saw suicune on route 36
+* 07b7 ??? set when fought ho-oh
+
+# Table 2
+* 0000 pokégear radio card
+* 0001 pokégear map card
+* 0002 pokégear phone card
+* 0003 pokégear expn card
+* 0004 pokégear
+* 000b pokédex
+* 000c unown pokédex
+* 0013 ??? rockets took over radio tower
+* 0019 going downhill
+* 001a ??? set in cycling road
+* 001b got zephyrbadge
+* 001c got hivebadge
+* 001d got plainbadge
+* 001e got fogbadge
+* 001f got mineralbadge
+* 0020 got stormbadge
+* 0021 got glacierbadge
+* 0022 got risingbadge
+* 0023 got boulderbadge
+* 0024 got cascadebadge
+* 0025 got thunderbadge
+* 0026 got rainbowbadge
+* 0027 got soulbadge
+* 0028 got marshbadge
+* 0029 got volcanobadge
+* 002a got earthbadge
+* 0057 fought in trainer hall today
+* 0059 fought lapras
+* 0061 goldenrod department store sale is on
+* 0063 player is female
+* 0064 have gs ball after kurt examined it
+* 0065 jack wants rematch
+* 0066 huey wants rematch
+* 0067 gaven wants rematch
+* 0068 beth wants rematch
+* 0069 jose wants rematch
+* 006a reena wants rematch
+* 006b joey wants rematch
+* 006c wade wants rematch
+* 006d ralph wants rematch
+* 006e liz wants rematch
+* 006f anthony wants rematch
+* 0070 todd wants rematch
+* 0071 gina wants rematch
+* 0072 arnie wants rematch
+* 0073 alan wants rematch
+* 0074 dana wants rematch
+* 0075 chad wants rematch
+* 0076 tully wants rematch
+* 0077 brent wants rematch
+* 0078 tiffany wants rematch
+* 0079 vance wants rematch
+* 007a wilton wants rematch
+* 007b parry wants rematch
+* 007c erin wants rematch
+* 007d beverly has nugget
+* 007e jose has star piece
+* 007f wade has item (see bittable1 $032b, $032c, $032d, $032e)
+* 0080 gina has leaf stone
+* 0081 alan has fire stone
+* 0082 liz has thunderstone
+* 0083 derek has nugget
+* 0084 tully has water stone
+* 0085 tiffany has pink bow
+* 0086 wilton has item (see bittable1 $032f, $0330, $0331)
+* 009f female player has been transformed into male
+* 00a0 dunsparce is swarming
+* 00a1 yanma is swarming

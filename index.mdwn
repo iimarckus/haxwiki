@@ -29,7 +29,11 @@ Now "git push" should work without debilitating complaint.
 
 * [[GameFreak Dev]]
 
+## GSC
+
 * [[GSC/Level-up Moves and Evolutions]]
+
+* [[GSC/Flags]]
 
 # Community
 
