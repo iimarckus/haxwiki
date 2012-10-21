@@ -28,3 +28,11 @@ Now "git push" should work without debilitating complaint.
 # List of pages
 
 [[GameFreak Dev]]
+
+# Community
+
+* [Message board](http://hax.iimarck.us/)
+
+* [[Chat Room]]
+
+* Wiki: You Are Here
