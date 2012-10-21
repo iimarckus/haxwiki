@@ -13,7 +13,7 @@ Note to push changes you must push with your registered account:
 
 You can make this easier by updating the remotes:
 
-    git remote set-url origin username@wiki.iimarck.us:/srv/git/haxwiki.git
+    git remote add origin username@diyhpl.us:/srv/git/haxwiki.git master
 
 Now "git push" should work without debilitating complaint.
 
