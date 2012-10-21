@@ -17,7 +17,7 @@ You can make this easier by updating the remotes:
 
 Now "git push" should work without debilitating complaint.
 
-[browse wiki history on cgit](http://wiki.iimarck.us/cgit/haxwiki)
+[browse wiki history on cgit](http://diyhpl.us/cgit/haxwiki)
 
 # What this wiki is not
 
