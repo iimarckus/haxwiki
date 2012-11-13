@@ -200,9 +200,9 @@
 * Frame Block ID: 0x0C, X: 128, Y:  64, Mode: 0
 <hr>
 * Tileset 0 
-* [[12\_0.gif]]
+* [[12_0.gif]]
 * Tileset 1 
-* [[12\_1.gif]]
+* [[12_1.gif]]
 * Subanimation 0x12, Type: 3, Num. Frame Blocks:  9
 * Used By: GROWL SING SCREECH LOVELY\_KISS 
 * Frame Block ID: 0x17, X:  40, Y:  88, Mode: 0
@@ -381,9 +381,9 @@
 * Frame Block ID: 0x43, X: 104, Y:  24, Mode: 0
 <hr>
 * Tileset 0 
-* [[21\_0.gif]]
+* [[21_0.gif]]
 * Tileset 1 
-* [[21\_1.gif]]
+* [[21_1.gif]]
 * Subanimation 0x21, Type: 2, Num. Frame Blocks:  3
 * Used By: ABSORB MEGA\_DRAIN MIMIC LEECH\_LIFE TRANSFORM CONVERSION 
 * Frame Block ID: 0x44, X: 104, Y:  16, Mode: 0
@@ -391,9 +391,9 @@
 * Frame Block ID: 0x46, X: 120, Y:  32, Mode: 2
 <hr>
 * Tileset 0 
-* [[22\_0.gif]]
+* [[22_0.gif]]
 * Tileset 1 
-* [[22\_1.gif]]
+* [[22_1.gif]]
 * Subanimation 0x22, Type: 4, Num. Frame Blocks: 11
 * Used By: ABSORB MEGA\_DRAIN MIMIC LEECH\_LIFE TRANSFORM CONVERSION 
 * Frame Block ID: 0x47, X: 120, Y:  32, Mode: 0
@@ -605,9 +605,9 @@
 * Frame Block ID: 0x2F, X: 100, Y:  48, Mode: 0
 <hr>
 * Tileset 0 
-* [[32\_0.gif]]
+* [[32_0.gif]]
 * Tileset 1 
-* [[32\_1.gif]]
+* [[32_1.gif]]
 * (above two images are possible graphics for this unused subanimation) 
 * Subanimation 0x32, Type: 3, Num. Frame Blocks:  3
 * Used By: None
@@ -711,9 +711,9 @@
 * Frame Block ID: 0x67, X: 152, Y:  64, Mode: 0
 <hr>
 * Tileset 0 
-* [[39\_0.gif]]
+* [[39_0.gif]]
 * Tileset 1 
-* [[39\_1.gif]]
+* [[39_1.gif]]
 * (above two images are possible graphics for this unused subanimation) 
 * Subanimation 0x39, Type: 3, Num. Frame Blocks:  1
 * Used By: None
@@ -736,9 +736,9 @@
 * Frame Block ID: 0x53, X:  96, Y:  32, Mode: 0
 <hr>
 * Tileset 0 
-* [[3C\_0.gif]]
+* [[3C_0.gif]]
 * Tileset 1 
-* [[3C\_1.gif]]
+* [[3C_1.gif]]
 * (above two images are possible graphics for this unused subanimation) 
 * Subanimation 0x3C, Type: 3, Num. Frame Blocks:  7
 * Used By: None
@@ -751,9 +751,9 @@
 * Frame Block ID: 0x59, X:  72, Y:  56, Mode: 0
 <hr>
 * Tileset 0 
-* [[3D\_0.gif]]
+* [[3D_0.gif]]
 * Tileset 1 
-* [[3D\_1.gif]]
+* [[3D_1.gif]]
 * (above two images are possible graphics for this unused subanimation) 
 * Subanimation 0x3D, Type: 0, Num. Frame Blocks:  8
 * Used By: None
@@ -842,9 +842,9 @@
 * Frame Block ID: 0x5A, X: 112, Y:  24, Mode: 0
 <hr>
 * Tileset 0 
-* [[43\_0.gif]]
+* [[43_0.gif]]
 * Tileset 1 
-* [[43\_1.gif]]
+* [[43_1.gif]]
 * Subanimation 0x43, Type: 5, Num. Frame Blocks:  3
 * Used By: MEDITATE HARDEN DEFENSE\_CURL SHARPEN UNKNOWN\_B0 UNKNOWN\_B1 UNKNOWN\_B4 UNKNOWN\_B5 
 * Frame Block ID: 0x6A, X: 104, Y:  24, Mode: 0
