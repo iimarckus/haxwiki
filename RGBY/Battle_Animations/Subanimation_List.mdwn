@@ -3,14 +3,14 @@
 * Subanimation 0x00, Type: 2, Num. Frame Blocks:  1
 * Used By: POISON\_STING 
 * Frame Block ID: 0x01, X: 120, Y:  40, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[01.gif]]
 * Subanimation 0x01, Type: 2, Num. Frame Blocks:  2
 * Used By: POUND DOUBLESLAP PAY\_DAY VINE\_WHIP DOUBLE\_KICK TWINEEDLE PIN\_MISSILE PECK SUBMISSION SOLARBEAM RAGE MIRROR\_MOVE KINESIS STRUGGLE 
 * Frame Block ID: 0x01, X: 112, Y:  32, Mode: 0
 * Frame Block ID: 0x01, X: 128, Y:  48, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[02.gif]]
 * Subanimation 0x02, Type: 2, Num. Frame Blocks:  3
@@ -18,7 +18,7 @@
 * Frame Block ID: 0x01, X: 136, Y:  32, Mode: 0
 * Frame Block ID: 0x01, X: 104, Y:  40, Mode: 0
 * Frame Block ID: 0x01, X: 120, Y:  48, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[03.gif]]
 * Subanimation 0x03, Type: 2, Num. Frame Blocks:  4
@@ -27,7 +27,7 @@
 * Frame Block ID: 0x01, X: 128, Y:  32, Mode: 0
 * Frame Block ID: 0x01, X: 128, Y:  40, Mode: 0
 * Frame Block ID: 0x01, X: 128, Y:  48, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[04.gif]]
 * Subanimation 0x04, Type: 2, Num. Frame Blocks:  3
@@ -35,13 +35,13 @@
 * Frame Block ID: 0x02, X: 104, Y:  48, Mode: 0
 * Frame Block ID: 0x02, X: 120, Y:  32, Mode: 0
 * Frame Block ID: 0x02, X: 128, Y:  16, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[05.gif]]
 * Subanimation 0x05, Type: 2, Num. Frame Blocks:  1
 * Used By: STOMP HEADBUTT HORN\_ATTACK HORN\_DRILL SONICBOOM SKULL\_BASH CRABHAMMER 
 * Frame Block ID: 0x02, X: 120, Y:  32, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[06.gif]]
 * Subanimation 0x06, Type: 0, Num. Frame Blocks: 11
@@ -57,7 +57,7 @@
 * Frame Block ID: 0x03, X: 104, Y:  32, Mode: 0
 * Frame Block ID: 0x03, X: 112, Y:  41, Mode: 0
 * Frame Block ID: 0x03, X: 120, Y:  50, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[07.gif]]
 * Subanimation 0x07, Type: 0, Num. Frame Blocks: 11
@@ -73,7 +73,7 @@
 * Frame Block ID: 0x03, X: 104, Y:  40, Mode: 0
 * Frame Block ID: 0x03, X: 112, Y:  45, Mode: 0
 * Frame Block ID: 0x03, X: 120, Y:  50, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[08.gif]]
 * Subanimation 0x08, Type: 0, Num. Frame Blocks: 11
@@ -89,7 +89,7 @@
 * Frame Block ID: 0x03, X: 104, Y:  48, Mode: 0
 * Frame Block ID: 0x03, X: 112, Y:  49, Mode: 0
 * Frame Block ID: 0x03, X: 120, Y:  50, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[09.gif]]
 * Subanimation 0x09, Type: 0, Num. Frame Blocks:  4
@@ -98,7 +98,7 @@
 * Frame Block ID: 0x04, X: 120, Y:  56, Mode: 4
 * Frame Block ID: 0x03, X: 120, Y:  56, Mode: 4
 * Frame Block ID: 0x05, X: 120, Y:  56, Mode: 4
-
+<hr>
 * Tileset 0 
 * [[0A.gif]]
 * Subanimation 0x0A, Type: 2, Num. Frame Blocks:  6
@@ -109,7 +109,7 @@
 * Frame Block ID: 0x09, X: 108, Y:  44, Mode: 0
 * Frame Block ID: 0x0A, X: 104, Y:  40, Mode: 0
 * Frame Block ID: 0x0A, X: 104, Y:  40, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[0B.gif]]
 * Subanimation 0x0B, Type: 0, Num. Frame Blocks:  4
@@ -118,7 +118,7 @@
 * Frame Block ID: 0x03, X:  96, Y:  64, Mode: 0
 * Frame Block ID: 0x03, X:  88, Y:  88, Mode: 0
 * Frame Block ID: 0x03, X:  80, Y:  64, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[0C.gif]]
 * Subanimation 0x0C, Type: 2, Num. Frame Blocks:  3
@@ -126,7 +126,7 @@
 * Frame Block ID: 0x0C, X: 104, Y:  56, Mode: 0
 * Frame Block ID: 0x0C, X: 120, Y:  56, Mode: 0
 * Frame Block ID: 0x0C, X: 136, Y:  56, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[0D.gif]]
 * Subanimation 0x0D, Type: 2, Num. Frame Blocks:  6
@@ -137,7 +137,7 @@
 * Frame Block ID: 0x0C, X: 120, Y:  40, Mode: 0
 * Frame Block ID: 0x0C, X: 136, Y:  56, Mode: 2
 * Frame Block ID: 0x0C, X: 136, Y:  40, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[0E.gif]]
 * Subanimation 0x0E, Type: 2, Num. Frame Blocks:  9
@@ -151,7 +151,7 @@
 * Frame Block ID: 0x0C, X: 136, Y:  56, Mode: 2
 * Frame Block ID: 0x0C, X: 136, Y:  40, Mode: 2
 * Frame Block ID: 0x0C, X: 136, Y:  24, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[0F.gif]]
 * Subanimation 0x0F, Type: 2, Num. Frame Blocks: 12
@@ -168,7 +168,7 @@
 * Frame Block ID: 0x29, X: 104, Y:  32, Mode: 2
 * Frame Block ID: 0x29, X: 112, Y:  40, Mode: 2
 * Frame Block ID: 0x29, X: 120, Y:  48, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[10.gif]]
 * Subanimation 0x10, Type: 4, Num. Frame Blocks:  8
@@ -181,7 +181,7 @@
 * Frame Block ID: 0x2E, X:  88, Y:  72, Mode: 0
 * Frame Block ID: 0x2D, X:  96, Y:  64, Mode: 0
 * Frame Block ID: 0x2E, X: 104, Y:  48, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[11.gif]]
 * Subanimation 0x11, Type: 2, Num. Frame Blocks: 12
@@ -198,7 +198,7 @@
 * Frame Block ID: 0x0C, X: 128, Y:  64, Mode: 0
 * Frame Block ID: 0x0B, X: 128, Y:  64, Mode: 0
 * Frame Block ID: 0x0C, X: 128, Y:  64, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[12\_0.gif]]
 * Tileset 1 
@@ -214,7 +214,7 @@
 * Frame Block ID: 0x17, X: 124, Y:  40, Mode: 0
 * Frame Block ID: 0x17, X: 138, Y:  40, Mode: 0
 * Frame Block ID: 0x17, X: 152, Y:  48, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[13.gif]]
 * Subanimation 0x13, Type: 4, Num. Frame Blocks:  6
@@ -225,7 +225,7 @@
 * Frame Block ID: 0x30, X: 104, Y:  32, Mode: 0
 * Frame Block ID: 0x30, X: 112, Y:  32, Mode: 0
 * Frame Block ID: 0x30, X: 120, Y:  32, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[14.gif]]
 * Subanimation 0x14, Type: 2, Num. Frame Blocks:  9
@@ -239,14 +239,14 @@
 * Frame Block ID: 0x31, X: 128, Y:  48, Mode: 4
 * Frame Block ID: 0x31, X: 128, Y:  56, Mode: 4
 * Frame Block ID: 0x31, X: 128, Y:  64, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[15.gif]]
 * Subanimation 0x15, Type: 1, Num. Frame Blocks:  2
 * Used By: ROAR SONICBOOM 
 * Frame Block ID: 0x35, X:  64, Y:  72, Mode: 0
 * Frame Block ID: 0x35, X:  57, Y:  72, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[16.gif]]
 * Subanimation 0x16, Type: 2, Num. Frame Blocks: 12
@@ -263,7 +263,7 @@
 * Frame Block ID: 0x2A, X:  96, Y:  64, Mode: 4
 * Frame Block ID: 0x2C, X: 104, Y:  16, Mode: 2
 * Frame Block ID: 0x2C, X: 104, Y:  16, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[17.gif]]
 * Subanimation 0x17, Type: 2, Num. Frame Blocks:  4
@@ -272,7 +272,7 @@
 * Frame Block ID: 0x36, X: 112, Y:  36, Mode: 0
 * Frame Block ID: 0x37, X: 112, Y:  28, Mode: 0
 * Frame Block ID: 0x37, X: 136, Y:  28, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[18.gif]]
 * Subanimation 0x18, Type: 5, Num. Frame Blocks:  4
@@ -281,7 +281,7 @@
 * Frame Block ID: 0x36, X: 112, Y:  36, Mode: 0
 * Frame Block ID: 0x37, X: 112, Y:  28, Mode: 0
 * Frame Block ID: 0x37, X: 136, Y:  28, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[19.gif]]
 * Subanimation 0x19, Type: 4, Num. Frame Blocks: 12
@@ -298,7 +298,7 @@
 * Frame Block ID: 0x39, X: 112, Y:  32, Mode: 0
 * Frame Block ID: 0x38, X: 120, Y:  32, Mode: 0
 * Frame Block ID: 0x39, X: 120, Y:  32, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[1A.gif]]
 * Subanimation 0x1A, Type: 2, Num. Frame Blocks: 16
@@ -319,7 +319,7 @@
 * Frame Block ID: 0x3F, X: 128, Y:  24, Mode: 0
 * Frame Block ID: 0x3E, X: 128, Y:  24, Mode: 0
 * Frame Block ID: 0x3F, X: 128, Y:  24, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[1B.gif]]
 * Subanimation 0x1B, Type: 4, Num. Frame Blocks:  4
@@ -328,7 +328,7 @@
 * Frame Block ID: 0x40, X:  72, Y:  51, Mode: 0
 * Frame Block ID: 0x40, X:  88, Y:  40, Mode: 0
 * Frame Block ID: 0x40, X: 104, Y:  40, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[1C.gif]]
 * Subanimation 0x1C, Type: 2, Num. Frame Blocks:  3
@@ -336,7 +336,7 @@
 * Frame Block ID: 0x41, X: 104, Y:  52, Mode: 0
 * Frame Block ID: 0x41, X: 136, Y:  52, Mode: 0
 * Frame Block ID: 0x41, X: 120, Y:  56, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[1D.gif]]
 * Subanimation 0x1D, Type: 5, Num. Frame Blocks: 15
@@ -356,13 +356,13 @@
 * Frame Block ID: 0x25, X:  96, Y:   8, Mode: 4
 * Frame Block ID: 0x25, X:  96, Y:  11, Mode: 4
 * Frame Block ID: 0x25, X:  96, Y:   8, Mode: 3
-
+<hr>
 * Tileset 0 
 * [[1E.gif]]
 * Subanimation 0x1E, Type: 0, Num. Frame Blocks:  1
 * Used By: ROCK\_SLIDE 
 * Frame Block ID: 0x25, X:  64, Y:  48, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[1F.gif]]
 * Subanimation 0x1F, Type: 4, Num. Frame Blocks:  5
@@ -372,14 +372,14 @@
 * Frame Block ID: 0x0C, X:  80, Y:  72, Mode: 3
 * Frame Block ID: 0x0C, X: 100, Y:  64, Mode: 3
 * Frame Block ID: 0x0C, X: 120, Y:  56, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[20.gif]]
 * Subanimation 0x20, Type: 2, Num. Frame Blocks:  2
 * Used By: FIRE\_BLAST 
 * Frame Block ID: 0x42, X: 104, Y:  24, Mode: 0
 * Frame Block ID: 0x43, X: 104, Y:  24, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[21\_0.gif]]
 * Tileset 1 
@@ -389,7 +389,7 @@
 * Frame Block ID: 0x44, X: 104, Y:  16, Mode: 0
 * Frame Block ID: 0x45, X: 112, Y:  24, Mode: 0
 * Frame Block ID: 0x46, X: 120, Y:  32, Mode: 2
-
+<hr>
 * Tileset 0 
 * [[22\_0.gif]]
 * Tileset 1 
@@ -407,42 +407,42 @@
 * Frame Block ID: 0x47, X:  72, Y:  28, Mode: 0
 * Frame Block ID: 0x47, X:  56, Y:  48, Mode: 0
 * Frame Block ID: 0x47, X:  40, Y:  72, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[23.gif]]
 * Subanimation 0x23, Type: 2, Num. Frame Blocks:  2
 * Used By: BIND WRAP THUNDER\_WAVE CLAMP CONSTRICT 
 * Frame Block ID: 0x51, X:  96, Y:  40, Mode: 0
 * Frame Block ID: 0x51, X:  98, Y:  40, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[24.gif]]
 * Subanimation 0x24, Type: 5, Num. Frame Blocks:  2
 * Used By: UNKNOWN\_B8 UNKNOWN\_B9 
 * Frame Block ID: 0x51, X:  96, Y:  40, Mode: 0
 * Frame Block ID: 0x51, X:  98, Y:  40, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[25.gif]]
 * Subanimation 0x25, Type: 3, Num. Frame Blocks:  2
 * Used By: AMNESIA UNKNOWN\_BE 
 * Frame Block ID: 0x52, X:  48, Y:  56, Mode: 0
 * Frame Block ID: 0x52, X:  72, Y:  64, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[26.gif]]
 * Subanimation 0x26, Type: 0, Num. Frame Blocks:  2
 * Used By: CONF\_ANIM 
 * Frame Block ID: 0x52, X: 112, Y:  16, Mode: 0
 * Frame Block ID: 0x52, X:  96, Y:  32, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[27.gif]]
 * Subanimation 0x27, Type: 5, Num. Frame Blocks:  2
 * Used By: UNKNOWN\_BA UNKNOWN\_BB 
 * Frame Block ID: 0x54, X: 112, Y:  16, Mode: 0
 * Frame Block ID: 0x54, X:  96, Y:  32, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[28.gif]]
 * Subanimation 0x28, Type: 1, Num. Frame Blocks:  3
@@ -450,7 +450,7 @@
 * Frame Block ID: 0x55, X:  72, Y:  48, Mode: 3
 * Frame Block ID: 0x56, X:  72, Y:  48, Mode: 3
 * Frame Block ID: 0x57, X:  72, Y:  48, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[29.gif]]
 * Subanimation 0x29, Type: 2, Num. Frame Blocks: 29
@@ -484,7 +484,7 @@
 * Frame Block ID: 0x4C, X:  96, Y:  18, Mode: 3
 * Frame Block ID: 0x4D, X:  96, Y:  16, Mode: 3
 * Frame Block ID: 0x49, X: 114, Y:  32, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[2A.gif]]
 * Subanimation 0x2A, Type: 2, Num. Frame Blocks:  4
@@ -493,7 +493,7 @@
 * Frame Block ID: 0x4F, X:  96, Y:  24, Mode: 0
 * Frame Block ID: 0x50, X:  96, Y:  24, Mode: 0
 * Frame Block ID: 0x50, X:  96, Y:  24, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[2B.gif]]
 * Subanimation 0x2B, Type: 2, Num. Frame Blocks: 11
@@ -509,7 +509,7 @@
 * Frame Block ID: 0x10, X: 120, Y:  56, Mode: 0
 * Frame Block ID: 0x11, X: 112, Y:  48, Mode: 0
 * Frame Block ID: 0x11, X: 112, Y:  48, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[2C.gif]]
 * Subanimation 0x2C, Type: 2, Num. Frame Blocks: 12
@@ -526,7 +526,7 @@
 * Frame Block ID: 0x15, X: 112, Y:  72, Mode: 0
 * Frame Block ID: 0x16, X: 112, Y:  72, Mode: 0
 * Frame Block ID: 0x16, X: 112, Y:  72, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[2D.gif]]
 * Subanimation 0x2D, Type: 3, Num. Frame Blocks:  6
@@ -537,7 +537,7 @@
 * Frame Block ID: 0x47, X:  36, Y:  80, Mode: 0
 * Frame Block ID: 0x47, X:  36, Y:  80, Mode: 0
 * Frame Block ID: 0x47, X:  36, Y:  80, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[2E.gif]]
 * Subanimation 0x2E, Type: 1, Num. Frame Blocks: 14
@@ -556,7 +556,7 @@
 * Frame Block ID: 0x75, X: 104, Y:  52, Mode: 4
 * Frame Block ID: 0x1E, X:  56, Y:  56, Mode: 2
 * Frame Block ID: 0x75, X: 112, Y:  48, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[2F.gif]]
 * Subanimation 0x2F, Type: 2, Num. Frame Blocks:  4
@@ -565,7 +565,7 @@
 * Frame Block ID: 0x20, X: 104, Y:  56, Mode: 0
 * Frame Block ID: 0x21, X: 104, Y:  48, Mode: 0
 * Frame Block ID: 0x22, X: 104, Y:  40, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[30.gif]]
 * Subanimation 0x30, Type: 2, Num. Frame Blocks: 18
@@ -588,7 +588,7 @@
 * Frame Block ID: 0x23, X: 120, Y:  56, Mode: 2
 * Frame Block ID: 0x24, X: 136, Y:  64, Mode: 0
 * Frame Block ID: 0x24, X: 136, Y:  64, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[31.gif]]
 * Subanimation 0x31, Type: 1, Num. Frame Blocks: 10
@@ -603,7 +603,7 @@
 * Frame Block ID: 0x2F, X:  92, Y:  56, Mode: 0
 * Frame Block ID: 0x2F, X:  96, Y:  48, Mode: 0
 * Frame Block ID: 0x2F, X: 100, Y:  48, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[32\_0.gif]]
 * Tileset 1 
@@ -614,7 +614,7 @@
 * Frame Block ID: 0x47, X:  48, Y:  64, Mode: 0
 * Frame Block ID: 0x47, X:  56, Y:  56, Mode: 0
 * Frame Block ID: 0x47, X:  64, Y:  48, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[33.gif]]
 * Subanimation 0x33, Type: 1, Num. Frame Blocks:  6
@@ -625,7 +625,7 @@
 * Frame Block ID: 0x34, X:  72, Y:  56, Mode: 0
 * Frame Block ID: 0x58, X:  72, Y:  56, Mode: 0
 * Frame Block ID: 0x34, X:  72, Y:  56, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[34.gif]]
 * Subanimation 0x34, Type: 1, Num. Frame Blocks: 21
@@ -651,7 +651,7 @@
 * Frame Block ID: 0x48, X:  32, Y:  72, Mode: 0
 * Frame Block ID: 0x49, X:  32, Y:  72, Mode: 0
 * Frame Block ID: 0x5A, X:  32, Y:  72, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[35.gif]]
 * Subanimation 0x35, Type: 1, Num. Frame Blocks:  4
@@ -660,7 +660,7 @@
 * Frame Block ID: 0x5C, X:  80, Y:  56, Mode: 3
 * Frame Block ID: 0x5D, X: 100, Y:  40, Mode: 3
 * Frame Block ID: 0x5E, X: 120, Y:  24, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[36.gif]]
 * Subanimation 0x36, Type: 2, Num. Frame Blocks:  8
@@ -673,7 +673,7 @@
 * Frame Block ID: 0x61, X: 104, Y:  16, Mode: 0
 * Frame Block ID: 0x62, X:  96, Y:  16, Mode: 0
 * Frame Block ID: 0x62, X: 104, Y:  16, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[37.gif]]
 * Subanimation 0x37, Type: 1, Num. Frame Blocks: 10
@@ -688,7 +688,7 @@
 * Frame Block ID: 0x65, X: 120, Y:  40, Mode: 0
 * Frame Block ID: 0x65, X: 112, Y:  44, Mode: 0
 * Frame Block ID: 0x65, X: 104, Y:  48, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[38.gif]]
 * Subanimation 0x38, Type: 2, Num. Frame Blocks: 16
@@ -709,7 +709,7 @@
 * Frame Block ID: 0x66, X: 136, Y:  32, Mode: 4
 * Frame Block ID: 0x66, X: 144, Y:  48, Mode: 4
 * Frame Block ID: 0x67, X: 152, Y:  64, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[39\_0.gif]]
 * Tileset 1 
@@ -718,7 +718,7 @@
 * Subanimation 0x39, Type: 3, Num. Frame Blocks:  1
 * Used By: None
 * Frame Block ID: 0x47, X:  36, Y:  76, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[3A.gif]]
 * Subanimation 0x3A, Type: 3, Num. Frame Blocks:  3
@@ -726,7 +726,7 @@
 * Frame Block ID: 0x53, X:  48, Y:  56, Mode: 0
 * Frame Block ID: 0x53, X:  40, Y:  56, Mode: 0
 * Frame Block ID: 0x53, X:  32, Y:  64, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[3B.gif]]
 * Subanimation 0x3B, Type: 0, Num. Frame Blocks:  3
@@ -734,7 +734,7 @@
 * Frame Block ID: 0x53, X: 112, Y:  16, Mode: 0
 * Frame Block ID: 0x53, X: 104, Y:  40, Mode: 0
 * Frame Block ID: 0x53, X:  96, Y:  32, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[3C\_0.gif]]
 * Tileset 1 
@@ -749,7 +749,7 @@
 * Frame Block ID: 0x59, X:  75, Y:  72, Mode: 3
 * Frame Block ID: 0x59, X:  77, Y: 104, Mode: 3
 * Frame Block ID: 0x59, X:  72, Y:  56, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[3D\_0.gif]]
 * Tileset 1 
@@ -765,7 +765,7 @@
 * Frame Block ID: 0x3F, X:  80, Y:  64, Mode: 0
 * Frame Block ID: 0x3E, X:  80, Y:  64, Mode: 0
 * Frame Block ID: 0x3F, X:  80, Y:  64, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[3E.gif]]
 * Subanimation 0x3E, Type: 4, Num. Frame Blocks: 18
@@ -788,7 +788,7 @@
 * Frame Block ID: 0x02, X: 120, Y:  32, Mode: 0
 * Frame Block ID: 0x34, X: 120, Y:  32, Mode: 0
 * Frame Block ID: 0x02, X: 120, Y:  32, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[3F.gif]]
 * Subanimation 0x3F, Type: 3, Num. Frame Blocks: 18
@@ -811,7 +811,7 @@
 * Frame Block ID: 0x68, X: 120, Y:  64, Mode: 0
 * Frame Block ID: 0x68, X: 136, Y:  56, Mode: 0
 * Frame Block ID: 0x68, X: 152, Y:  48, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[40.gif]]
 * Subanimation 0x40, Type: 2, Num. Frame Blocks:  6
@@ -822,7 +822,7 @@
 * Frame Block ID: 0x17, X: 112, Y:  28, Mode: 0
 * Frame Block ID: 0x17, X: 136, Y:  28, Mode: 0
 * Frame Block ID: 0x17, X: 144, Y:  32, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[41.gif]]
 * Subanimation 0x41, Type: 4, Num. Frame Blocks:  5
@@ -832,7 +832,7 @@
 * Frame Block ID: 0x03, X:  88, Y:  40, Mode: 0
 * Frame Block ID: 0x03, X: 104, Y:  32, Mode: 0
 * Frame Block ID: 0x03, X: 120, Y:  32, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[42.gif]]
 * Subanimation 0x42, Type: 2, Num. Frame Blocks:  3
@@ -840,7 +840,7 @@
 * Frame Block ID: 0x48, X: 112, Y:  24, Mode: 0
 * Frame Block ID: 0x49, X: 112, Y:  24, Mode: 0
 * Frame Block ID: 0x5A, X: 112, Y:  24, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[43\_0.gif]]
 * Tileset 1 
@@ -850,7 +850,7 @@
 * Frame Block ID: 0x6A, X: 104, Y:  24, Mode: 0
 * Frame Block ID: 0x6B, X: 112, Y:  32, Mode: 0
 * Frame Block ID: 0x6C, X: 120, Y:  40, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[44.gif]]
 * Subanimation 0x44, Type: 1, Num. Frame Blocks: 12
@@ -867,7 +867,7 @@
 * Frame Block ID: 0x69, X: 120, Y:  32, Mode: 0
 * Frame Block ID: 0x69, X: 136, Y:  24, Mode: 0
 * Frame Block ID: 0x69, X: 152, Y:  16, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[45.gif]]
 * Subanimation 0x45, Type: 1, Num. Frame Blocks:  4
@@ -876,7 +876,7 @@
 * Frame Block ID: 0x6D, X:  80, Y:  56, Mode: 0
 * Frame Block ID: 0x6D, X:  72, Y:  68, Mode: 0
 * Frame Block ID: 0x6D, X:  88, Y:  64, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[46.gif]]
 * Subanimation 0x46, Type: 1, Num. Frame Blocks:  6
@@ -887,7 +887,7 @@
 * Frame Block ID: 0x6D, X:  88, Y:  64, Mode: 0
 * Frame Block ID: 0x6D, X:  40, Y:  52, Mode: 0
 * Frame Block ID: 0x6D, X:  56, Y:  48, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[47.gif]]
 * Subanimation 0x47, Type: 1, Num. Frame Blocks:  3
@@ -895,7 +895,7 @@
 * Frame Block ID: 0x06, X:  32, Y:  72, Mode: 0
 * Frame Block ID: 0x07, X:  32, Y:  72, Mode: 0
 * Frame Block ID: 0x08, X:  28, Y:  68, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[48.gif]]
 * Subanimation 0x48, Type: 0, Num. Frame Blocks:  6
@@ -906,7 +906,7 @@
 * Frame Block ID: 0x03, X:  80, Y:  80, Mode: 4
 * Frame Block ID: 0x05, X:  80, Y:  80, Mode: 4
 * Frame Block ID: 0x03, X:  80, Y:  80, Mode: 3
-
+<hr>
 * Tileset 0 
 * [[49.gif]]
 * Subanimation 0x49, Type: 0, Num. Frame Blocks:  4
@@ -915,13 +915,13 @@
 * Frame Block ID: 0x03, X:  80, Y:  80, Mode: 4
 * Frame Block ID: 0x05, X:  80, Y:  80, Mode: 4
 * Frame Block ID: 0x03, X:  80, Y:  80, Mode: 3
-
+<hr>
 * Tileset 0 
 * [[4A.gif]]
 * Subanimation 0x4A, Type: 0, Num. Frame Blocks:  1
 * Used By: UNKNOWN\_AC 
 * Frame Block ID: 0x04, X:  80, Y:  56, Mode: 3
-
+<hr>
 * Tileset 0 
 * [[4B.gif]]
 * Subanimation 0x4B, Type: 0, Num. Frame Blocks:  3
@@ -929,7 +929,7 @@
 * Frame Block ID: 0x06, X:  72, Y:  64, Mode: 0
 * Frame Block ID: 0x07, X:  72, Y:  64, Mode: 0
 * Frame Block ID: 0x08, X:  72, Y:  64, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[4C.gif]]
 * Subanimation 0x4C, Type: 3, Num. Frame Blocks:  8
@@ -942,7 +942,7 @@
 * Frame Block ID: 0x6E, X:  40, Y:  88, Mode: 0
 * Frame Block ID: 0x70, X:  40, Y:  88, Mode: 0
 * Frame Block ID: 0x6E, X:  40, Y:  88, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[4D.gif]]
 * Subanimation 0x4D, Type: 1, Num. Frame Blocks:  6
@@ -953,13 +953,13 @@
 * Frame Block ID: 0x33, X: 112, Y:  40, Mode: 0
 * Frame Block ID: 0x32, X: 136, Y:  40, Mode: 0
 * Frame Block ID: 0x33, X: 152, Y:  24, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[4E.gif]]
 * Subanimation 0x4E, Type: 2, Num. Frame Blocks:  1
 * Used By: SEISMIC\_TOSS 
 * Frame Block ID: 0x71, X: 112, Y:  32, Mode: 3
-
+<hr>
 * Tileset 1 
 * [[4F.gif]]
 * Subanimation 0x4F, Type: 2, Num. Frame Blocks:  7
@@ -971,7 +971,7 @@
 * Frame Block ID: 0x72, X: 112, Y:   8, Mode: 0
 * Frame Block ID: 0x73, X: 112, Y:   8, Mode: 0
 * Frame Block ID: 0x74, X: 112, Y:   8, Mode: 0
-
+<hr>
 * Tileset 1 
 * [[50.gif]]
 * Subanimation 0x50, Type: 2, Num. Frame Blocks:  8
@@ -984,7 +984,7 @@
 * Frame Block ID: 0x71, X: 112, Y:  24, Mode: 0
 * Frame Block ID: 0x71, X: 112, Y:  32, Mode: 0
 * Frame Block ID: 0x71, X: 112, Y:  40, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[51.gif]]
 * Subanimation 0x51, Type: 5, Num. Frame Blocks:  6
@@ -995,7 +995,7 @@
 * Frame Block ID: 0x34, X: 112, Y:  48, Mode: 0
 * Frame Block ID: 0x76, X: 112, Y:  48, Mode: 0
 * Frame Block ID: 0x34, X: 112, Y:  48, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[52.gif]]
 * Subanimation 0x52, Type: 2, Num. Frame Blocks:  7
@@ -1007,7 +1007,7 @@
 * Frame Block ID: 0x77, X:  96, Y:  64, Mode: 0
 * Frame Block ID: 0x77, X:  92, Y:  56, Mode: 0
 * Frame Block ID: 0x77, X:  88, Y:  64, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[53.gif]]
 * Subanimation 0x53, Type: 0, Num. Frame Blocks: 12
@@ -1024,7 +1024,7 @@
 * Frame Block ID: 0x78, X: 112, Y:  41, Mode: 0
 * Frame Block ID: 0x78, X: 120, Y:  50, Mode: 0
 * Frame Block ID: 0x01, X: 116, Y:  46, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[54.gif]]
 * Subanimation 0x54, Type: 0, Num. Frame Blocks: 11
@@ -1040,7 +1040,7 @@
 * Frame Block ID: 0x79, X: 104, Y:  32, Mode: 0
 * Frame Block ID: 0x79, X: 112, Y:  41, Mode: 0
 * Frame Block ID: 0x79, X: 120, Y:  50, Mode: 0
-
+<hr>
 * Tileset 0 
 * [[55.gif]]
 * Subanimation 0x55, Type: 2, Num. Frame Blocks:  1
