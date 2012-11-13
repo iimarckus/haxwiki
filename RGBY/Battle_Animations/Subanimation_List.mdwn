@@ -1,0 +1,1220 @@
+Tileset 0 \\
+{{subanim_gifs/00.gif|00}} \\
+{{{
+Subanimation 0x00, Type: 2, Num. Frame Blocks:  1
+Used By: POISON_STING 
+Frame Block ID: 0x01, X: 120, Y:  40, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/01.gif|01}} \\
+{{{
+Subanimation 0x01, Type: 2, Num. Frame Blocks:  2
+Used By: POUND DOUBLESLAP PAY_DAY VINE_WHIP DOUBLE_KICK TWINEEDLE PIN_MISSILE PECK SUBMISSION SOLARBEAM RAGE MIRROR_MOVE KINESIS STRUGGLE 
+Frame Block ID: 0x01, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x01, X: 128, Y:  48, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/02.gif|02}} \\
+{{{
+Subanimation 0x02, Type: 2, Num. Frame Blocks:  3
+Used By: COMET_PUNCH FIRE_PUNCH ICE_PUNCH THUNDERPUNCH GUST SLAM BITE BONE_CLUB WATERFALL DREAM_EATER LEECH_LIFE DIZZY_PUNCH BONEMERANG HYPER_FANG 
+Frame Block ID: 0x01, X: 136, Y:  32, Mode: 0
+Frame Block ID: 0x01, X: 104, Y:  40, Mode: 0
+Frame Block ID: 0x01, X: 120, Y:  48, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/03.gif|03}} \\
+{{{
+Subanimation 0x03, Type: 2, Num. Frame Blocks:  4
+Used By: KARATE_CHOP 
+Frame Block ID: 0x01, X: 128, Y:  24, Mode: 0
+Frame Block ID: 0x01, X: 128, Y:  32, Mode: 0
+Frame Block ID: 0x01, X: 128, Y:  40, Mode: 0
+Frame Block ID: 0x01, X: 128, Y:  48, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/04.gif|04}} \\
+{{{
+Subanimation 0x04, Type: 2, Num. Frame Blocks:  3
+Used By: MEGA_PUNCH WING_ATTACK FLY MEGA_KICK JUMP_KICK ROLLING_KICK THRASH HYPER_BEAM DRILL_PECK LOW_KICK COUNTER STRENGTH DIG QUICK_ATTACK BIDE SPIKE_CANNON HI_JUMP_KICK SKY_ATTACK ROCK_SLIDE SUPER_FANG 
+Frame Block ID: 0x02, X: 104, Y:  48, Mode: 0
+Frame Block ID: 0x02, X: 120, Y:  32, Mode: 0
+Frame Block ID: 0x02, X: 128, Y:  16, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/05.gif|05}} \\
+{{{
+Subanimation 0x05, Type: 2, Num. Frame Blocks:  1
+Used By: STOMP HEADBUTT HORN_ATTACK HORN_DRILL SONICBOOM SKULL_BASH CRABHAMMER 
+Frame Block ID: 0x02, X: 120, Y:  32, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/06.gif|06}} \\
+{{{
+Subanimation 0x06, Type: 0, Num. Frame Blocks: 11
+Used By: TOSS_ANIM 
+Frame Block ID: 0x03, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x03, X:  48, Y:  76, Mode: 0
+Frame Block ID: 0x03, X:  56, Y:  64, Mode: 0
+Frame Block ID: 0x03, X:  64, Y:  56, Mode: 0
+Frame Block ID: 0x03, X:  72, Y:  48, Mode: 0
+Frame Block ID: 0x03, X:  80, Y:  40, Mode: 0
+Frame Block ID: 0x03, X:  88, Y:  32, Mode: 0
+Frame Block ID: 0x03, X:  96, Y:  30, Mode: 0
+Frame Block ID: 0x03, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x03, X: 112, Y:  41, Mode: 0
+Frame Block ID: 0x03, X: 120, Y:  50, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/07.gif|07}} \\
+{{{
+Subanimation 0x07, Type: 0, Num. Frame Blocks: 11
+Used By: GREATTOSS_ANIM 
+Frame Block ID: 0x03, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x03, X:  48, Y:  76, Mode: 0
+Frame Block ID: 0x03, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x03, X:  64, Y:  59, Mode: 0
+Frame Block ID: 0x03, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x03, X:  80, Y:  45, Mode: 0
+Frame Block ID: 0x03, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x03, X:  96, Y:  38, Mode: 0
+Frame Block ID: 0x03, X: 104, Y:  40, Mode: 0
+Frame Block ID: 0x03, X: 112, Y:  45, Mode: 0
+Frame Block ID: 0x03, X: 120, Y:  50, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/08.gif|08}} \\
+{{{
+Subanimation 0x08, Type: 0, Num. Frame Blocks: 11
+Used By: ULTRATOSS_ANIM 
+Frame Block ID: 0x03, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x03, X:  48, Y:  80, Mode: 0
+Frame Block ID: 0x03, X:  56, Y:  72, Mode: 0
+Frame Block ID: 0x03, X:  64, Y:  64, Mode: 0
+Frame Block ID: 0x03, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x03, X:  80, Y:  52, Mode: 0
+Frame Block ID: 0x03, X:  88, Y:  48, Mode: 0
+Frame Block ID: 0x03, X:  96, Y:  47, Mode: 0
+Frame Block ID: 0x03, X: 104, Y:  48, Mode: 0
+Frame Block ID: 0x03, X: 112, Y:  49, Mode: 0
+Frame Block ID: 0x03, X: 120, Y:  50, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/09.gif|09}} \\
+{{{
+Subanimation 0x09, Type: 0, Num. Frame Blocks:  4
+Used By: UNKNOWN_C2 
+Frame Block ID: 0x03, X: 120, Y:  56, Mode: 4
+Frame Block ID: 0x04, X: 120, Y:  56, Mode: 4
+Frame Block ID: 0x03, X: 120, Y:  56, Mode: 4
+Frame Block ID: 0x05, X: 120, Y:  56, Mode: 4
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/0A.gif|0A}} \\
+{{{
+Subanimation 0x0A, Type: 2, Num. Frame Blocks:  6
+Used By: SMOKESCREEN POOF_ANIM 
+Frame Block ID: 0x06, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x07, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x08, X: 108, Y:  44, Mode: 0
+Frame Block ID: 0x09, X: 108, Y:  44, Mode: 0
+Frame Block ID: 0x0A, X: 104, Y:  40, Mode: 0
+Frame Block ID: 0x0A, X: 104, Y:  40, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/0B.gif|0B}} \\
+{{{
+Subanimation 0x0B, Type: 0, Num. Frame Blocks:  4
+Used By: BLOCKBALL_ANIM 
+Frame Block ID: 0x01, X:  96, Y:  40, Mode: 0
+Frame Block ID: 0x03, X:  96, Y:  64, Mode: 0
+Frame Block ID: 0x03, X:  88, Y:  88, Mode: 0
+Frame Block ID: 0x03, X:  80, Y:  64, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/0C.gif|0C}} \\
+{{{
+Subanimation 0x0C, Type: 2, Num. Frame Blocks:  3
+Used By: FLAMETHROWER DRAGON_RAGE FIRE_SPIN FIRE_BLAST 
+Frame Block ID: 0x0C, X: 104, Y:  56, Mode: 0
+Frame Block ID: 0x0C, X: 120, Y:  56, Mode: 0
+Frame Block ID: 0x0C, X: 136, Y:  56, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/0D.gif|0D}} \\
+{{{
+Subanimation 0x0D, Type: 2, Num. Frame Blocks:  6
+Used By: FLAMETHROWER DRAGON_RAGE FIRE_SPIN FIRE_BLAST 
+Frame Block ID: 0x0C, X: 104, Y:  56, Mode: 2
+Frame Block ID: 0x0C, X: 104, Y:  40, Mode: 0
+Frame Block ID: 0x0C, X: 120, Y:  56, Mode: 2
+Frame Block ID: 0x0C, X: 120, Y:  40, Mode: 0
+Frame Block ID: 0x0C, X: 136, Y:  56, Mode: 2
+Frame Block ID: 0x0C, X: 136, Y:  40, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/0E.gif|0E}} \\
+{{{
+Subanimation 0x0E, Type: 2, Num. Frame Blocks:  9
+Used By: DRAGON_RAGE FIRE_SPIN 
+Frame Block ID: 0x0C, X: 104, Y:  56, Mode: 2
+Frame Block ID: 0x0C, X: 104, Y:  40, Mode: 2
+Frame Block ID: 0x0C, X: 104, Y:  24, Mode: 0
+Frame Block ID: 0x0C, X: 120, Y:  56, Mode: 2
+Frame Block ID: 0x0C, X: 120, Y:  40, Mode: 2
+Frame Block ID: 0x0C, X: 120, Y:  24, Mode: 0
+Frame Block ID: 0x0C, X: 136, Y:  56, Mode: 2
+Frame Block ID: 0x0C, X: 136, Y:  40, Mode: 2
+Frame Block ID: 0x0C, X: 136, Y:  24, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/0F.gif|0F}} \\
+{{{
+Subanimation 0x0F, Type: 2, Num. Frame Blocks: 12
+Used By: SCRATCH FURY_SWIPES SLASH 
+Frame Block ID: 0x26, X: 104, Y:  32, Mode: 2
+Frame Block ID: 0x26, X: 112, Y:  40, Mode: 2
+Frame Block ID: 0x26, X: 120, Y:  48, Mode: 0
+Frame Block ID: 0x27, X: 104, Y:  32, Mode: 2
+Frame Block ID: 0x27, X: 112, Y:  40, Mode: 2
+Frame Block ID: 0x27, X: 120, Y:  48, Mode: 0
+Frame Block ID: 0x28, X: 104, Y:  32, Mode: 2
+Frame Block ID: 0x28, X: 112, Y:  40, Mode: 2
+Frame Block ID: 0x28, X: 120, Y:  48, Mode: 0
+Frame Block ID: 0x29, X: 104, Y:  32, Mode: 2
+Frame Block ID: 0x29, X: 112, Y:  40, Mode: 2
+Frame Block ID: 0x29, X: 120, Y:  48, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/10.gif|10}} \\
+{{{
+Subanimation 0x10, Type: 4, Num. Frame Blocks:  8
+Used By: GUST WHIRLWIND SONICBOOM 
+Frame Block ID: 0x2D, X:  48, Y:  80, Mode: 0
+Frame Block ID: 0x2E, X:  56, Y:  80, Mode: 0
+Frame Block ID: 0x2D, X:  64, Y:  80, Mode: 0
+Frame Block ID: 0x2E, X:  72, Y:  80, Mode: 0
+Frame Block ID: 0x2D, X:  80, Y:  80, Mode: 0
+Frame Block ID: 0x2E, X:  88, Y:  72, Mode: 0
+Frame Block ID: 0x2D, X:  96, Y:  64, Mode: 0
+Frame Block ID: 0x2E, X: 104, Y:  48, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/11.gif|11}} \\
+{{{
+Subanimation 0x11, Type: 2, Num. Frame Blocks: 12
+Used By: FIRE_PUNCH EMBER 
+Frame Block ID: 0x0B, X: 120, Y:  64, Mode: 0
+Frame Block ID: 0x0C, X: 120, Y:  64, Mode: 0
+Frame Block ID: 0x0B, X: 120, Y:  64, Mode: 0
+Frame Block ID: 0x0C, X: 120, Y:  64, Mode: 0
+Frame Block ID: 0x0B, X: 136, Y:  64, Mode: 0
+Frame Block ID: 0x0C, X: 136, Y:  64, Mode: 0
+Frame Block ID: 0x0B, X: 136, Y:  64, Mode: 0
+Frame Block ID: 0x0C, X: 136, Y:  64, Mode: 0
+Frame Block ID: 0x0B, X: 128, Y:  64, Mode: 0
+Frame Block ID: 0x0C, X: 128, Y:  64, Mode: 0
+Frame Block ID: 0x0B, X: 128, Y:  64, Mode: 0
+Frame Block ID: 0x0C, X: 128, Y:  64, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/12_0.gif|12_0}} \\
+Tileset 1 \\
+{{subanim_gifs/12_1.gif|12_1}} \\
+{{{
+Subanimation 0x12, Type: 3, Num. Frame Blocks:  9
+Used By: GROWL SING SCREECH LOVELY_KISS 
+Frame Block ID: 0x17, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x17, X:  54, Y:  66, Mode: 0
+Frame Block ID: 0x17, X:  68, Y:  56, Mode: 0
+Frame Block ID: 0x17, X:  82, Y:  64, Mode: 0
+Frame Block ID: 0x17, X:  96, Y:  72, Mode: 0
+Frame Block ID: 0x17, X: 110, Y:  62, Mode: 0
+Frame Block ID: 0x17, X: 124, Y:  40, Mode: 0
+Frame Block ID: 0x17, X: 138, Y:  40, Mode: 0
+Frame Block ID: 0x17, X: 152, Y:  48, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/13.gif|13}} \\
+{{{
+Subanimation 0x13, Type: 4, Num. Frame Blocks:  6
+Used By: ACID SLUDGE 
+Frame Block ID: 0x30, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x30, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x30, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x30, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x30, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x30, X: 120, Y:  32, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/14.gif|14}} \\
+{{{
+Subanimation 0x14, Type: 2, Num. Frame Blocks:  9
+Used By: ACID TOXIC LICK SLUDGE 
+Frame Block ID: 0x30, X: 120, Y:  32, Mode: 0
+Frame Block ID: 0x30, X: 120, Y:  32, Mode: 3
+Frame Block ID: 0x31, X: 120, Y:  48, Mode: 4
+Frame Block ID: 0x31, X: 120, Y:  56, Mode: 4
+Frame Block ID: 0x31, X: 120, Y:  64, Mode: 0
+Frame Block ID: 0x30, X: 120, Y:  32, Mode: 2
+Frame Block ID: 0x31, X: 128, Y:  48, Mode: 4
+Frame Block ID: 0x31, X: 128, Y:  56, Mode: 4
+Frame Block ID: 0x31, X: 128, Y:  64, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/15.gif|15}} \\
+{{{
+Subanimation 0x15, Type: 1, Num. Frame Blocks:  2
+Used By: ROAR SONICBOOM 
+Frame Block ID: 0x35, X:  64, Y:  72, Mode: 0
+Frame Block ID: 0x35, X:  57, Y:  72, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/16.gif|16}} \\
+{{{
+Subanimation 0x16, Type: 2, Num. Frame Blocks: 12
+Used By: RAZOR_WIND CUT VINE_WHIP RAZOR_LEAF 
+Frame Block ID: 0x2A, X: 144, Y:  16, Mode: 0
+Frame Block ID: 0x2B, X: 144, Y:  16, Mode: 2
+Frame Block ID: 0x2B, X: 136, Y:  24, Mode: 2
+Frame Block ID: 0x2A, X: 128, Y:  32, Mode: 4
+Frame Block ID: 0x2B, X: 128, Y:  32, Mode: 2
+Frame Block ID: 0x2B, X: 120, Y:  40, Mode: 2
+Frame Block ID: 0x2A, X: 112, Y:  48, Mode: 4
+Frame Block ID: 0x2B, X: 112, Y:  48, Mode: 2
+Frame Block ID: 0x2B, X: 104, Y:  56, Mode: 2
+Frame Block ID: 0x2A, X:  96, Y:  64, Mode: 4
+Frame Block ID: 0x2C, X: 104, Y:  16, Mode: 2
+Frame Block ID: 0x2C, X: 104, Y:  16, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/17.gif|17}} \\
+{{{
+Subanimation 0x17, Type: 2, Num. Frame Blocks:  4
+Used By: DIZZY_PUNCH 
+Frame Block ID: 0x36, X: 136, Y:  36, Mode: 0
+Frame Block ID: 0x36, X: 112, Y:  36, Mode: 0
+Frame Block ID: 0x37, X: 112, Y:  28, Mode: 0
+Frame Block ID: 0x37, X: 136, Y:  28, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/18.gif|18}} \\
+{{{
+Subanimation 0x18, Type: 5, Num. Frame Blocks:  4
+Used By: SWORDS_DANCE 
+Frame Block ID: 0x36, X: 136, Y:  36, Mode: 0
+Frame Block ID: 0x36, X: 112, Y:  36, Mode: 0
+Frame Block ID: 0x37, X: 112, Y:  28, Mode: 0
+Frame Block ID: 0x37, X: 136, Y:  28, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/19.gif|19}} \\
+{{{
+Subanimation 0x19, Type: 4, Num. Frame Blocks: 12
+Used By: SMOG POISON_GAS 
+Frame Block ID: 0x38, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x39, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x38, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x39, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x38, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x39, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x38, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x39, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x38, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x39, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x38, X: 120, Y:  32, Mode: 0
+Frame Block ID: 0x39, X: 120, Y:  32, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/1A.gif|1A}} \\
+{{{
+Subanimation 0x1A, Type: 2, Num. Frame Blocks: 16
+Used By: HYDRO_PUMP SURF WATERFALL 
+Frame Block ID: 0x3A, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x3B, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x3C, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x3D, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x3E, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x3F, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x3E, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x3F, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x3A, X: 128, Y:  24, Mode: 0
+Frame Block ID: 0x3B, X: 128, Y:  24, Mode: 0
+Frame Block ID: 0x3C, X: 128, Y:  24, Mode: 0
+Frame Block ID: 0x3D, X: 128, Y:  24, Mode: 0
+Frame Block ID: 0x3E, X: 128, Y:  24, Mode: 0
+Frame Block ID: 0x3F, X: 128, Y:  24, Mode: 0
+Frame Block ID: 0x3E, X: 128, Y:  24, Mode: 0
+Frame Block ID: 0x3F, X: 128, Y:  24, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/1B.gif|1B}} \\
+{{{
+Subanimation 0x1B, Type: 4, Num. Frame Blocks:  4
+Used By: LEECH_SEED 
+Frame Block ID: 0x40, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x40, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x40, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x40, X: 104, Y:  40, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/1C.gif|1C}} \\
+{{{
+Subanimation 0x1C, Type: 2, Num. Frame Blocks:  3
+Used By: LEECH_SEED 
+Frame Block ID: 0x41, X: 104, Y:  52, Mode: 0
+Frame Block ID: 0x41, X: 136, Y:  52, Mode: 0
+Frame Block ID: 0x41, X: 120, Y:  56, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/1D.gif|1D}} \\
+{{{
+Subanimation 0x1D, Type: 5, Num. Frame Blocks: 15
+Used By: ROCK_SLIDE 
+Frame Block ID: 0x24, X: 112, Y:  56, Mode: 0
+Frame Block ID: 0x23, X: 112, Y:  48, Mode: 2
+Frame Block ID: 0x24, X: 128, Y:  56, Mode: 0
+Frame Block ID: 0x23, X: 112, Y:  40, Mode: 2
+Frame Block ID: 0x23, X: 128, Y:  48, Mode: 2
+Frame Block ID: 0x24, X:  96, Y:  56, Mode: 0
+Frame Block ID: 0x25, X:  96, Y:  32, Mode: 4
+Frame Block ID: 0x25, X:  96, Y:  16, Mode: 4
+Frame Block ID: 0x25, X:  96, Y:   8, Mode: 4
+Frame Block ID: 0x25, X:  96, Y:  11, Mode: 4
+Frame Block ID: 0x25, X:  96, Y:   8, Mode: 4
+Frame Block ID: 0x25, X:  96, Y:  11, Mode: 4
+Frame Block ID: 0x25, X:  96, Y:   8, Mode: 4
+Frame Block ID: 0x25, X:  96, Y:  11, Mode: 4
+Frame Block ID: 0x25, X:  96, Y:   8, Mode: 3
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/1E.gif|1E}} \\
+{{{
+Subanimation 0x1E, Type: 0, Num. Frame Blocks:  1
+Used By: ROCK_SLIDE 
+Frame Block ID: 0x25, X:  64, Y:  48, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/1F.gif|1F}} \\
+{{{
+Subanimation 0x1F, Type: 4, Num. Frame Blocks:  5
+Used By: FLAMETHROWER DRAGON_RAGE FIRE_BLAST 
+Frame Block ID: 0x0C, X:  40, Y:  88, Mode: 3
+Frame Block ID: 0x0C, X:  60, Y:  80, Mode: 3
+Frame Block ID: 0x0C, X:  80, Y:  72, Mode: 3
+Frame Block ID: 0x0C, X: 100, Y:  64, Mode: 3
+Frame Block ID: 0x0C, X: 120, Y:  56, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/20.gif|20}} \\
+{{{
+Subanimation 0x20, Type: 2, Num. Frame Blocks:  2
+Used By: FIRE_BLAST 
+Frame Block ID: 0x42, X: 104, Y:  24, Mode: 0
+Frame Block ID: 0x43, X: 104, Y:  24, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/21_0.gif|21_0}} \\
+Tileset 1 \\
+{{subanim_gifs/21_1.gif|21_1}} \\
+{{{
+Subanimation 0x21, Type: 2, Num. Frame Blocks:  3
+Used By: ABSORB MEGA_DRAIN MIMIC LEECH_LIFE TRANSFORM CONVERSION 
+Frame Block ID: 0x44, X: 104, Y:  16, Mode: 0
+Frame Block ID: 0x45, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x46, X: 120, Y:  32, Mode: 2
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/22_0.gif|22_0}} \\
+Tileset 1 \\
+{{subanim_gifs/22_1.gif|22_1}} \\
+{{{
+Subanimation 0x22, Type: 4, Num. Frame Blocks: 11
+Used By: ABSORB MEGA_DRAIN MIMIC LEECH_LIFE TRANSFORM CONVERSION 
+Frame Block ID: 0x47, X: 120, Y:  32, Mode: 0
+Frame Block ID: 0x47, X: 112, Y:  28, Mode: 0
+Frame Block ID: 0x47, X: 104, Y:  24, Mode: 0
+Frame Block ID: 0x47, X:  96, Y:  22, Mode: 0
+Frame Block ID: 0x47, X:  88, Y:  20, Mode: 0
+Frame Block ID: 0x47, X:  84, Y:  18, Mode: 0
+Frame Block ID: 0x47, X:  80, Y:  20, Mode: 0
+Frame Block ID: 0x47, X:  76, Y:  24, Mode: 0
+Frame Block ID: 0x47, X:  72, Y:  28, Mode: 0
+Frame Block ID: 0x47, X:  56, Y:  48, Mode: 0
+Frame Block ID: 0x47, X:  40, Y:  72, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/23.gif|23}} \\
+{{{
+Subanimation 0x23, Type: 2, Num. Frame Blocks:  2
+Used By: BIND WRAP THUNDER_WAVE CLAMP CONSTRICT 
+Frame Block ID: 0x51, X:  96, Y:  40, Mode: 0
+Frame Block ID: 0x51, X:  98, Y:  40, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/24.gif|24}} \\
+{{{
+Subanimation 0x24, Type: 5, Num. Frame Blocks:  2
+Used By: UNKNOWN_B8 UNKNOWN_B9 
+Frame Block ID: 0x51, X:  96, Y:  40, Mode: 0
+Frame Block ID: 0x51, X:  98, Y:  40, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/25.gif|25}} \\
+{{{
+Subanimation 0x25, Type: 3, Num. Frame Blocks:  2
+Used By: AMNESIA UNKNOWN_BE 
+Frame Block ID: 0x52, X:  48, Y:  56, Mode: 0
+Frame Block ID: 0x52, X:  72, Y:  64, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/26.gif|26}} \\
+{{{
+Subanimation 0x26, Type: 0, Num. Frame Blocks:  2
+Used By: CONF_ANIM 
+Frame Block ID: 0x52, X: 112, Y:  16, Mode: 0
+Frame Block ID: 0x52, X:  96, Y:  32, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/27.gif|27}} \\
+{{{
+Subanimation 0x27, Type: 5, Num. Frame Blocks:  2
+Used By: UNKNOWN_BA UNKNOWN_BB 
+Frame Block ID: 0x54, X: 112, Y:  16, Mode: 0
+Frame Block ID: 0x54, X:  96, Y:  32, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/28.gif|28}} \\
+{{{
+Subanimation 0x28, Type: 1, Num. Frame Blocks:  3
+Used By: SAND_ATTACK SMOKESCREEN 
+Frame Block ID: 0x55, X:  72, Y:  48, Mode: 3
+Frame Block ID: 0x56, X:  72, Y:  48, Mode: 3
+Frame Block ID: 0x57, X:  72, Y:  48, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/29.gif|29}} \\
+{{{
+Subanimation 0x29, Type: 2, Num. Frame Blocks: 29
+Used By: THUNDERSHOCK THUNDERBOLT THUNDER_WAVE THUNDER 
+Frame Block ID: 0x48, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x4A, X:  98, Y:  16, Mode: 3
+Frame Block ID: 0x4B, X:  96, Y:  16, Mode: 3
+Frame Block ID: 0x49, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x4A, X:  98, Y:  16, Mode: 3
+Frame Block ID: 0x4B, X:  96, Y:  16, Mode: 0
+Frame Block ID: 0x4C, X:  96, Y:  18, Mode: 3
+Frame Block ID: 0x4D, X:  98, Y:  18, Mode: 3
+Frame Block ID: 0x49, X: 114, Y:  32, Mode: 0
+Frame Block ID: 0x4C, X:  96, Y:  18, Mode: 3
+Frame Block ID: 0x4D, X:  98, Y:  18, Mode: 0
+Frame Block ID: 0x4A, X:  98, Y:  16, Mode: 3
+Frame Block ID: 0x4B, X:  96, Y:  16, Mode: 3
+Frame Block ID: 0x49, X: 114, Y:  34, Mode: 0
+Frame Block ID: 0x4A, X:  98, Y:  16, Mode: 3
+Frame Block ID: 0x4B, X:  96, Y:  16, Mode: 0
+Frame Block ID: 0x4C, X:  96, Y:  18, Mode: 3
+Frame Block ID: 0x4D, X:  98, Y:  18, Mode: 3
+Frame Block ID: 0x49, X: 112, Y:  34, Mode: 0
+Frame Block ID: 0x4C, X:  96, Y:  18, Mode: 3
+Frame Block ID: 0x4D, X:  96, Y:  16, Mode: 0
+Frame Block ID: 0x4A, X:  98, Y:  16, Mode: 3
+Frame Block ID: 0x4B, X:  96, Y:  16, Mode: 3
+Frame Block ID: 0x49, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x4A, X:  98, Y:  16, Mode: 3
+Frame Block ID: 0x4B, X:  96, Y:  16, Mode: 0
+Frame Block ID: 0x4C, X:  96, Y:  18, Mode: 3
+Frame Block ID: 0x4D, X:  96, Y:  16, Mode: 3
+Frame Block ID: 0x49, X: 114, Y:  32, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/2A.gif|2A}} \\
+{{{
+Subanimation 0x2A, Type: 2, Num. Frame Blocks:  4
+Used By: VICEGRIP GUILLOTINE CLAMP CRABHAMMER 
+Frame Block ID: 0x4E, X:  96, Y:  24, Mode: 0
+Frame Block ID: 0x4F, X:  96, Y:  24, Mode: 0
+Frame Block ID: 0x50, X:  96, Y:  24, Mode: 0
+Frame Block ID: 0x50, X:  96, Y:  24, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/2B.gif|2B}} \\
+{{{
+Subanimation 0x2B, Type: 2, Num. Frame Blocks: 11
+Used By: THUNDERPUNCH THUNDER 
+Frame Block ID: 0x0D, X: 128, Y:  16, Mode: 3
+Frame Block ID: 0x0E, X: 128, Y:  16, Mode: 3
+Frame Block ID: 0x0F, X: 128, Y:  16, Mode: 0
+Frame Block ID: 0x0D, X: 128, Y:  32, Mode: 0
+Frame Block ID: 0x0D, X: 128, Y:  32, Mode: 0
+Frame Block ID: 0x0D, X: 128, Y:  52, Mode: 0
+Frame Block ID: 0x0D, X: 128, Y:  52, Mode: 0
+Frame Block ID: 0x10, X: 120, Y:  56, Mode: 0
+Frame Block ID: 0x10, X: 120, Y:  56, Mode: 0
+Frame Block ID: 0x11, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x11, X: 112, Y:  48, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/2C.gif|2C}} \\
+{{{
+Subanimation 0x2C, Type: 2, Num. Frame Blocks: 12
+Used By: WATER_GUN 
+Frame Block ID: 0x12, X: 112, Y:  16, Mode: 0
+Frame Block ID: 0x12, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x12, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x12, X: 112, Y:  64, Mode: 0
+Frame Block ID: 0x13, X: 112, Y:  72, Mode: 0
+Frame Block ID: 0x13, X: 112, Y:  72, Mode: 2
+Frame Block ID: 0x14, X: 112, Y:  72, Mode: 0
+Frame Block ID: 0x14, X: 112, Y:  72, Mode: 2
+Frame Block ID: 0x15, X: 112, Y:  72, Mode: 0
+Frame Block ID: 0x15, X: 112, Y:  72, Mode: 0
+Frame Block ID: 0x16, X: 112, Y:  72, Mode: 0
+Frame Block ID: 0x16, X: 112, Y:  72, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/2D.gif|2D}} \\
+{{{
+Subanimation 0x2D, Type: 3, Num. Frame Blocks:  6
+Used By: DOUBLE_EDGE 
+Frame Block ID: 0x44, X:  20, Y:  64, Mode: 0
+Frame Block ID: 0x45, X:  28, Y:  72, Mode: 0
+Frame Block ID: 0x46, X:  36, Y:  80, Mode: 0
+Frame Block ID: 0x47, X:  36, Y:  80, Mode: 0
+Frame Block ID: 0x47, X:  36, Y:  80, Mode: 0
+Frame Block ID: 0x47, X:  36, Y:  80, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/2E.gif|2E}} \\
+{{{
+Subanimation 0x2E, Type: 1, Num. Frame Blocks: 14
+Used By: ICE_BEAM PSYBEAM AURORA_BEAM HYPER_BEAM SOLARBEAM 
+Frame Block ID: 0x18, X:  56, Y:  56, Mode: 2
+Frame Block ID: 0x75, X:  64, Y:  72, Mode: 4
+Frame Block ID: 0x19, X:  56, Y:  56, Mode: 2
+Frame Block ID: 0x75, X:  72, Y:  68, Mode: 4
+Frame Block ID: 0x1A, X:  56, Y:  56, Mode: 2
+Frame Block ID: 0x75, X:  80, Y:  64, Mode: 4
+Frame Block ID: 0x1B, X:  56, Y:  56, Mode: 2
+Frame Block ID: 0x75, X:  88, Y:  60, Mode: 4
+Frame Block ID: 0x1C, X:  56, Y:  56, Mode: 2
+Frame Block ID: 0x75, X:  96, Y:  56, Mode: 4
+Frame Block ID: 0x1D, X:  56, Y:  56, Mode: 2
+Frame Block ID: 0x75, X: 104, Y:  52, Mode: 4
+Frame Block ID: 0x1E, X:  56, Y:  56, Mode: 2
+Frame Block ID: 0x75, X: 112, Y:  48, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/2F.gif|2F}} \\
+{{{
+Subanimation 0x2F, Type: 2, Num. Frame Blocks:  4
+Used By: ICE_PUNCH ICE_BEAM 
+Frame Block ID: 0x1F, X: 104, Y:  64, Mode: 0
+Frame Block ID: 0x20, X: 104, Y:  56, Mode: 0
+Frame Block ID: 0x21, X: 104, Y:  48, Mode: 0
+Frame Block ID: 0x22, X: 104, Y:  40, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/30.gif|30}} \\
+{{{
+Subanimation 0x30, Type: 2, Num. Frame Blocks: 18
+Used By: ROCK_THROW 
+Frame Block ID: 0x23, X: 104, Y:  16, Mode: 2
+Frame Block ID: 0x23, X: 120, Y:  16, Mode: 2
+Frame Block ID: 0x23, X: 136, Y:  16, Mode: 0
+Frame Block ID: 0x23, X: 104, Y:  24, Mode: 2
+Frame Block ID: 0x23, X: 120, Y:  16, Mode: 2
+Frame Block ID: 0x23, X: 136, Y:  16, Mode: 0
+Frame Block ID: 0x23, X: 104, Y:  32, Mode: 2
+Frame Block ID: 0x23, X: 120, Y:  16, Mode: 2
+Frame Block ID: 0x23, X: 136, Y:  24, Mode: 0
+Frame Block ID: 0x25, X: 104, Y:  24, Mode: 0
+Frame Block ID: 0x25, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x25, X: 104, Y:  40, Mode: 0
+Frame Block ID: 0x24, X: 104, Y:  64, Mode: 2
+Frame Block ID: 0x23, X: 120, Y:  48, Mode: 2
+Frame Block ID: 0x23, X: 136, Y:  56, Mode: 0
+Frame Block ID: 0x23, X: 120, Y:  56, Mode: 2
+Frame Block ID: 0x24, X: 136, Y:  64, Mode: 0
+Frame Block ID: 0x24, X: 136, Y:  64, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/31.gif|31}} \\
+{{{
+Subanimation 0x31, Type: 1, Num. Frame Blocks: 10
+Used By: SUPERSONIC PSYWAVE 
+Frame Block ID: 0x2F, X:  64, Y:  80, Mode: 0
+Frame Block ID: 0x2F, X:  68, Y:  80, Mode: 0
+Frame Block ID: 0x2F, X:  72, Y:  72, Mode: 0
+Frame Block ID: 0x2F, X:  76, Y:  72, Mode: 0
+Frame Block ID: 0x2F, X:  80, Y:  64, Mode: 0
+Frame Block ID: 0x2F, X:  84, Y:  64, Mode: 0
+Frame Block ID: 0x2F, X:  88, Y:  56, Mode: 0
+Frame Block ID: 0x2F, X:  92, Y:  56, Mode: 0
+Frame Block ID: 0x2F, X:  96, Y:  48, Mode: 0
+Frame Block ID: 0x2F, X: 100, Y:  48, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/32_0.gif|32_0}} \\
+Tileset 1 \\
+{{subanim_gifs/32_1.gif|32_1}} \\
+(above two images are possible graphics for this unused subanimation) \\
+{{{
+Subanimation 0x32, Type: 3, Num. Frame Blocks:  3
+Used By: None
+Frame Block ID: 0x47, X:  48, Y:  64, Mode: 0
+Frame Block ID: 0x47, X:  56, Y:  56, Mode: 0
+Frame Block ID: 0x47, X:  64, Y:  48, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/33.gif|33}} \\
+{{{
+Subanimation 0x33, Type: 1, Num. Frame Blocks:  6
+Used By: DOUBLE_TEAM BARRIER LIGHT_SCREEN REFLECT 
+Frame Block ID: 0x58, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x34, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x58, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x34, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x58, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x34, X:  72, Y:  56, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/34.gif|34}} \\
+{{{
+Subanimation 0x34, Type: 1, Num. Frame Blocks: 21
+Used By: SELFDESTRUCT EXPLOSION 
+Frame Block ID: 0x48, X:  16, Y:  56, Mode: 0
+Frame Block ID: 0x49, X:  16, Y:  56, Mode: 0
+Frame Block ID: 0x5A, X:  16, Y:  56, Mode: 0
+Frame Block ID: 0x48, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x49, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x5A, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x48, X:  16, Y:  80, Mode: 0
+Frame Block ID: 0x49, X:  16, Y:  80, Mode: 0
+Frame Block ID: 0x5A, X:  16, Y:  80, Mode: 0
+Frame Block ID: 0x48, X:  40, Y:  56, Mode: 0
+Frame Block ID: 0x49, X:  40, Y:  56, Mode: 0
+Frame Block ID: 0x5A, X:  40, Y:  56, Mode: 0
+Frame Block ID: 0x48, X:  24, Y:  72, Mode: 0
+Frame Block ID: 0x49, X:  24, Y:  72, Mode: 0
+Frame Block ID: 0x5A, X:  24, Y:  72, Mode: 0
+Frame Block ID: 0x48, X:  32, Y:  64, Mode: 0
+Frame Block ID: 0x49, X:  32, Y:  64, Mode: 0
+Frame Block ID: 0x5A, X:  32, Y:  64, Mode: 0
+Frame Block ID: 0x48, X:  32, Y:  72, Mode: 0
+Frame Block ID: 0x49, X:  32, Y:  72, Mode: 0
+Frame Block ID: 0x5A, X:  32, Y:  72, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/35.gif|35}} \\
+{{{
+Subanimation 0x35, Type: 1, Num. Frame Blocks:  4
+Used By: BUBBLEBEAM BUBBLE 
+Frame Block ID: 0x5B, X:  60, Y:  64, Mode: 3
+Frame Block ID: 0x5C, X:  80, Y:  56, Mode: 3
+Frame Block ID: 0x5D, X: 100, Y:  40, Mode: 3
+Frame Block ID: 0x5E, X: 120, Y:  24, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/36.gif|36}} \\
+{{{
+Subanimation 0x36, Type: 2, Num. Frame Blocks:  8
+Used By: POISONPOWDER STUN_SPORE SLEEP_POWDER SPORE 
+Frame Block ID: 0x5F, X:  96, Y:  16, Mode: 0
+Frame Block ID: 0x5F, X: 104, Y:  16, Mode: 0
+Frame Block ID: 0x60, X:  96, Y:  16, Mode: 0
+Frame Block ID: 0x60, X: 104, Y:  16, Mode: 0
+Frame Block ID: 0x61, X:  96, Y:  16, Mode: 0
+Frame Block ID: 0x61, X: 104, Y:  16, Mode: 0
+Frame Block ID: 0x62, X:  96, Y:  16, Mode: 0
+Frame Block ID: 0x62, X: 104, Y:  16, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/37.gif|37}} \\
+{{{
+Subanimation 0x37, Type: 1, Num. Frame Blocks: 10
+Used By: STRING_SHOT 
+Frame Block ID: 0x63, X:  56, Y:  48, Mode: 0
+Frame Block ID: 0x64, X:  64, Y:  48, Mode: 0
+Frame Block ID: 0x63, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x65, X: 152, Y:  24, Mode: 0
+Frame Block ID: 0x65, X: 144, Y:  28, Mode: 0
+Frame Block ID: 0x65, X: 136, Y:  32, Mode: 0
+Frame Block ID: 0x65, X: 128, Y:  36, Mode: 0
+Frame Block ID: 0x65, X: 120, Y:  40, Mode: 0
+Frame Block ID: 0x65, X: 112, Y:  44, Mode: 0
+Frame Block ID: 0x65, X: 104, Y:  48, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/38.gif|38}} \\
+{{{
+Subanimation 0x38, Type: 2, Num. Frame Blocks: 16
+Used By: BLIZZARD 
+Frame Block ID: 0x66, X:  80, Y:  16, Mode: 0
+Frame Block ID: 0x66, X:  88, Y:  32, Mode: 0
+Frame Block ID: 0x66, X:  96, Y:  48, Mode: 0
+Frame Block ID: 0x67, X: 104, Y:  64, Mode: 3
+Frame Block ID: 0x66, X: 112, Y:  16, Mode: 4
+Frame Block ID: 0x66, X: 120, Y:  32, Mode: 4
+Frame Block ID: 0x66, X: 128, Y:  48, Mode: 4
+Frame Block ID: 0x67, X: 136, Y:  64, Mode: 3
+Frame Block ID: 0x66, X:  96, Y:  16, Mode: 4
+Frame Block ID: 0x66, X: 104, Y:  32, Mode: 4
+Frame Block ID: 0x66, X: 112, Y:  48, Mode: 4
+Frame Block ID: 0x67, X: 120, Y:  64, Mode: 3
+Frame Block ID: 0x66, X: 128, Y:  16, Mode: 4
+Frame Block ID: 0x66, X: 136, Y:  32, Mode: 4
+Frame Block ID: 0x66, X: 144, Y:  48, Mode: 4
+Frame Block ID: 0x67, X: 152, Y:  64, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/39_0.gif|39_0}} \\
+Tileset 1 \\
+{{subanim_gifs/39_1.gif|39_1}} \\
+(above two images are possible graphics for this unused subanimation) \\
+{{{
+Subanimation 0x39, Type: 3, Num. Frame Blocks:  1
+Used By: None
+Frame Block ID: 0x47, X:  36, Y:  76, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/3A.gif|3A}} \\
+{{{
+Subanimation 0x3A, Type: 3, Num. Frame Blocks:  3
+Used By: REST UNKNOWN_BC 
+Frame Block ID: 0x53, X:  48, Y:  56, Mode: 0
+Frame Block ID: 0x53, X:  40, Y:  56, Mode: 0
+Frame Block ID: 0x53, X:  32, Y:  64, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/3B.gif|3B}} \\
+{{{
+Subanimation 0x3B, Type: 0, Num. Frame Blocks:  3
+Used By: SLP_ANIM 
+Frame Block ID: 0x53, X: 112, Y:  16, Mode: 0
+Frame Block ID: 0x53, X: 104, Y:  40, Mode: 0
+Frame Block ID: 0x53, X:  96, Y:  32, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/3C_0.gif|3C_0}} \\
+Tileset 1 \\
+{{subanim_gifs/3C_1.gif|3C_1}} \\
+(above two images are possible graphics for this unused subanimation) \\
+{{{
+Subanimation 0x3C, Type: 3, Num. Frame Blocks:  7
+Used By: None
+Frame Block ID: 0x59, X:  76, Y:  80, Mode: 3
+Frame Block ID: 0x59, X:  77, Y:  96, Mode: 3
+Frame Block ID: 0x59, X:  74, Y:  64, Mode: 3
+Frame Block ID: 0x59, X:  77, Y:  88, Mode: 3
+Frame Block ID: 0x59, X:  75, Y:  72, Mode: 3
+Frame Block ID: 0x59, X:  77, Y: 104, Mode: 3
+Frame Block ID: 0x59, X:  72, Y:  56, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/3D_0.gif|3D_0}} \\
+Tileset 1 \\
+{{subanim_gifs/3D_1.gif|3D_1}} \\
+(above two images are possible graphics for this unused subanimation) \\
+{{{
+Subanimation 0x3D, Type: 0, Num. Frame Blocks:  8
+Used By: None
+Frame Block ID: 0x3A, X:  80, Y:  64, Mode: 0
+Frame Block ID: 0x3B, X:  80, Y:  64, Mode: 0
+Frame Block ID: 0x3C, X:  80, Y:  64, Mode: 0
+Frame Block ID: 0x3D, X:  80, Y:  64, Mode: 0
+Frame Block ID: 0x3E, X:  80, Y:  64, Mode: 0
+Frame Block ID: 0x3F, X:  80, Y:  64, Mode: 0
+Frame Block ID: 0x3E, X:  80, Y:  64, Mode: 0
+Frame Block ID: 0x3F, X:  80, Y:  64, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/3E.gif|3E}} \\
+{{{
+Subanimation 0x3E, Type: 4, Num. Frame Blocks: 18
+Used By: CONFUSE_RAY 
+Frame Block ID: 0x02, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x34, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x02, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x02, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x34, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x02, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x02, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x34, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x02, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x02, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x34, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x02, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x02, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x34, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x02, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x02, X: 120, Y:  32, Mode: 0
+Frame Block ID: 0x34, X: 120, Y:  32, Mode: 0
+Frame Block ID: 0x02, X: 120, Y:  32, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/3F.gif|3F}} \\
+{{{
+Subanimation 0x3F, Type: 3, Num. Frame Blocks: 18
+Used By: SWIFT 
+Frame Block ID: 0x68, X:  72, Y:  72, Mode: 0
+Frame Block ID: 0x68, X:  88, Y:  64, Mode: 0
+Frame Block ID: 0x68, X: 104, Y:  56, Mode: 0
+Frame Block ID: 0x68, X: 120, Y:  48, Mode: 0
+Frame Block ID: 0x68, X: 136, Y:  40, Mode: 0
+Frame Block ID: 0x68, X: 152, Y:  32, Mode: 0
+Frame Block ID: 0x68, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x68, X:  88, Y:  48, Mode: 0
+Frame Block ID: 0x68, X: 104, Y:  40, Mode: 0
+Frame Block ID: 0x68, X: 120, Y:  32, Mode: 0
+Frame Block ID: 0x68, X: 136, Y:  24, Mode: 0
+Frame Block ID: 0x68, X: 152, Y:  16, Mode: 0
+Frame Block ID: 0x68, X:  72, Y:  88, Mode: 0
+Frame Block ID: 0x68, X:  88, Y:  80, Mode: 0
+Frame Block ID: 0x68, X: 104, Y:  72, Mode: 0
+Frame Block ID: 0x68, X: 120, Y:  64, Mode: 0
+Frame Block ID: 0x68, X: 136, Y:  56, Mode: 0
+Frame Block ID: 0x68, X: 152, Y:  48, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/40.gif|40}} \\
+{{{
+Subanimation 0x40, Type: 2, Num. Frame Blocks:  6
+Used By: SING 
+Frame Block ID: 0x17, X: 136, Y:  36, Mode: 0
+Frame Block ID: 0x17, X: 112, Y:  36, Mode: 0
+Frame Block ID: 0x17, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x17, X: 112, Y:  28, Mode: 0
+Frame Block ID: 0x17, X: 136, Y:  28, Mode: 0
+Frame Block ID: 0x17, X: 144, Y:  32, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/41.gif|41}} \\
+{{{
+Subanimation 0x41, Type: 4, Num. Frame Blocks:  5
+Used By: EGG_BOMB BARRAGE 
+Frame Block ID: 0x03, X:  56, Y:  67, Mode: 0
+Frame Block ID: 0x03, X:  72, Y:  51, Mode: 0
+Frame Block ID: 0x03, X:  88, Y:  40, Mode: 0
+Frame Block ID: 0x03, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x03, X: 120, Y:  32, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/42.gif|42}} \\
+{{{
+Subanimation 0x42, Type: 2, Num. Frame Blocks:  3
+Used By: EGG_BOMB 
+Frame Block ID: 0x48, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x49, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x5A, X: 112, Y:  24, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/43_0.gif|43_0}} \\
+Tileset 1 \\
+{{subanim_gifs/43_1.gif|43_1}} \\
+{{{
+Subanimation 0x43, Type: 5, Num. Frame Blocks:  3
+Used By: MEDITATE HARDEN DEFENSE_CURL SHARPEN UNKNOWN_B0 UNKNOWN_B1 UNKNOWN_B4 UNKNOWN_B5 
+Frame Block ID: 0x6A, X: 104, Y:  24, Mode: 0
+Frame Block ID: 0x6B, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x6C, X: 120, Y:  40, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/44.gif|44}} \\
+{{{
+Subanimation 0x44, Type: 1, Num. Frame Blocks: 12
+Used By: RAZOR_LEAF 
+Frame Block ID: 0x69, X:  72, Y:  72, Mode: 0
+Frame Block ID: 0x69, X:  88, Y:  64, Mode: 0
+Frame Block ID: 0x69, X: 104, Y:  56, Mode: 0
+Frame Block ID: 0x69, X: 120, Y:  48, Mode: 0
+Frame Block ID: 0x69, X: 136, Y:  40, Mode: 0
+Frame Block ID: 0x69, X: 152, Y:  32, Mode: 0
+Frame Block ID: 0x69, X:  72, Y:  56, Mode: 0
+Frame Block ID: 0x69, X:  88, Y:  48, Mode: 0
+Frame Block ID: 0x69, X: 104, Y:  40, Mode: 0
+Frame Block ID: 0x69, X: 120, Y:  32, Mode: 0
+Frame Block ID: 0x69, X: 136, Y:  24, Mode: 0
+Frame Block ID: 0x69, X: 152, Y:  16, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/45.gif|45}} \\
+{{{
+Subanimation 0x45, Type: 1, Num. Frame Blocks:  4
+Used By: HORN_ATTACK 
+Frame Block ID: 0x6D, X:  64, Y:  60, Mode: 0
+Frame Block ID: 0x6D, X:  80, Y:  56, Mode: 0
+Frame Block ID: 0x6D, X:  72, Y:  68, Mode: 0
+Frame Block ID: 0x6D, X:  88, Y:  64, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/46.gif|46}} \\
+{{{
+Subanimation 0x46, Type: 1, Num. Frame Blocks:  6
+Used By: FURY_ATTACK 
+Frame Block ID: 0x6D, X:  64, Y:  60, Mode: 0
+Frame Block ID: 0x6D, X:  80, Y:  56, Mode: 0
+Frame Block ID: 0x6D, X:  72, Y:  68, Mode: 0
+Frame Block ID: 0x6D, X:  88, Y:  64, Mode: 0
+Frame Block ID: 0x6D, X:  40, Y:  52, Mode: 0
+Frame Block ID: 0x6D, X:  56, Y:  48, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/47.gif|47}} \\
+{{{
+Subanimation 0x47, Type: 1, Num. Frame Blocks:  3
+Used By: TRANSFORM SUBSTITUTE 
+Frame Block ID: 0x06, X:  32, Y:  72, Mode: 0
+Frame Block ID: 0x07, X:  32, Y:  72, Mode: 0
+Frame Block ID: 0x08, X:  28, Y:  68, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/48.gif|48}} \\
+{{{
+Subanimation 0x48, Type: 0, Num. Frame Blocks:  6
+Used By: UNKNOWN_AA 
+Frame Block ID: 0x03, X:  80, Y:  72, Mode: 4
+Frame Block ID: 0x03, X:  80, Y:  80, Mode: 4
+Frame Block ID: 0x04, X:  80, Y:  80, Mode: 4
+Frame Block ID: 0x03, X:  80, Y:  80, Mode: 4
+Frame Block ID: 0x05, X:  80, Y:  80, Mode: 4
+Frame Block ID: 0x03, X:  80, Y:  80, Mode: 3
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/49.gif|49}} \\
+{{{
+Subanimation 0x49, Type: 0, Num. Frame Blocks:  4
+Used By: UNKNOWN_AB 
+Frame Block ID: 0x04, X:  80, Y:  80, Mode: 4
+Frame Block ID: 0x03, X:  80, Y:  80, Mode: 4
+Frame Block ID: 0x05, X:  80, Y:  80, Mode: 4
+Frame Block ID: 0x03, X:  80, Y:  80, Mode: 3
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/4A.gif|4A}} \\
+{{{
+Subanimation 0x4A, Type: 0, Num. Frame Blocks:  1
+Used By: UNKNOWN_AC 
+Frame Block ID: 0x04, X:  80, Y:  56, Mode: 3
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/4B.gif|4B}} \\
+{{{
+Subanimation 0x4B, Type: 0, Num. Frame Blocks:  3
+Used By: UNKNOWN_AD 
+Frame Block ID: 0x06, X:  72, Y:  64, Mode: 0
+Frame Block ID: 0x07, X:  72, Y:  64, Mode: 0
+Frame Block ID: 0x08, X:  72, Y:  64, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/4C.gif|4C}} \\
+{{{
+Subanimation 0x4C, Type: 3, Num. Frame Blocks:  8
+Used By: SOFTBOILED 
+Frame Block ID: 0x6F, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x6E, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x70, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x6E, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x6F, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x6E, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x70, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x6E, X:  40, Y:  88, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/4D.gif|4D}} \\
+{{{
+Subanimation 0x4D, Type: 1, Num. Frame Blocks:  6
+Used By: TRI_ATTACK 
+Frame Block ID: 0x32, X:  72, Y:  72, Mode: 0
+Frame Block ID: 0x33, X:  88, Y:  56, Mode: 0
+Frame Block ID: 0x32, X: 104, Y:  56, Mode: 0
+Frame Block ID: 0x33, X: 112, Y:  40, Mode: 0
+Frame Block ID: 0x32, X: 136, Y:  40, Mode: 0
+Frame Block ID: 0x33, X: 152, Y:  24, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/4E.gif|4E}} \\
+{{{
+Subanimation 0x4E, Type: 2, Num. Frame Blocks:  1
+Used By: SEISMIC_TOSS 
+Frame Block ID: 0x71, X: 112, Y:  32, Mode: 3
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/4F.gif|4F}} \\
+{{{
+Subanimation 0x4F, Type: 2, Num. Frame Blocks:  7
+Used By: SEISMIC_TOSS 
+Frame Block ID: 0x71, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x71, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x71, X: 112, Y:  16, Mode: 0
+Frame Block ID: 0x71, X: 112, Y:   8, Mode: 0
+Frame Block ID: 0x72, X: 112, Y:   8, Mode: 0
+Frame Block ID: 0x73, X: 112, Y:   8, Mode: 0
+Frame Block ID: 0x74, X: 112, Y:   8, Mode: 0
+}}}
+\\
+Tileset 1 \\
+{{subanim_gifs/50.gif|50}} \\
+{{{
+Subanimation 0x50, Type: 2, Num. Frame Blocks:  8
+Used By: SEISMIC_TOSS 
+Frame Block ID: 0x74, X: 112, Y:   8, Mode: 0
+Frame Block ID: 0x73, X: 112, Y:   8, Mode: 0
+Frame Block ID: 0x72, X: 112, Y:   8, Mode: 0
+Frame Block ID: 0x71, X: 112, Y:   8, Mode: 0
+Frame Block ID: 0x71, X: 112, Y:  16, Mode: 0
+Frame Block ID: 0x71, X: 112, Y:  24, Mode: 0
+Frame Block ID: 0x71, X: 112, Y:  32, Mode: 0
+Frame Block ID: 0x71, X: 112, Y:  40, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/51.gif|51}} \\
+{{{
+Subanimation 0x51, Type: 5, Num. Frame Blocks:  6
+Used By: WITHDRAW 
+Frame Block ID: 0x76, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x34, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x76, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x34, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x76, X: 112, Y:  48, Mode: 0
+Frame Block ID: 0x34, X: 112, Y:  48, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/52.gif|52}} \\
+{{{
+Subanimation 0x52, Type: 2, Num. Frame Blocks:  7
+Used By: PAY_DAY 
+Frame Block ID: 0x77, X: 112, Y:  64, Mode: 0
+Frame Block ID: 0x77, X: 108, Y:  56, Mode: 0
+Frame Block ID: 0x77, X: 104, Y:  48, Mode: 0
+Frame Block ID: 0x77, X: 100, Y:  56, Mode: 0
+Frame Block ID: 0x77, X:  96, Y:  64, Mode: 0
+Frame Block ID: 0x77, X:  92, Y:  56, Mode: 0
+Frame Block ID: 0x77, X:  88, Y:  64, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/53.gif|53}} \\
+{{{
+Subanimation 0x53, Type: 0, Num. Frame Blocks: 12
+Used By: UNKNOWN_C9 
+Frame Block ID: 0x78, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x78, X:  48, Y:  76, Mode: 0
+Frame Block ID: 0x78, X:  56, Y:  64, Mode: 0
+Frame Block ID: 0x78, X:  64, Y:  56, Mode: 0
+Frame Block ID: 0x78, X:  72, Y:  48, Mode: 0
+Frame Block ID: 0x78, X:  80, Y:  40, Mode: 0
+Frame Block ID: 0x78, X:  88, Y:  32, Mode: 0
+Frame Block ID: 0x78, X:  96, Y:  30, Mode: 0
+Frame Block ID: 0x78, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x78, X: 112, Y:  41, Mode: 0
+Frame Block ID: 0x78, X: 120, Y:  50, Mode: 0
+Frame Block ID: 0x01, X: 116, Y:  46, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/54.gif|54}} \\
+{{{
+Subanimation 0x54, Type: 0, Num. Frame Blocks: 11
+Used By: UNKNOWN_CA 
+Frame Block ID: 0x79, X:  40, Y:  88, Mode: 0
+Frame Block ID: 0x79, X:  48, Y:  76, Mode: 0
+Frame Block ID: 0x79, X:  56, Y:  64, Mode: 0
+Frame Block ID: 0x79, X:  64, Y:  56, Mode: 0
+Frame Block ID: 0x79, X:  72, Y:  48, Mode: 0
+Frame Block ID: 0x79, X:  80, Y:  40, Mode: 0
+Frame Block ID: 0x79, X:  88, Y:  32, Mode: 0
+Frame Block ID: 0x79, X:  96, Y:  30, Mode: 0
+Frame Block ID: 0x79, X: 104, Y:  32, Mode: 0
+Frame Block ID: 0x79, X: 112, Y:  41, Mode: 0
+Frame Block ID: 0x79, X: 120, Y:  50, Mode: 0
+}}}
+\\
+Tileset 0 \\
+{{subanim_gifs/55.gif|55}} \\
+{{{
+Subanimation 0x55, Type: 2, Num. Frame Blocks:  1
+Used By: BARRAGE 
+Frame Block ID: 0x01, X: 116, Y:  28, Mode: 0
+}}}
