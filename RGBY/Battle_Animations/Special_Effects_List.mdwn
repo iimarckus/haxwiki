@@ -199,6 +199,7 @@ Used By:
 Background palette effect. Lighten the screen.
 
 Details for monochrome graphics (not SGB):
+
 * Black → Dark Gray
 * Dark Gray → Light Gray
 * Light Gray → White
@@ -291,6 +292,7 @@ Used By:
 Background palette effect. Darken the screen.
 
 Details for monochrome graphics (not SGB):
+
 * Black → Black (stays the same)
 * Dark Gray → Black
 * Light Gray → Dark Gray
@@ -378,6 +380,7 @@ Used By:
 Background palette effect. Invert light and dark (although the mapping is not one to one).
 
 Details for monochrome graphics (not SGB):
+
 * Black → Light Gray
 * Dark Gray → Dark Gray (stays the same)
 * Light Gray → Black
