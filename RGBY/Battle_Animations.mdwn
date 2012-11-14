@@ -1,0 +1,101 @@
+* [[RGBY/Battle Animations/Animations List]]
+* [[RGBY/Battle Animations/Subanimations List]]
+* [[RGBY/Battle Animations/Frame Blocks List]]
+* [[RGBY/Battle Animations/Special Effects List]]
+
+Tile Patterns 1: 1E:41FE - 46ED
+Tile Patterns 2: 1E:46EE - 4BDD
+
+1E:607D - Table of pointers. There are 0xCB entries, one for each animation.
+
+Each of these pointers points to a sequence of “special effects” and “subanimations.”
+
+There are two types of commands that can occur in the sequence.
+
+The first type just calls a specific ASM function (a special effect).
+
+The second type is played by RealPlayAnimation (1E:4E53) and is a sequence of images (a subanimation). It is made up of “frame blocks”. Note that RealPlayAnimation calls a function that may call an additional ASM function depending on the animation ID (not subanimation ID) after each “frame block”.
+
+The format here is also follows.
+
+If byte 0 is 0xC0 or greater, then it is a special effect.
+
+Format:
+
+* byte 0: special effect ID (from 0xD8 to 0xFE inclusive)
+* byte 1: sound ID
+
+There is a table for special effect functions at 1E:50DA.
+
+Format:
+* byte 0: special effect ID
+* bytes 1-2: address of function
+
+If byte 0 is less than 0xC0, then it is a sequence of images (sprites).
+
+Format:
+
+*byte 0
+ *bits 0-5: duration of each frame within subanimation (in terms of screen refreshes)
+ *bits 6-7: select tile pattern data
+*byte 1: sound ID
+*byte 2: subanimation ID
+
+1E:676D - Table of pointers. These are the “subanimations”. There are 0x56 of them.
+
+Format:
+
+* byte 0
+ * bits 0-4: number of “frame blocks”
+ * bits 5-7: “type”
+
+The type controls how the subanimation changes depending on whether the player or enemy attacks.
+
+* 00: no difference between player and enemy attacking
+* 01: when an enemy attacks, flip the entire battle animation layer across the screen horizontally and vertically
+* 02: when an enemy attacks, flip the entire battle animation layer across the screen horizontally and translate it downwards by 40 pixels
+* 03: when an enemy attacks, flip the base coordinates across the screen horizontally and vertically (this translates the image but does not mirror it)
+* 04: when an enemy attacks, do the animation in reverse order
+* 05: when the player attacks, flip the entire battle animation layer across the screen horizontally and translate it downwards by 40 pixels (i.e. behave as though the player is the enemy and the mode is 2)
+* Values 6 and 7 are unused.
+
+The first byte is followed by a list of subentries, the amount of which is indicated in bits 0-4 of byte 0.
+
+Subentry Format:
+
+* byte 0: “frame block” ID
+* byte 1: Base Coordinate ID
+* byte 2: mode
+ * 00: usual mode; normal delay and clear the animation layer after
+ * 02: no delay and no clearing the animation layer; this is useful for drawing bigger objects
+ * 03: normal delay, but no clearing the animation layer
+ * 04: normal delay, but no clearing the animation layer; makes this “frame block” temporary, such that the next “frame block” will overwrite it
+ * All other mode values are unused and behave like 00.
+
+1E:6F74 - Table of pointers. These are the “frame blocks”. There are 0x7A of them.
+
+Each “frame block” is a block of tiles. Subanimations consist of drawing these blocks at various screen positions in sequence. Multiple frame blocks can be combined to form larger objects if the appropriate mode is used.
+
+Frame Block Format:
+
+The first byte is the number of tiles within the block. Each tile has a subentry.
+
+Subentry Format:
+
+These follow the format in OAM. Note that these values are not copied directly and may be modified before written into OAM.
+
+* byte 0: Y offset from base coordinate of block
+* byte 1: X offset from base coordinate of block
+* byte 2: tile ID (0x31 (the base of the battle animation tiles) is added to this value)
+* byte 3: flags
+ * bit 5: X flip
+ * bit 6: Y flip
+
+1E:7C85 - Coordinate pairs.
+
+These are used as base coordinates for “frame blocks”.
+
+Format:
+
+* byte 0: Y
+* byte 1: X

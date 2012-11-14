@@ -31,6 +31,8 @@ Now "git push" should work without debilitating complaint.
 
 ## RGBY
 
+* [[RGBY/Battle Animations]]
+
 * [[RGBY/Scripting Reference]]
 
 ## GSC
