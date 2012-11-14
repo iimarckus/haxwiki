@@ -1,3 +1,5 @@
+# Battle Animations
+
 * [[RGBY/Battle Animations/Animations List]]
 * [[RGBY/Battle Animations/Subanimations List]]
 * [[RGBY/Battle Animations/Frame Blocks List]]
@@ -5,6 +7,8 @@
 
 Tile Patterns 1: 1E:41FE - 46ED
 Tile Patterns 2: 1E:46EE - 4BDD
+
+## Animations format
 
 1E:607D - Table of pointers. There are 0xCB entries, one for each animation.
 
@@ -25,6 +29,8 @@ Format:
 * byte 0: special effect ID (from 0xD8 to 0xFE inclusive)
 * byte 1: sound ID
 
+## Special effects format
+
 There is a table for special effect functions at 1E:50DA.
 
 Format:
@@ -40,6 +46,8 @@ Format:
  *bits 6-7: select tile pattern data
 *byte 1: sound ID
 *byte 2: subanimation ID
+
+## Subanimations format
 
 1E:676D - Table of pointers. These are the “subanimations”. There are 0x56 of them.
 
@@ -72,6 +80,8 @@ Subentry Format:
  * 04: normal delay, but no clearing the animation layer; makes this “frame block” temporary, such that the next “frame block” will overwrite it
  * All other mode values are unused and behave like 00.
 
+## Frame blocks format
+
 1E:6F74 - Table of pointers. These are the “frame blocks”. There are 0x7A of them.
 
 Each “frame block” is a block of tiles. Subanimations consist of drawing these blocks at various screen positions in sequence. Multiple frame blocks can be combined to form larger objects if the appropriate mode is used.
@@ -90,6 +100,8 @@ These follow the format in OAM. Note that these values are not copied directly a
 * byte 3: flags
  * bit 5: X flip
  * bit 6: Y flip
+
+### Frame block coordinates
 
 1E:7C85 - Coordinate pairs.
 
