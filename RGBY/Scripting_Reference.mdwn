@@ -182,6 +182,7 @@ Handles both level script and trainer events:
 ## STORE\_2\_STRINGS $317f
 
 Stores 2 strings in RAM:
+
 * [$CF5F] $11 bytes max
 * [$CF70] $0B bytes max
 
@@ -204,6 +205,7 @@ This is a map-script (not text-script)
 3. call $31cc
 
 TrainerHeaders:
+
 *[flagbit (and textscriptID)]
 *[trainer’s view range x 0x10]
 *[flag-byte ptr]
@@ -252,6 +254,7 @@ TrainerHeaders:
 2. call $3442
 
 Spinners:
+
 *[Y][X][Mov1.Ptr]
 *[Y][X][Mov2.Ptr]
 *…
@@ -259,11 +262,12 @@ Spinners:
 *[$FF]
 
 Mov.Ptr:
+
 *[Direction][n. of steps]
 *…
 *[$FF]
 
-{sound\_A7, outside, is spin sound}
+sound\_A7, outside, is spin sound
 
 ## FORCE\_PLAYER\_MOVE $3486
 
@@ -390,9 +394,10 @@ Usually used right after “$13d0”
 
 1. call $3831
 2. Read what key is pressed:
- * ld a,[$ffb5]\\
-[ffb7 = keyDown]	;XXX\\
-[ffb5 = keyPress]	;XXX
+ * ld a,[$ffb5]
+
+* [ffb7 = keyDown]	;XXX
+* [ffb5 = keyPress]	;XXX
 
 ## MULTIPLY $38ac
 
@@ -412,10 +417,6 @@ RESULT is stored in [$ff96]-[$ff98], obviously in little-endian.
  * ld [$ff99],a
 3. call $38ac
 
-*[1st factor is 16 bit]
-*[2nd factor is 8 bit]
-
-
 ## DIVIDE $38b9
 
 Formats are Big-Endian (!).
@@ -429,7 +430,7 @@ Result is 16 bit.
  * ld b,bb ;2 ≤ bb ≤ 4
 4. call $38b9
 
-[result is rounded down (int)]}
+[result is rounded down (int)]
 
 ## ADD\_MON\_ASK\_NICK $3927 ;??? needs fix
 
@@ -437,7 +438,7 @@ Actually adds monster to the party and asks for nickname:
 
 1. Don’t know why:
  * or a
- * d [$cc49],a
+ * ld [$cc49],a
 2. select level and specie:
  * ld a,lv
  * ld [$d127],a
@@ -459,11 +460,7 @@ hl = (a x bc) + hl
  * ld hl,xxyy
 2. call $3c49
 
-pointed structure:
-*$17
-*pointer
-*bank
-*$50
+Pointed structure is a text command.
 
 ## SELECT\_CODE\_POINTER $3d97
 
@@ -605,6 +602,7 @@ example Pallet town:
 ## APPENDIX ($3e6d)
 
 RAM used:
+
 * cc4e: subroutine\_ID
 * cf12: old bank number
 * d0b7: new bank number
@@ -652,15 +650,15 @@ note3: following pointers are little-endian (actually middle-endian: |bank|littl
 <tr><td> 17</td><td>	03 9E6E</td><td> </td></tr>
 <tr><td> 18</td><td>	03 5078	</td><td>initialize flags (and things like itemsack, etc.) </td></tr>
 <tr><td> 19</td><td>	03 5447	</td><td>load tileset header </td></tr>
-<tr><td> 1a</td><td>	0E 5B6F	</td><td>GetLevUpAtks\_ </td></tr>
+<tr><td> 1a</td><td>	0E 5B6F	</td><td>GetLevUpAtks_ </td></tr>
 <tr><td> 1b</td><td>	01 436E</td><td> </td></tr>
 <tr><td> 1c</td><td>	03 A578	</td><td>check item in bag </td></tr>
 <tr><td> 1d</td><td>	03 B53E</td><td> </td></tr>
-<tr><td> 1e</td><td>	03 2E3E	</td><td>give item (b = item\_ID, c = item\_num) </td></tr>
+<tr><td> 1e</td><td>	03 2E3E	</td><td>give item (b = item_ID, c = item_num) </td></tr>
 <tr><td> 1f</td><td>	12 EB40	</td><td>blink screen for 4 frames [example: poisoned pokemon] </td></tr>
-<tr><td> 20</td><td>	03 BA78	</td><td>somehow related to apply\_movement </td></tr>
+<tr><td> 20</td><td>	03 BA78	</td><td>somehow related to apply_movement </td></tr>
 <tr><td> 21</td><td>	12 FF40</td><td> </td></tr>
-<tr><td> 22</td><td>	03 2979	</td><td>somehow related to apply\_movement </td></tr>
+<tr><td> 22</td><td>	03 2979	</td><td>somehow related to apply_movement </td></tr>
 <tr><td> 23</td><td>	03 A079</td><td> </td></tr>
 <tr><td> 24</td><td>	12 2541</td><td> </td></tr>
 <tr><td> 25</td><td>	03 1D7A</td><td> </td></tr>
@@ -668,7 +666,7 @@ note3: following pointers are little-endian (actually middle-endian: |bank|littl
 <tr><td> 27</td><td>	01 B05A</td><td> </td></tr>
 <tr><td> 28</td><td>	0F 026D</td><td> </td></tr>
 <tr><td> 29</td><td>	10 0040</td><td> </td></tr>
-<tr><td> 2a</td><td>	0E 1C6D	</td><td>GetEvos’ subset (label: Predef\_2a\_) </td></tr>
+<tr><td> 2a</td><td>	0E 1C6D	</td><td>GetEvos’ subset (label: Predef_2a_) </td></tr>
 <tr><td> 2b</td><td>	1C 8C77</td><td> </td></tr>
 <tr><td> 2c</td><td>	0F 186F</td><td> </td></tr>
 <tr><td> 2d</td><td>	01 5F5A</td><td> </td></tr>
@@ -684,25 +682,25 @@ note3: following pointers are little-endian (actually middle-endian: |bank|littl
 <tr><td> 37</td><td>	04 576B</td><td> </td></tr>
 <tr><td> 38</td><td>	10 E250</td><td> </td></tr>
 <tr><td> 39</td><td>	15 0F69</td><td> </td></tr>
-<tr><td> 3a</td><td>	10 1050	</td><td>convert Mon\_ID Chaotic-to-Dex </td></tr>
+<tr><td> 3a</td><td>	10 1050	</td><td>convert Mon_ID Chaotic-to-Dex </td></tr>
 <tr><td> 3b</td><td>	01 A162	</td><td>decompr sprite(hl=ptr,b=bank)& arrange[used in BioMenu & not only] </td></tr>
 <tr><td> 3c</td><td>	03 546F</td><td> </td></tr>
 <tr><td> 3d</td><td>	10 D142	</td><td>load DexPage (INPUT:[$d11e]=DexMonID) </td></tr>
-<tr><td> 3e</td><td>	0E B86F	</td><td>GetWildMonAtks\_ </td></tr>
+<tr><td> 3e</td><td>	0E B86F	</td><td>GetWildMonAtks_ </td></tr>
 <tr><td> 3f</td><td>	1C 0A77	</td><td>SAVE GAME </td></tr>
-<tr><td> 40</td><td>	1C 2B60	</td><td>send SGB-packs at beginning (MLT\_REQ,DATA\_SND,PCT\_TRN,…) </td></tr>
+<tr><td> 40</td><td>	1C 2B60	</td><td>send SGB-packs at beginning (MLT_REQ,DATA_SND,PCT_TRN,…) </td></tr>
 <tr><td> 41</td><td>	03 1371</td><td> </td></tr>
 <tr><td> 42</td><td>	17 5E5B</td><td> </td></tr>
 <tr><td> 43</td><td>	04 3E77</td><td> </td></tr>
 <tr><td> 44</td><td>	04 6377</td><td> </td></tr>
-<tr><td> 45</td><td>	1C DF5D	</td><td>load SGB packages (PAL\_SET) </td></tr>
+<tr><td> 45</td><td>	1C DF5D	</td><td>load SGB packages (PAL_SET) </td></tr>
 <tr><td> 46</td><td>	17 DC40	</td><td>load dex screen (es:lab when choosing starter) </td></tr>
 <tr><td> 47</td><td>	03 E572</td><td> </td></tr>
 <tr><td> 48</td><td>	03 1D7A</td><td> </td></tr>
 <tr><td> 49</td><td>	0F EC4D</td><td> </td></tr>
 <tr><td> 4a</td><td>	1C 604F	</td><td>TownMap (in Dex only?) </td></tr>
 <tr><td> 4b</td><td>	09 6B7D</td><td> </td></tr>
-<tr><td> 4c</td><td>	05 477C	</td><td>balloon over head (cd4f:personID, cd50:([!][?][^\_^]) </td></tr>
+<tr><td> 4c</td><td>	05 477C	</td><td>balloon over head (cd4f:personID, cd50:([!][?][^_^]) </td></tr>
 <tr><td> 4d</td><td>	01 AF5A</td><td> </td></tr>
 <tr><td> 4e</td><td>	01 EB64</td><td> </td></tr>
 <tr><td> 4f</td><td>	0D A17C</td><td> </td></tr>
@@ -718,7 +716,7 @@ note3: following pointers are little-endian (actually middle-endian: |bank|littl
 <tr><td> 59</td><td>	03 BE45</td><td> </td></tr>
 <tr><td> 5a</td><td>	03 0B46</td><td> </td></tr>
 <tr><td> 5b</td><td>	03 994D</td><td> </td></tr>
-<tr><td> 5c</td><td>	01 E14D	</td><td>check H/S obj (RAM\_Table D5CE, FF-term.) ??? </td></tr>
+<tr><td> 5c</td><td>	01 E14D	</td><td>check H/S obj (RAM_Table D5CE, FF-term.) ??? </td></tr>
 <tr><td> 5d</td><td>	09 987D</td><td> </td></tr>
 <tr><td> 5e</td><td>	03 7374	</td><td>related to AttacksData </td></tr>
 <tr><td> 5f</td><td>	04 EF68</td><td> </td></tr>
