@@ -1,0 +1,424 @@
+# Special Effects
+
+## Special Effect 0xD8
+Used By:
+
+* PSYCHIC_M
+* NIGHT_SHADE
+* PSYWAVE
+* UNKNOWN_CB
+
+Causes the whole screen to shimmer.
+
+## Special Effect 0xD9
+Used By:
+
+* SUBSTITUTE
+
+Replace the attacking Pokemon's picture with the substitute picture.
+
+## Special Effect 0xDA
+Used By:
+
+* DOUBLE_TEAM
+
+Makes the attacking pokemon alternately shift left and right 16 times in rapid succession.
+
+## Special Effect 0xDB
+Used By:
+
+* WHIRLWIND
+
+Slide the defending pokemon off the screen.
+
+## Special Effect 0xDC
+Used By:
+
+* SEISMIC_TOSS
+* SHOWPIC_ANIM
+
+Restore the sprite of the defending pokemon.
+
+## Special Effect 0xDD
+Used By:
+
+* FLY
+* SUBMISSION
+* LOW_KICK
+* COUNTER
+* SEISMIC_TOSS
+* QUICK_ATTACK
+* DOUBLE_TEAM
+* WITHDRAW
+* SOFTBOILED
+* SKY_ATTACK
+* UNKNOWN_A7
+
+Restore the sprite of the attacking pokemon.
+
+## Special Effect 0xDE
+Used By:
+
+* SEISMIC_TOSS
+
+Make the defending pokemon's picture flicker.
+
+## Special Effect 0xDF
+Used By:
+
+* SEISMIC_TOSS
+* HIDEPIC_ANIM
+
+## Special Effect 0xE0
+Used By:
+
+
+## Special Effect 0xE1
+Used By:
+
+* TAIL_WHIP
+* AURORA_BEAM
+* SEISMIC_TOSS
+* DOUBLE_TEAM
+* SMOKESCREEN
+* METRONOME
+
+10 frame delay.
+
+## Special Effect 0xE2
+Used By:
+
+* HYPER_BEAM
+* GROWTH
+* RECOVER
+* MINIMIZE
+* FOCUS_ENERGY
+* SOFTBOILED
+* UNKNOWN_AE
+* UNKNOWN_AF
+* UNKNOWN_B2
+* UNKNOWN_B3
+
+Three spheres move in a spiral path towards the pokemon who used the move.
+
+## Special Effect 0xE3
+Used By:
+
+
+## Special Effect 0xE4
+Used By:
+
+* UNKNOWN_A9
+
+## Special Effect 0xE5
+Used By:
+
+* SOFTBOILED
+
+Slide the attacking pokemon halfway off the screen.
+
+## Special Effect 0xE6
+Used By:
+
+* PETAL_DANCE
+
+## Special Effect 0xE7
+Used By:
+
+* RAZOR_LEAF
+
+## Special Effect 0xE8
+Used By:
+
+* TRANSFORM
+
+## Special Effect 0xE9
+Used By:
+
+* ACID_ARMOR
+
+## Special Effect 0xEA
+Used By:
+
+* MINIMIZE
+
+## Special Effect 0xEB
+Used By:
+
+* SPLASH
+
+## Special Effect 0xEC
+Used By:
+
+* UNKNOWN_B6
+* UNKNOWN_B7
+
+## Special Effect 0xED
+Used By:
+
+* TELEPORT
+* SKY_ATTACK
+
+## Special Effect 0xEE
+Used By:
+
+* TELEPORT
+* SKY_ATTACK
+
+## Special Effect 0xEF
+Used By:
+
+
+## Special Effect 0xF0
+Used By:
+
+* DOUBLE_EDGE
+* MIST
+* ABSORB
+* MEGA_DRAIN
+* GROWTH
+* PETAL_DANCE
+* MEDITATE
+* AGILITY
+* RECOVER
+* HARDEN
+* MINIMIZE
+* WITHDRAW
+* DEFENSE_CURL
+* LIGHT_SCREEN
+* SOFTBOILED
+* FLASH
+* SHARPEN
+* UNKNOWN_AE
+* UNKNOWN_AF
+* UNKNOWN_B0
+* UNKNOWN_B1
+* UNKNOWN_B6
+* UNKNOWN_B7
+
+Background palette effect. Lighten the screen.
+
+Details for monochrome graphics (not SGB):
+* Black → Dark Gray
+* Dark Gray → Light Gray
+* Light Gray → White
+* White → White (stays the same)
+
+## Special Effect 0xF1
+Used By:
+
+* TACKLE
+* BODY_SLAM
+* TAKE_DOWN
+* DOUBLE_EDGE
+* TAIL_WHIP
+* STRENGTH
+* METRONOME
+
+Move attacking pokemon back to normal position after special effect 0xF2.
+
+## Special Effect 0xF2
+Used By:
+
+* TACKLE
+* BODY_SLAM
+* TAKE_DOWN
+* DOUBLE_EDGE
+* TAIL_WHIP
+* STRENGTH
+* METRONOME
+
+Move attacking pokemon forward towards defending pokemon.
+
+## Special Effect 0xF3
+Used By:
+
+* RECOVER
+
+Make the attacking pokemon's picture flicker.
+
+## Special Effect 0xF4
+Used By:
+
+* SUBMISSION
+* LOW_KICK
+* COUNTER
+* SEISMIC_TOSS
+* QUICK_ATTACK
+* SUBSTITUTE
+
+Slide the attacking pokemon off the screen.
+
+## Special Effect 0xF5
+Used By:
+
+* UNKNOWN_A8
+
+## Special Effect 0xF6
+Used By:
+
+* WITHDRAW
+* WATERFALL
+* UNKNOWN_C0
+
+## Special Effect 0xF7
+Used By:
+
+* DIG
+* WATERFALL
+
+## Special Effect 0xF8
+Used By:
+
+* PSYBEAM
+* CONFUSION
+* PSYCHIC_M
+* HYPNOSIS
+* NIGHT_SHADE
+* DREAM_EATER
+
+## Special Effect 0xF9
+Used By:
+
+* SMOKESCREEN
+* HAZE
+* SMOG
+* UNKNOWN_B2
+* UNKNOWN_B3
+* UNKNOWN_B4
+* UNKNOWN_B5
+
+Background palette effect. Darken the screen.
+
+Details for monochrome graphics (not SGB):
+* Black → Black (stays the same)
+* Dark Gray → Black
+* Light Gray → Dark Gray
+* White → Light Gray
+
+## Special Effect 0xFA
+Used By:
+
+* MIST
+* SURF
+* TOXIC
+* HAZE
+
+## Special Effect 0xFB
+Used By:
+
+* SEISMIC_TOSS
+* EARTHQUAKE
+* FISSURE
+* UNKNOWN_C7
+
+## Special Effect 0xFC
+Used By:
+
+* THUNDERPUNCH
+* DOUBLE_EDGE
+* LEER
+* DISABLE
+* MIST
+* HYPER_BEAM
+* ABSORB
+* MEGA_DRAIN
+* GROWTH
+* PETAL_DANCE
+* THUNDER
+* MEDITATE
+* AGILITY
+* DOUBLE_TEAM
+* RECOVER
+* HARDEN
+* MINIMIZE
+* SMOKESCREEN
+* CONFUSE_RAY
+* WITHDRAW
+* DEFENSE_CURL
+* LIGHT_SCREEN
+* HAZE
+* REFLECT
+* SMOG
+* SOFTBOILED
+* GLARE
+* DREAM_EATER
+* FLASH
+* SHARPEN
+* SUPER_FANG
+* UNKNOWN_AE
+* UNKNOWN_AF
+* UNKNOWN_B0
+* UNKNOWN_B1
+* UNKNOWN_B2
+* UNKNOWN_B3
+* UNKNOWN_B4
+* UNKNOWN_B5
+* UNKNOWN_B6
+* UNKNOWN_B7
+
+Restore normal background palette.
+
+## Special Effect 0xFD
+Used By:
+
+* THUNDERPUNCH
+* LEER
+* DISABLE
+* HYPER_BEAM
+* THUNDER
+* DOUBLE_TEAM
+* SMOKESCREEN
+* CONFUSE_RAY
+* REFLECT
+* GLARE
+* DREAM_EATER
+* SUPER_FANG
+
+Background palette effect. Invert light and dark (although the mapping is not one to one).
+
+Details for monochrome graphics (not SGB):
+* Black → Light Gray
+* Dark Gray → Dark Gray (stays the same)
+* Light Gray → Black
+* White → Black
+
+## Special Effect 0xFE
+Used By:
+
+* CUT
+* ROLLING_KICK
+* BODY_SLAM
+* TAKE_DOWN
+* DOUBLE_EDGE
+* LEER
+* DISABLE
+* HYPER_BEAM
+* MEGA_DRAIN
+* THUNDER
+* FISSURE
+* MEDITATE
+* DOUBLE_TEAM
+* HARDEN
+* DEFENSE_CURL
+* GLARE
+* LEECH_LIFE
+* FLASH
+* SHARPEN
+* CONVERSION
+* TRI_ATTACK
+
+Background palette effect. Simulates a bright flash of light.
+
+Details for monochrome graphics (not SGB):
+
+For two frames, do a one to one inversion of light and dark.
+
+* Black → White
+* Dark Gray → Light Gray
+* Light Gray → Dark Gray
+* White → Black
+
+After that, for two frames, white out the background layer.
+
+Then, restore the initial palette.
