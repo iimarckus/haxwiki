@@ -9,4 +9,8 @@ table {
 caption {
 	background-color: #DDD;
 	color: #000;
+	border-top: #000 1px solid;
+	border-left: #000 1px solid;
+	border-right: #000 1px solid;
+	margin-top: 1em;
 }
