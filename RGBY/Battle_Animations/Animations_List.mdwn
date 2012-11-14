@@ -1,0 +1,1095 @@
+# Battle Animations
+
+## Animation 0x01
+POUND
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0x00, Tiles Select: 0
+
+## Animation 0x02
+KARATE_CHOP
+* Subanimation,   ID: 0x03, Frame Duration:  8, Sound: 0x01, Tiles Select: 0
+
+## Animation 0x03
+DOUBLESLAP
+* Subanimation,   ID: 0x01, Frame Duration:  5, Sound: 0x02, Tiles Select: 0
+* Subanimation,   ID: 0x01, Frame Duration:  5, Sound: 0x02, Tiles Select: 0
+
+## Animation 0x04
+COMET_PUNCH
+* Subanimation,   ID: 0x02, Frame Duration:  4, Sound: 0x03, Tiles Select: 0
+* Subanimation,   ID: 0x02, Frame Duration:  4, Sound: 0x03, Tiles Select: 0
+
+## Animation 0x05
+MEGA_PUNCH
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x04, Tiles Select: 1
+
+## Animation 0x06
+PAY_DAY
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0x00, Tiles Select: 0
+* Subanimation,   ID: 0x52, Frame Duration:  4, Sound: 0x05, Tiles Select: 0
+
+## Animation 0x07
+FIRE_PUNCH
+* Subanimation,   ID: 0x02, Frame Duration:  6, Sound: 0x06, Tiles Select: 0
+* Subanimation,   ID: 0x11, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x08
+ICE_PUNCH
+* Subanimation,   ID: 0x02, Frame Duration:  6, Sound: 0x07, Tiles Select: 0
+* Subanimation,   ID: 0x2F, Frame Duration: 16, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x09
+THUNDERPUNCH
+* Subanimation,   ID: 0x02, Frame Duration:  6, Sound: 0x08, Tiles Select: 0
+* Special Effect, ID: 0xFD, Sound: 0xFF
+* Subanimation,   ID: 0x2B, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x0A
+SCRATCH
+* Subanimation,   ID: 0x0F, Frame Duration:  6, Sound: 0x09, Tiles Select: 0
+
+## Animation 0x0B
+VICEGRIP
+* Subanimation,   ID: 0x2A, Frame Duration:  8, Sound: 0x0A, Tiles Select: 0
+
+## Animation 0x0C
+GUILLOTINE
+* Subanimation,   ID: 0x2A, Frame Duration:  6, Sound: 0x0B, Tiles Select: 0
+
+## Animation 0x0D
+RAZOR_WIND
+* Subanimation,   ID: 0x16, Frame Duration:  4, Sound: 0x0C, Tiles Select: 0
+
+## Animation 0x0E
+SWORDS_DANCE
+* Subanimation,   ID: 0x18, Frame Duration:  6, Sound: 0x0D, Tiles Select: 1
+* Subanimation,   ID: 0x18, Frame Duration:  6, Sound: 0x0D, Tiles Select: 1
+* Subanimation,   ID: 0x18, Frame Duration:  6, Sound: 0x0D, Tiles Select: 1
+
+## Animation 0x0F
+CUT
+* Special Effect, ID: 0xFE, Sound: 0x0E
+* Subanimation,   ID: 0x16, Frame Duration:  4, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x10
+GUST
+* Subanimation,   ID: 0x10, Frame Duration:  6, Sound: 0x0F, Tiles Select: 1
+* Subanimation,   ID: 0x02, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x11
+WING_ATTACK
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x10, Tiles Select: 1
+
+## Animation 0x12
+WHIRLWIND
+* Subanimation,   ID: 0x10, Frame Duration:  6, Sound: 0x11, Tiles Select: 1
+* Special Effect, ID: 0xDB, Sound: 0xFF
+
+## Animation 0x13
+FLY
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x12, Tiles Select: 1
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0x14
+BIND
+* Subanimation,   ID: 0x23, Frame Duration:  4, Sound: 0x13, Tiles Select: 0
+* Subanimation,   ID: 0x23, Frame Duration:  4, Sound: 0x13, Tiles Select: 0
+
+## Animation 0x15
+SLAM
+* Subanimation,   ID: 0x02, Frame Duration:  6, Sound: 0x14, Tiles Select: 0
+
+## Animation 0x16
+VINE_WHIP
+* Subanimation,   ID: 0x16, Frame Duration:  1, Sound: 0x15, Tiles Select: 0
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x17
+STOMP
+* Subanimation,   ID: 0x05, Frame Duration:  8, Sound: 0x16, Tiles Select: 1
+
+## Animation 0x18
+DOUBLE_KICK
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0x17, Tiles Select: 0
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0x17, Tiles Select: 0
+
+## Animation 0x19
+MEGA_KICK
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x18, Tiles Select: 1
+
+## Animation 0x1A
+JUMP_KICK
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x19, Tiles Select: 1
+
+## Animation 0x1B
+ROLLING_KICK
+* Special Effect, ID: 0xFE, Sound: 0x1A
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x1C
+SAND_ATTACK
+* Subanimation,   ID: 0x28, Frame Duration:  6, Sound: 0x1B, Tiles Select: 1
+
+## Animation 0x1D
+HEADBUTT
+* Subanimation,   ID: 0x05, Frame Duration:  6, Sound: 0x1C, Tiles Select: 1
+
+## Animation 0x1E
+HORN_ATTACK
+* Subanimation,   ID: 0x45, Frame Duration:  6, Sound: 0x1D, Tiles Select: 0
+* Subanimation,   ID: 0x05, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x1F
+FURY_ATTACK
+* Subanimation,   ID: 0x46, Frame Duration:  2, Sound: 0x1E, Tiles Select: 0
+* Subanimation,   ID: 0x46, Frame Duration:  2, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x20
+HORN_DRILL
+* Subanimation,   ID: 0x05, Frame Duration:  2, Sound: 0x1F, Tiles Select: 1
+* Subanimation,   ID: 0x05, Frame Duration:  2, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x05, Frame Duration:  2, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x05, Frame Duration:  2, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x05, Frame Duration:  2, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x21
+TACKLE
+* Special Effect, ID: 0xF2, Sound: 0x48
+* Special Effect, ID: 0xF1, Sound: 0xFF
+
+## Animation 0x22
+BODY_SLAM
+* Special Effect, ID: 0xF2, Sound: 0x48
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xF1, Sound: 0xFF
+
+## Animation 0x23
+WRAP
+* Subanimation,   ID: 0x23, Frame Duration:  4, Sound: 0x22, Tiles Select: 0
+* Subanimation,   ID: 0x23, Frame Duration:  4, Sound: 0x22, Tiles Select: 0
+* Subanimation,   ID: 0x23, Frame Duration:  4, Sound: 0x22, Tiles Select: 0
+
+## Animation 0x24
+TAKE_DOWN
+* Special Effect, ID: 0xF2, Sound: 0x48
+* Special Effect, ID: 0xFE, Sound: 0x23
+* Special Effect, ID: 0xF1, Sound: 0xFF
+
+## Animation 0x25
+THRASH
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x24, Tiles Select: 1
+
+## Animation 0x26
+DOUBLE_EDGE
+* Special Effect, ID: 0xF0, Sound: 0x48
+* Subanimation,   ID: 0x2D, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xFC, Sound: 0xFF
+* Special Effect, ID: 0xF2, Sound: 0xFF
+* Special Effect, ID: 0xFE, Sound: 0x25
+* Special Effect, ID: 0xF1, Sound: 0xFF
+
+## Animation 0x27
+TAIL_WHIP
+* Special Effect, ID: 0xF2, Sound: 0x84
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xF1, Sound: 0x84
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xF2, Sound: 0x84
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xF1, Sound: 0x84
+
+## Animation 0x28
+POISON_STING
+* Subanimation,   ID: 0x00, Frame Duration:  6, Sound: 0x27, Tiles Select: 0
+
+## Animation 0x29
+TWINEEDLE
+* Subanimation,   ID: 0x01, Frame Duration:  5, Sound: 0x28, Tiles Select: 0
+* Subanimation,   ID: 0x01, Frame Duration:  5, Sound: 0x28, Tiles Select: 0
+
+## Animation 0x2A
+PIN_MISSILE
+* Subanimation,   ID: 0x01, Frame Duration:  3, Sound: 0x29, Tiles Select: 0
+
+## Animation 0x2B
+LEER
+* Special Effect, ID: 0xFD, Sound: 0x48
+* Special Effect, ID: 0xFE, Sound: 0x2A
+* Special Effect, ID: 0xFE, Sound: 0x2A
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x2C
+BITE
+* Subanimation,   ID: 0x02, Frame Duration:  8, Sound: 0x2B, Tiles Select: 0
+
+## Animation 0x2D
+GROWL
+* Subanimation,   ID: 0x12, Frame Duration:  6, Sound: 0x2C, Tiles Select: 1
+
+## Animation 0x2E
+ROAR
+* Subanimation,   ID: 0x15, Frame Duration:  6, Sound: 0x2D, Tiles Select: 1
+* Subanimation,   ID: 0x15, Frame Duration:  6, Sound: 0x2D, Tiles Select: 1
+* Subanimation,   ID: 0x15, Frame Duration:  6, Sound: 0x2D, Tiles Select: 1
+
+## Animation 0x2F
+SING
+* Subanimation,   ID: 0x12, Frame Duration:  6, Sound: 0x2E, Tiles Select: 1
+* Subanimation,   ID: 0x40, Frame Duration: 16, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x40, Frame Duration: 16, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x30
+SUPERSONIC
+* Subanimation,   ID: 0x31, Frame Duration:  6, Sound: 0x2F, Tiles Select: 0
+
+## Animation 0x31
+SONICBOOM
+* Subanimation,   ID: 0x15, Frame Duration:  6, Sound: 0x2D, Tiles Select: 1
+* Subanimation,   ID: 0x15, Frame Duration:  6, Sound: 0x2D, Tiles Select: 1
+* Subanimation,   ID: 0x10, Frame Duration:  6, Sound: 0x0F, Tiles Select: 1
+* Subanimation,   ID: 0x05, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x32
+DISABLE
+* Special Effect, ID: 0xFD, Sound: 0x48
+* Special Effect, ID: 0xFE, Sound: 0x2A
+* Special Effect, ID: 0xFE, Sound: 0x2A
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x33
+ACID
+* Subanimation,   ID: 0x13, Frame Duration:  6, Sound: 0x32, Tiles Select: 1
+* Subanimation,   ID: 0x14, Frame Duration:  6, Sound: 0x32, Tiles Select: 1
+
+## Animation 0x34
+EMBER
+* Subanimation,   ID: 0x11, Frame Duration:  6, Sound: 0x33, Tiles Select: 1
+
+## Animation 0x35
+FLAMETHROWER
+* Subanimation,   ID: 0x1F, Frame Duration:  6, Sound: 0x34, Tiles Select: 1
+* Subanimation,   ID: 0x0C, Frame Duration:  6, Sound: 0x34, Tiles Select: 1
+* Subanimation,   ID: 0x0D, Frame Duration:  6, Sound: 0x34, Tiles Select: 1
+
+## Animation 0x36
+MIST
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Special Effect, ID: 0xFA, Sound: 0x38
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x37
+WATER_GUN
+* Subanimation,   ID: 0x2C, Frame Duration:  6, Sound: 0x36, Tiles Select: 0
+
+## Animation 0x38
+HYDRO_PUMP
+* Subanimation,   ID: 0x1A, Frame Duration:  6, Sound: 0x37, Tiles Select: 0
+* Subanimation,   ID: 0x1A, Frame Duration:  6, Sound: 0x37, Tiles Select: 0
+
+## Animation 0x39
+SURF
+* Special Effect, ID: 0xFA, Sound: 0x38
+* Subanimation,   ID: 0x1A, Frame Duration:  6, Sound: 0x37, Tiles Select: 0
+
+## Animation 0x3A
+ICE_BEAM
+* Subanimation,   ID: 0x2E, Frame Duration:  3, Sound: 0x39, Tiles Select: 0
+* Subanimation,   ID: 0x2F, Frame Duration: 16, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x3B
+BLIZZARD
+* Subanimation,   ID: 0x38, Frame Duration:  4, Sound: 0x3A, Tiles Select: 0
+* Subanimation,   ID: 0x38, Frame Duration:  4, Sound: 0x37, Tiles Select: 0
+
+## Animation 0x3C
+PSYBEAM
+* Subanimation,   ID: 0x2E, Frame Duration:  3, Sound: 0x3B, Tiles Select: 0
+* Special Effect, ID: 0xF8, Sound: 0xFF
+
+## Animation 0x3D
+BUBBLEBEAM
+* Subanimation,   ID: 0x35, Frame Duration: 18, Sound: 0x3C, Tiles Select: 0
+
+## Animation 0x3E
+AURORA_BEAM
+* Subanimation,   ID: 0x2E, Frame Duration:  3, Sound: 0x3D, Tiles Select: 0
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+
+## Animation 0x3F
+HYPER_BEAM
+* Special Effect, ID: 0xFD, Sound: 0x48
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Subanimation,   ID: 0x2E, Frame Duration:  2, Sound: 0x3E, Tiles Select: 0
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x04, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x40
+PECK
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0x3F, Tiles Select: 0
+
+## Animation 0x41
+DRILL_PECK
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x40, Tiles Select: 1
+
+## Animation 0x42
+SUBMISSION
+* Special Effect, ID: 0xF4, Sound: 0x41
+* Subanimation,   ID: 0x01, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0x43
+LOW_KICK
+* Special Effect, ID: 0xF4, Sound: 0x42
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0x44
+COUNTER
+* Special Effect, ID: 0xF4, Sound: 0x43
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0x45
+SEISMIC_TOSS
+* Special Effect, ID: 0xDE, Sound: 0xFF
+* Subanimation,   ID: 0x4E, Frame Duration:  1, Sound: 0x8B, Tiles Select: 1
+* Special Effect, ID: 0xDF, Sound: 0xFF
+* Special Effect, ID: 0xF4, Sound: 0xFF
+* Subanimation,   ID: 0x4F, Frame Duration:  2, Sound: 0x44, Tiles Select: 1
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xDD, Sound: 0xFF
+* Subanimation,   ID: 0x50, Frame Duration:  1, Sound: 0x44, Tiles Select: 1
+* Special Effect, ID: 0xDC, Sound: 0xFF
+* Special Effect, ID: 0xFB, Sound: 0xFF
+
+## Animation 0x46
+STRENGTH
+* Special Effect, ID: 0xF2, Sound: 0x48
+* Special Effect, ID: 0xF1, Sound: 0xFF
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x06, Tiles Select: 1
+
+## Animation 0x47
+ABSORB
+* Special Effect, ID: 0xF0, Sound: 0x46
+* Subanimation,   ID: 0x21, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Subanimation,   ID: 0x22, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x48
+MEGA_DRAIN
+* Special Effect, ID: 0xF0, Sound: 0x47
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Subanimation,   ID: 0x21, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Subanimation,   ID: 0x22, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x49
+LEECH_SEED
+* Subanimation,   ID: 0x1B, Frame Duration:  6, Sound: 0x48, Tiles Select: 1
+* Subanimation,   ID: 0x1C, Frame Duration: 21, Sound: 0x4D, Tiles Select: 1
+
+## Animation 0x4A
+GROWTH
+* Special Effect, ID: 0xF0, Sound: 0x49
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x4B
+RAZOR_LEAF
+* Special Effect, ID: 0xE7, Sound: 0x4A
+* Subanimation,   ID: 0x44, Frame Duration:  1, Sound: 0x80, Tiles Select: 1
+* Subanimation,   ID: 0x16, Frame Duration:  1, Sound: 0x0C, Tiles Select: 0
+
+## Animation 0x4C
+SOLARBEAM
+* Subanimation,   ID: 0x2E, Frame Duration:  6, Sound: 0x4B, Tiles Select: 0
+* Subanimation,   ID: 0x01, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x4D
+POISONPOWDER
+* Subanimation,   ID: 0x36, Frame Duration:  6, Sound: 0x4C, Tiles Select: 0
+
+## Animation 0x4E
+STUN_SPORE
+* Subanimation,   ID: 0x36, Frame Duration:  6, Sound: 0x4D, Tiles Select: 0
+
+## Animation 0x4F
+SLEEP_POWDER
+* Subanimation,   ID: 0x36, Frame Duration:  6, Sound: 0x4E, Tiles Select: 0
+
+## Animation 0x50
+PETAL_DANCE
+* Special Effect, ID: 0xF0, Sound: 0x4F
+* Special Effect, ID: 0xE6, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x51
+STRING_SHOT
+* Subanimation,   ID: 0x37, Frame Duration:  8, Sound: 0x50, Tiles Select: 0
+
+## Animation 0x52
+DRAGON_RAGE
+* Subanimation,   ID: 0x1F, Frame Duration:  6, Sound: 0x51, Tiles Select: 1
+* Subanimation,   ID: 0x0C, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x0D, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x0E, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x53
+FIRE_SPIN
+* Subanimation,   ID: 0x0C, Frame Duration:  6, Sound: 0x52, Tiles Select: 1
+* Subanimation,   ID: 0x0D, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x0E, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x54
+THUNDERSHOCK
+* Subanimation,   ID: 0x29, Frame Duration:  2, Sound: 0x53, Tiles Select: 1
+
+## Animation 0x55
+THUNDERBOLT
+* Subanimation,   ID: 0x29, Frame Duration:  1, Sound: 0x54, Tiles Select: 1
+* Subanimation,   ID: 0x29, Frame Duration:  1, Sound: 0x54, Tiles Select: 1
+
+## Animation 0x56
+THUNDER_WAVE
+* Subanimation,   ID: 0x29, Frame Duration:  2, Sound: 0x55, Tiles Select: 1
+* Subanimation,   ID: 0x23, Frame Duration:  2, Sound: 0xFF, Tiles Select: 0
+* Subanimation,   ID: 0x23, Frame Duration:  4, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x57
+THUNDER
+* Special Effect, ID: 0xFD, Sound: 0x56
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Subanimation,   ID: 0x2B, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Subanimation,   ID: 0x29, Frame Duration:  2, Sound: 0x54, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x58
+ROCK_THROW
+* Subanimation,   ID: 0x30, Frame Duration:  4, Sound: 0x57, Tiles Select: 0
+
+## Animation 0x59
+EARTHQUAKE
+* Special Effect, ID: 0xFB, Sound: 0x58
+* Special Effect, ID: 0xFB, Sound: 0x58
+
+## Animation 0x5A
+FISSURE
+* Special Effect, ID: 0xFE, Sound: 0x59
+* Special Effect, ID: 0xFB, Sound: 0xFF
+* Special Effect, ID: 0xFE, Sound: 0x59
+* Special Effect, ID: 0xFB, Sound: 0xFF
+
+## Animation 0x5B
+DIG
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x5A, Tiles Select: 1
+* Special Effect, ID: 0xF7, Sound: 0xFF
+
+## Animation 0x5C
+TOXIC
+* Special Effect, ID: 0xFA, Sound: 0x38
+* Subanimation,   ID: 0x14, Frame Duration:  6, Sound: 0x5B, Tiles Select: 1
+
+## Animation 0x5D
+CONFUSION
+* Special Effect, ID: 0xF8, Sound: 0x5C
+
+## Animation 0x5E
+PSYCHIC_M
+* Special Effect, ID: 0xF8, Sound: 0x5D
+* Special Effect, ID: 0xD8, Sound: 0xFF
+
+## Animation 0x5F
+HYPNOSIS
+* Special Effect, ID: 0xF8, Sound: 0x5E
+
+## Animation 0x60
+MEDITATE
+* Special Effect, ID: 0xF0, Sound: 0x5F
+* Subanimation,   ID: 0x43, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x61
+AGILITY
+* Special Effect, ID: 0xF0, Sound: 0x60
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x62
+QUICK_ATTACK
+* Special Effect, ID: 0xF4, Sound: 0x61
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0x63
+RAGE
+* Subanimation,   ID: 0x01, Frame Duration:  6, Sound: 0x62, Tiles Select: 0
+
+## Animation 0x64
+TELEPORT
+* Special Effect, ID: 0xEE, Sound: 0x63
+* Special Effect, ID: 0xED, Sound: 0xFF
+
+## Animation 0x65
+NIGHT_SHADE
+* Special Effect, ID: 0xF8, Sound: 0x5C
+* Special Effect, ID: 0xD8, Sound: 0xFF
+
+## Animation 0x66
+MIMIC
+* Subanimation,   ID: 0x21, Frame Duration:  6, Sound: 0x65, Tiles Select: 1
+* Subanimation,   ID: 0x22, Frame Duration:  6, Sound: 0x65, Tiles Select: 1
+
+## Animation 0x67
+SCREECH
+* Subanimation,   ID: 0x12, Frame Duration:  6, Sound: 0x66, Tiles Select: 1
+
+## Animation 0x68
+DOUBLE_TEAM
+* Special Effect, ID: 0xFD, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+* Special Effect, ID: 0xDA, Sound: 0x67
+* Special Effect, ID: 0xDD, Sound: 0xFF
+* Subanimation,   ID: 0x33, Frame Duration:  6, Sound: 0x6F, Tiles Select: 1
+
+## Animation 0x69
+RECOVER
+* Special Effect, ID: 0xF3, Sound: 0x68
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x6A
+HARDEN
+* Special Effect, ID: 0xF0, Sound: 0x69
+* Subanimation,   ID: 0x43, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x6B
+MINIMIZE
+* Special Effect, ID: 0xF0, Sound: 0x6A
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Special Effect, ID: 0xEA, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x6C
+SMOKESCREEN
+* Subanimation,   ID: 0x28, Frame Duration:  6, Sound: 0x6B, Tiles Select: 1
+* Subanimation,   ID: 0x0A, Frame Duration:  4, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xF9, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xFD, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xF9, Sound: 0xFF
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x6D
+CONFUSE_RAY
+* Special Effect, ID: 0xFD, Sound: 0x6C
+* Subanimation,   ID: 0x3E, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x6E
+WITHDRAW
+* Special Effect, ID: 0xF0, Sound: 0x6E
+* Special Effect, ID: 0xF6, Sound: 0xFF
+* Subanimation,   ID: 0x51, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xFC, Sound: 0xFF
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0x6F
+DEFENSE_CURL
+* Special Effect, ID: 0xF0, Sound: 0x6E
+* Subanimation,   ID: 0x43, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x70
+BARRIER
+* Subanimation,   ID: 0x33, Frame Duration:  6, Sound: 0x6F, Tiles Select: 1
+* Subanimation,   ID: 0x33, Frame Duration:  6, Sound: 0x6F, Tiles Select: 1
+
+## Animation 0x71
+LIGHT_SCREEN
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Subanimation,   ID: 0x33, Frame Duration:  6, Sound: 0x70, Tiles Select: 1
+* Subanimation,   ID: 0x33, Frame Duration:  6, Sound: 0x70, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x72
+HAZE
+* Special Effect, ID: 0xF9, Sound: 0xFF
+* Special Effect, ID: 0xFA, Sound: 0x38
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x73
+REFLECT
+* Special Effect, ID: 0xFD, Sound: 0xFF
+* Subanimation,   ID: 0x33, Frame Duration:  6, Sound: 0x72, Tiles Select: 1
+* Subanimation,   ID: 0x33, Frame Duration:  6, Sound: 0x72, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x74
+FOCUS_ENERGY
+* Special Effect, ID: 0xE2, Sound: 0x73
+
+## Animation 0x75
+BIDE
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x74, Tiles Select: 1
+
+## Animation 0x76
+METRONOME
+* Special Effect, ID: 0xF2, Sound: 0x84
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xF1, Sound: 0x84
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xF2, Sound: 0x84
+* Special Effect, ID: 0xE1, Sound: 0xFF
+* Special Effect, ID: 0xF1, Sound: 0x84
+
+## Animation 0x77
+MIRROR_MOVE
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0x76, Tiles Select: 0
+
+## Animation 0x78
+SELFDESTRUCT
+* Subanimation,   ID: 0x34, Frame Duration:  3, Sound: 0x77, Tiles Select: 1
+
+## Animation 0x79
+EGG_BOMB
+* Subanimation,   ID: 0x41, Frame Duration:  4, Sound: 0x78, Tiles Select: 1
+* Subanimation,   ID: 0x42, Frame Duration:  4, Sound: 0x78, Tiles Select: 1
+
+## Animation 0x7A
+LICK
+* Subanimation,   ID: 0x14, Frame Duration:  6, Sound: 0x7B, Tiles Select: 1
+
+## Animation 0x7B
+SMOG
+* Special Effect, ID: 0xF9, Sound: 0x48
+* Subanimation,   ID: 0x19, Frame Duration:  6, Sound: 0x7A, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x7C
+SLUDGE
+* Subanimation,   ID: 0x13, Frame Duration:  6, Sound: 0x7B, Tiles Select: 1
+* Subanimation,   ID: 0x14, Frame Duration:  6, Sound: 0x7B, Tiles Select: 1
+
+## Animation 0x7D
+BONE_CLUB
+* Subanimation,   ID: 0x02, Frame Duration:  8, Sound: 0x7C, Tiles Select: 0
+
+## Animation 0x7E
+FIRE_BLAST
+* Subanimation,   ID: 0x1F, Frame Duration:  6, Sound: 0x7D, Tiles Select: 1
+* Subanimation,   ID: 0x20, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x20, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x0C, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x0D, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+
+## Animation 0x7F
+WATERFALL
+* Special Effect, ID: 0xF6, Sound: 0x48
+* Subanimation,   ID: 0x1A, Frame Duration:  6, Sound: 0x37, Tiles Select: 0
+* Subanimation,   ID: 0x02, Frame Duration:  8, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xF7, Sound: 0xFF
+
+## Animation 0x80
+CLAMP
+* Subanimation,   ID: 0x2A, Frame Duration:  8, Sound: 0x7F, Tiles Select: 0
+* Subanimation,   ID: 0x23, Frame Duration:  6, Sound: 0x83, Tiles Select: 0
+* Subanimation,   ID: 0x23, Frame Duration:  6, Sound: 0x83, Tiles Select: 0
+
+## Animation 0x81
+SWIFT
+* Subanimation,   ID: 0x3F, Frame Duration:  3, Sound: 0x80, Tiles Select: 1
+
+## Animation 0x82
+SKULL_BASH
+* Subanimation,   ID: 0x05, Frame Duration:  6, Sound: 0x81, Tiles Select: 1
+
+## Animation 0x83
+SPIKE_CANNON
+* Subanimation,   ID: 0x04, Frame Duration:  4, Sound: 0x82, Tiles Select: 1
+
+## Animation 0x84
+CONSTRICT
+* Subanimation,   ID: 0x23, Frame Duration:  6, Sound: 0x83, Tiles Select: 0
+* Subanimation,   ID: 0x23, Frame Duration:  6, Sound: 0x83, Tiles Select: 0
+* Subanimation,   ID: 0x23, Frame Duration:  6, Sound: 0x83, Tiles Select: 0
+
+## Animation 0x85
+AMNESIA
+* Subanimation,   ID: 0x25, Frame Duration:  8, Sound: 0x84, Tiles Select: 0
+* Subanimation,   ID: 0x25, Frame Duration:  8, Sound: 0x84, Tiles Select: 0
+
+## Animation 0x86
+KINESIS
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0x85, Tiles Select: 0
+
+## Animation 0x87
+SOFTBOILED
+* Special Effect, ID: 0xE5, Sound: 0x48
+* Subanimation,   ID: 0x4C, Frame Duration:  8, Sound: 0x86, Tiles Select: 0
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0x88
+HI_JUMP_KICK
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x87, Tiles Select: 1
+
+## Animation 0x89
+GLARE
+* Special Effect, ID: 0xFD, Sound: 0x48
+* Special Effect, ID: 0xFE, Sound: 0x88
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x8A
+DREAM_EATER
+* Special Effect, ID: 0xF8, Sound: 0x89
+* Special Effect, ID: 0xFD, Sound: 0x89
+* Subanimation,   ID: 0x02, Frame Duration:  8, Sound: 0x89, Tiles Select: 0
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x8B
+POISON_GAS
+* Subanimation,   ID: 0x19, Frame Duration:  6, Sound: 0x8A, Tiles Select: 1
+
+## Animation 0x8C
+BARRAGE
+* Subanimation,   ID: 0x41, Frame Duration:  3, Sound: 0x8B, Tiles Select: 1
+* Subanimation,   ID: 0x55, Frame Duration:  5, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x8D
+LEECH_LIFE
+* Subanimation,   ID: 0x02, Frame Duration:  8, Sound: 0x8C, Tiles Select: 0
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Subanimation,   ID: 0x21, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Subanimation,   ID: 0x22, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xFE, Sound: 0xFF
+
+## Animation 0x8E
+LOVELY_KISS
+* Subanimation,   ID: 0x12, Frame Duration:  6, Sound: 0x8D, Tiles Select: 0
+
+## Animation 0x8F
+SKY_ATTACK
+* Special Effect, ID: 0xEE, Sound: 0x8E
+* Special Effect, ID: 0xED, Sound: 0xFF
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x87, Tiles Select: 1
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0x90
+TRANSFORM
+* Subanimation,   ID: 0x21, Frame Duration:  6, Sound: 0x8F, Tiles Select: 1
+* Subanimation,   ID: 0x22, Frame Duration:  4, Sound: 0x8F, Tiles Select: 1
+* Subanimation,   ID: 0x47, Frame Duration:  8, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xE8, Sound: 0xFF
+
+## Animation 0x91
+BUBBLE
+* Subanimation,   ID: 0x35, Frame Duration: 22, Sound: 0x90, Tiles Select: 0
+
+## Animation 0x92
+DIZZY_PUNCH
+* Subanimation,   ID: 0x17, Frame Duration:  6, Sound: 0x91, Tiles Select: 0
+* Subanimation,   ID: 0x17, Frame Duration:  6, Sound: 0x91, Tiles Select: 0
+* Subanimation,   ID: 0x17, Frame Duration:  6, Sound: 0x91, Tiles Select: 0
+* Subanimation,   ID: 0x02, Frame Duration:  6, Sound: 0x02, Tiles Select: 0
+
+## Animation 0x93
+SPORE
+* Subanimation,   ID: 0x36, Frame Duration:  6, Sound: 0x92, Tiles Select: 0
+
+## Animation 0x94
+FLASH
+* Special Effect, ID: 0xF0, Sound: 0x48
+* Special Effect, ID: 0xFE, Sound: 0x88
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0x95
+PSYWAVE
+* Subanimation,   ID: 0x31, Frame Duration:  6, Sound: 0x2F, Tiles Select: 0
+* Special Effect, ID: 0xD8, Sound: 0x5C
+
+## Animation 0x96
+SPLASH
+* Special Effect, ID: 0xEB, Sound: 0x95
+
+## Animation 0x97
+ACID_ARMOR
+* Special Effect, ID: 0xE9, Sound: 0x96
+
+## Animation 0x98
+CRABHAMMER
+* Subanimation,   ID: 0x05, Frame Duration:  6, Sound: 0x97, Tiles Select: 1
+* Subanimation,   ID: 0x2A, Frame Duration:  6, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0x99
+EXPLOSION
+* Subanimation,   ID: 0x34, Frame Duration:  3, Sound: 0x98, Tiles Select: 1
+
+## Animation 0x9A
+FURY_SWIPES
+* Subanimation,   ID: 0x0F, Frame Duration:  4, Sound: 0x99, Tiles Select: 0
+
+## Animation 0x9B
+BONEMERANG
+* Subanimation,   ID: 0x02, Frame Duration:  6, Sound: 0x9A, Tiles Select: 0
+
+## Animation 0x9C
+REST
+* Subanimation,   ID: 0x3A, Frame Duration: 16, Sound: 0x9B, Tiles Select: 0
+* Subanimation,   ID: 0x3A, Frame Duration: 16, Sound: 0x9B, Tiles Select: 0
+
+## Animation 0x9D
+ROCK_SLIDE
+* Subanimation,   ID: 0x1D, Frame Duration:  4, Sound: 0x9C, Tiles Select: 0
+* Subanimation,   ID: 0x1E, Frame Duration:  3, Sound: 0x9C, Tiles Select: 0
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0x9D, Tiles Select: 1
+
+## Animation 0x9E
+HYPER_FANG
+* Subanimation,   ID: 0x02, Frame Duration:  6, Sound: 0x9D, Tiles Select: 0
+
+## Animation 0x9F
+SHARPEN
+* Special Effect, ID: 0xF0, Sound: 0x9E
+* Subanimation,   ID: 0x43, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFE, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xA0
+CONVERSION
+* Special Effect, ID: 0xFE, Sound: 0x9F
+* Subanimation,   ID: 0x21, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Subanimation,   ID: 0x22, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFE, Sound: 0xFF
+
+## Animation 0xA1
+TRI_ATTACK
+* Special Effect, ID: 0xFE, Sound: 0xA0
+* Subanimation,   ID: 0x4D, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFE, Sound: 0xFF
+
+## Animation 0xA2
+SUPER_FANG
+* Special Effect, ID: 0xFD, Sound: 0x48
+* Subanimation,   ID: 0x04, Frame Duration:  6, Sound: 0xA1, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xA3
+SLASH
+* Subanimation,   ID: 0x0F, Frame Duration:  6, Sound: 0xA2, Tiles Select: 0
+
+## Animation 0xA4
+SUBSTITUTE
+* Special Effect, ID: 0xF4, Sound: 0xA3
+* Subanimation,   ID: 0x47, Frame Duration:  8, Sound: 0xFF, Tiles Select: 0
+* Special Effect, ID: 0xD9, Sound: 0xFF
+
+## Animation 0xA5
+STRUGGLE
+* Subanimation,   ID: 0x01, Frame Duration:  8, Sound: 0x00, Tiles Select: 0
+
+## Animation 0xA6
+SHOWPIC_ANIM
+* Special Effect, ID: 0xDC, Sound: 0xFF
+
+## Animation 0xA7
+UNKNOWN_A7
+* Special Effect, ID: 0xDD, Sound: 0xFF
+
+## Animation 0xA8
+UNKNOWN_A8
+* Special Effect, ID: 0xF5, Sound: 0xFF
+
+## Animation 0xA9
+UNKNOWN_A9
+* Special Effect, ID: 0xE4, Sound: 0xFF
+
+## Animation 0xAA
+UNKNOWN_AA
+* Subanimation,   ID: 0x48, Frame Duration:  6, Sound: 0xFF, Tiles Select: 2
+
+## Animation 0xAB
+UNKNOWN_AB
+* Subanimation,   ID: 0x49, Frame Duration:  4, Sound: 0xFF, Tiles Select: 2
+
+## Animation 0xAC
+UNKNOWN_AC
+* Subanimation,   ID: 0x4A, Frame Duration:  6, Sound: 0xFF, Tiles Select: 2
+
+## Animation 0xAD
+UNKNOWN_AD
+* Subanimation,   ID: 0x4B, Frame Duration:  6, Sound: 0xFF, Tiles Select: 2
+
+## Animation 0xAE
+UNKNOWN_AE
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xAF
+UNKNOWN_AF
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB0
+UNKNOWN_B0
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Subanimation,   ID: 0x43, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB1
+UNKNOWN_B1
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Subanimation,   ID: 0x43, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB2
+UNKNOWN_B2
+* Special Effect, ID: 0xF9, Sound: 0xFF
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB3
+UNKNOWN_B3
+* Special Effect, ID: 0xF9, Sound: 0xFF
+* Special Effect, ID: 0xE2, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB4
+UNKNOWN_B4
+* Special Effect, ID: 0xF9, Sound: 0xFF
+* Subanimation,   ID: 0x43, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB5
+UNKNOWN_B5
+* Special Effect, ID: 0xF9, Sound: 0xFF
+* Subanimation,   ID: 0x43, Frame Duration:  6, Sound: 0xFF, Tiles Select: 1
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB6
+UNKNOWN_B6
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Special Effect, ID: 0xEC, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB7
+UNKNOWN_B7
+* Special Effect, ID: 0xF0, Sound: 0xFF
+* Special Effect, ID: 0xEC, Sound: 0xFF
+* Special Effect, ID: 0xFC, Sound: 0xFF
+
+## Animation 0xB8
+UNKNOWN_B8
+* Subanimation,   ID: 0x24, Frame Duration:  4, Sound: 0x13, Tiles Select: 0
+* Subanimation,   ID: 0x24, Frame Duration:  4, Sound: 0x13, Tiles Select: 0
+
+## Animation 0xB9
+UNKNOWN_B9
+* Subanimation,   ID: 0x24, Frame Duration:  4, Sound: 0x13, Tiles Select: 0
+* Subanimation,   ID: 0x24, Frame Duration:  4, Sound: 0x13, Tiles Select: 0
+
+## Animation 0xBA
+UNKNOWN_BA
+* Subanimation,   ID: 0x27, Frame Duration:  8, Sound: 0x13, Tiles Select: 0
+* Subanimation,   ID: 0x27, Frame Duration:  8, Sound: 0x13, Tiles Select: 0
+
+## Animation 0xBB
+UNKNOWN_BB
+* Subanimation,   ID: 0x27, Frame Duration:  8, Sound: 0x13, Tiles Select: 0
+* Subanimation,   ID: 0x27, Frame Duration:  8, Sound: 0x13, Tiles Select: 0
+
+## Animation 0xBC
+UNKNOWN_BC
+* Subanimation,   ID: 0x3A, Frame Duration: 16, Sound: 0x9B, Tiles Select: 0
+* Subanimation,   ID: 0x3A, Frame Duration: 16, Sound: 0x9B, Tiles Select: 0
+
+## Animation 0xBD
+SLP_ANIM
+* Subanimation,   ID: 0x3B, Frame Duration: 16, Sound: 0x9B, Tiles Select: 0
+* Subanimation,   ID: 0x3B, Frame Duration: 16, Sound: 0x9B, Tiles Select: 0
+
+## Animation 0xBE
+UNKNOWN_BE
+* Subanimation,   ID: 0x25, Frame Duration:  8, Sound: 0x84, Tiles Select: 0
+* Subanimation,   ID: 0x25, Frame Duration:  8, Sound: 0x84, Tiles Select: 0
+
+## Animation 0xBF
+CONF_ANIM
+* Subanimation,   ID: 0x26, Frame Duration:  8, Sound: 0x84, Tiles Select: 0
+* Subanimation,   ID: 0x26, Frame Duration:  8, Sound: 0x84, Tiles Select: 0
+
+## Animation 0xC0
+UNKNOWN_C0
+* Special Effect, ID: 0xF6, Sound: 0x5A
+
+## Animation 0xC1
+TOSS_ANIM
+* Subanimation,   ID: 0x06, Frame Duration:  3, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0xC2
+UNKNOWN_C2
+* Subanimation,   ID: 0x09, Frame Duration:  4, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0xC3
+POOF_ANIM
+* Subanimation,   ID: 0x0A, Frame Duration:  4, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0xC4
+BLOCKBALL_ANIM
+* Subanimation,   ID: 0x0B, Frame Duration:  3, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0xC5
+GREATTOSS_ANIM
+* Subanimation,   ID: 0x07, Frame Duration:  3, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0xC6
+ULTRATOSS_ANIM
+* Subanimation,   ID: 0x08, Frame Duration:  2, Sound: 0xFF, Tiles Select: 0
+
+## Animation 0xC7
+UNKNOWN_C7
+* Special Effect, ID: 0xFB, Sound: 0xFF
+
+## Animation 0xC8
+HIDEPIC_ANIM
+* Special Effect, ID: 0xDF, Sound: 0xFF
+
+## Animation 0xC9
+UNKNOWN_C9
+* Subanimation,   ID: 0x53, Frame Duration:  3, Sound: 0x8B, Tiles Select: 0
+
+## Animation 0xCA
+UNKNOWN_CA
+* Subanimation,   ID: 0x54, Frame Duration:  3, Sound: 0x8B, Tiles Select: 0
+
+## Animation 0xCB
+UNKNOWN_CB
+* Special Effect, ID: 0xD8, Sound: 0xFF
