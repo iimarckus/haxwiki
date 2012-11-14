@@ -34,6 +34,7 @@ Format:
 There is a table for special effect functions at 1E:50DA.
 
 Format:
+
 * byte 0: special effect ID
 * bytes 1-2: address of function
 
@@ -41,11 +42,11 @@ If byte 0 is less than 0xC0, then it is a sequence of images (sprites).
 
 Format:
 
-*byte 0
- *bits 0-5: duration of each frame within subanimation (in terms of screen refreshes)
- *bits 6-7: select tile pattern data
-*byte 1: sound ID
-*byte 2: subanimation ID
+* byte 0
+ * bits 0-5: duration of each frame within subanimation (in terms of screen refreshes)
+ * bits 6-7: select tile pattern data
+* byte 1: sound ID
+* byte 2: subanimation ID
 
 ## Subanimations format
 
