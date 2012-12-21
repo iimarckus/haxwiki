@@ -1,4 +1,4 @@
-# Scripting Reference
+# Red/Blue Scripting Reference
 
 ## PLAY\_CRY $13d0
 
@@ -169,8 +169,8 @@ this function to be activated.
 Handles both level script and trainer events:
 
 1. Select data:
- * ld hl,ScriptPtrTable
- * ld de,TrainerHeaders
+ * ld hl,TrainerHeaders
+ * ld de,ScriptPtrTable
 2. call correctly:
  * ld a,[ScriptFlag]
  * call $3160
