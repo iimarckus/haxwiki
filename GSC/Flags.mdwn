@@ -598,6 +598,7 @@
 * 0002 pokégear phone card
 * 0003 pokégear expn card
 * 0004 pokégear
+* 0008 mom saves money
 * 000b pokédex
 * 000c unown pokédex
 * 0013 ??? rockets took over radio tower
