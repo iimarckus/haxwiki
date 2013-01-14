@@ -91,6 +91,7 @@
 * 0073 got king's rock in slowpoke well
 * 0074 got tm47 steel wing
 * 0075 got tm37 sandstorm
+* 0077 told elm egg hatched over the phone
 * 0078 got clear bell
 * 0079 got silver wing
 * 007a got tm12 sweet scent
