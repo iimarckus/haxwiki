@@ -45,6 +45,7 @@
 * 0040 talked to mom after showing elm the mystery egg
 * 0041 dude talked to you
 * 0042 learned to catch pokémon
+* 0043 elm called about stolen pokémon
 * 0045 got shuckie
 * 0046 mania took shuckie or let you keep him
 * 0047 got sunny day from radio tower
@@ -58,6 +59,7 @@
 * 0051 gave kenya
 * 0052 got hp up from randy
 * 0053 got tm50 nightmare
+* 0054 togepi hatched
 * 0055 showed togepi to elm
 * 0056 got everstone from elm
 * 0057 got quick claw
@@ -91,7 +93,7 @@
 * 0073 got king's rock in slowpoke well
 * 0074 got tm47 steel wing
 * 0075 got tm37 sandstorm
-* 0077 told elm egg hatched over the phone
+* 0077 told elm about togepi over the phone
 * 0078 got clear bell
 * 0079 got silver wing
 * 007a got tm12 sweet scent
@@ -566,6 +568,8 @@
 * 05ca beat sage masa
 * 05cb beat sage koji
 * 06ff guide gent visible in cherrygrove
+* 0700 elm's aide in violet pokémon center
+* 0701 elm's aide in lab
 * 070d boulder in ice path
 * 070e boulder in ice path
 * 070f boulder in ice path
